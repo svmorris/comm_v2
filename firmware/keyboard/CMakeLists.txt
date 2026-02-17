@@ -4,5 +4,7 @@ project(commkb)
 
 target_sources(app PRIVATE
     src/main.c
+    src/usb.c
     src/usb_device.c
+    src/keyboard.c
 )

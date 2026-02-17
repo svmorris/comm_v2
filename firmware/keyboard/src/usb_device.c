@@ -1,3 +1,8 @@
+/*
+ * This file is responsible for how the USB device appears
+ * to the host. Its not responsible for sending any USB signals
+ * and is kept separate so it can be interchanged.
+ */
 #include <stdint.h>
 #include <sys/errno.h>
 
