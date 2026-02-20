@@ -6,6 +6,10 @@
 #include <zephyr/drivers/gpio.h>
 #include <zephyr/usb/class/hid.h>
 
+// Keyflags is effectively the "state" of the keyboard.
+// Some functions, such as refresh_key_state() change
+// this value. Such functions should be limited to functions
+// directly called by the library user.
 extern uint64_t keyflags;
 
 #define NUM_INPUTS 4
@@ -15,6 +19,7 @@ extern uint64_t keyflags;
 #define ZEPHYR_USER_NODE DT_PATH(zephyr_user)
 
 
+// Macros for the keyflag bitmask
 #define KBIT(source, input) ((source) * NUM_INPUTS + (input))
 
 #define KFLAG_SET(source, input) \
@@ -23,34 +28,26 @@ extern uint64_t keyflags;
 #define KFLAG_CLEAR(source, input) \
     (keyflags &= ~(1ULL << KBIT(source, input)))
 
-#define KFLAG_TEST(f)  (keyflags & f)
-
-#define KFLAG_LIST(X)             \
-        X(KEY_1,       1, HID_KEY_A)  \
-        X(KEY_2,      16, HID_KEY_B)  \
-        X(KEY_3,     256, HID_KEY_C)  \
-        X(KEY_A,       2, HID_KEY_D)  \
-        X(KEY_B,      32, HID_KEY_E)    \
-        X(KEY_C,     512, HID_KEY_F)     \
-        X(KEY_D,       4, HID_KEY_G)       \
-        X(KEY_E,      64, HID_KEY_H)      \
-        X(KEY_F,    1024, HID_KEY_I)    \
-        X(KEY_CTRL,    8, HID_KEY_J)    \
-        X(KEY_SPACE, 128, HID_KEY_K) \
-        X(KEY_ALT,  2048, HID_KEY_L)  \
-
-typedef enum {
-#define X(name, value, key) name = value,
-    KFLAG_LIST(X)
-#undef X
-} kflag_t;
+#define KFLAG_TEST(offset) (((keyflags) >> (offset)) & 1ULL)
 
 
-extern const char *const kflag_names[];
+// Function type for fn functions.
+typedef uint8_t (*fnfunc_t)(uint8_t);
+
+extern const uint8_t keyval_lookup[];
+extern const uint8_t modval_lookup[];
+extern const fnfunc_t fnfunc_lookup[];
+extern const uint8_t fnlayer_lookup[];
 
 
 extern const struct gpio_dt_spec sources[];
 extern const struct gpio_dt_spec inputs[];
 
 int configure_keys();
+void refresh_key_state();
+
+
+// Function keys
+uint8_t fn_none(uint8_t offset);
+uint8_t fn_layer(uint8_t offset);
 #endif

@@ -1,5 +1,3 @@
-
-
 #include <stdint.h>
 #include <string.h>
 #include <zephyr/kernel.h>
@@ -10,6 +8,7 @@
 #include <zephyr/dt-bindings/gpio/gpio.h>
 
 #include "usb.h"
+#include "keymap.h"
 #include "keyboard.h"
 
 
@@ -33,6 +32,7 @@ int main(void)
         LOG_INF("Waiting for HID device to be ready...\n");
         k_sleep(K_SECONDS(1));
     }
+
     LOG_INF("HID ready!");
 
     if ((err = configure_keys()) != 0)
@@ -42,51 +42,89 @@ int main(void)
     }
 
     LOG_INF("starting keyscan");
+    uint8_t offset_tmp = 0;
+    uint64_t keyflags_tmp = 0;
+    // by storing the previous keyflags we can avoid
+    // computing if nothing changed.
     uint64_t keyflags_prev = 0;
     uint8_t keyreport[KB_BOOT_REPORT_SIZE] = {0};
     while (1)
     {
-        for (uint8_t s = 0; s < NUM_SOURCES; s++)
-        {
-            gpio_pin_set_dt(&sources[s], 1);
-            for (uint8_t i = 0; i < NUM_INPUTS; i++)
-            {
-                if (gpio_pin_get_dt(&inputs[i]) > 0)
-                    KFLAG_SET(s, i);
-                else
-                    KFLAG_CLEAR(s, i);
-            }
-            gpio_pin_set_dt(&sources[s], 0);
-        }
+        // This checks what key is pressed
+        refresh_key_state();
 
-
-
-        if (keyflags != keyflags_prev)
+        if (keyflags_prev != keyflags)
         {
             memset(keyreport, 0, KB_BOOT_REPORT_SIZE);
-#define X(name, value, key) if (KFLAG_TEST(value) != 0) {add_key_to_report(key, keyreport);}
-KFLAG_LIST(X)
-#undef X
+
+            if(KFLAG_TEST(FN_KEY))
+            {
+                printk("FN!\n");
+
+                keyflags_tmp = keyflags;
+                while (keyflags_tmp)
+                {
+                    offset_tmp = __builtin_ctzll(keyflags_tmp);
+                    if (offset_tmp == FN_KEY)
+                    {
+                        keyflags_tmp &= (keyflags_tmp -1);
+                        continue;
+                    }
+
+                    uint8_t ret = fnfunc_lookup[offset_tmp](offset_tmp);
+                    // Some function keys just do their own thing.
+                    // They signal this by returning -1.
+                    // In this case we don't want to send anything.
+                    if (ret < 0)
+                        goto loop_end;
+
+                    for (int i = 2; i < KB_BOOT_REPORT_SIZE; i++)
+                    {
+                        if (keyreport[i] == 0)
+                        {
+                            keyreport[i] = ret;
+                            break;
+                        }
+                    }
+
+                    keyflags_tmp &= (keyflags_tmp -1);
+                }
+            } else
+            {
+                keyflags_tmp = keyflags;
+                while (keyflags_tmp)
+                {
+                    offset_tmp = __builtin_ctzll(keyflags_tmp);
+                    printk("offset_tmp: %d\n", offset_tmp);
+
+                    // Both the mod and regular keys can be added
+                    // since if they are not set they are just 0.
+                    keyreport[0] += modval_lookup[offset_tmp];
+                    for (int i = 2; i < KB_BOOT_REPORT_SIZE; i++)
+                    {
+                        if (keyreport[i] == 0)
+                        {
+                            keyreport[i] = keyval_lookup[offset_tmp];
+                            break;
+                        }
+                    }
+
+                    // This bit of magic unsets the last flag
+                    // so it ctzll can calculate the next offset.
+                    keyflags_tmp &= (keyflags_tmp -1);
+                }
+            }
+
+
+            for (int j = 0; j < KB_BOOT_REPORT_SIZE; j++)
+                printk("%02x ", keyreport[j]);
+            printk("\n");
             test_kb_send_letter(keyreport);
+            keyflags_prev = keyflags;
         }
 
-        keyflags_prev = keyflags;
-        k_usleep(1000);
+loop_end:
+        k_usleep(10000);
     }
 
-}
-
-
-
-void add_key_to_report(uint8_t key, uint8_t *keyreport)
-{
-    for (int i = 2; i < KB_BOOT_REPORT_SIZE; i++)
-    {
-        if (keyreport[i] == 0)
-        {
-            keyreport[i] = key;
-            return;
-        }
-    }
-    LOG_WRN("Max level of key rollover reached!");
 }
