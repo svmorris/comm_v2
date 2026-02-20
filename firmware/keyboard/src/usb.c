@@ -189,29 +189,8 @@ static void msg_cb(struct usbd_context *const ctx, const struct usbd_msg *const 
 }
 
 
-int kb_hid_submit_boot_report(const uint8_t report[KB_BOOT_REPORT_SIZE])
+void kb_hid_send_report(uint8_t *keyreport)
 {
-    struct kb_report_msg msg;
-
-    memcpy(msg.report, report, KB_BOOT_REPORT_SIZE);
-
-
-    if (k_msgq_put(&kb_report_q, &msg, K_NO_WAIT) != 0)
-    {
-        struct kb_report_msg drop;
-        (void)k_msgq_get(&kb_report_q, &drop, K_NO_WAIT);
-        (void)k_msgq_put(&kb_report_q, &msg, K_NO_WAIT);
-    }
-
-    return 0;
-}
-
-void test_kb_send_letter(uint8_t *keyreport)
-{
-    for (int j = 0; j < KB_BOOT_REPORT_SIZE; j++)
-        printk("%02x ", keyreport[j]);
-    printk("\n");
-
     memcpy(tx_report, keyreport, KB_BOOT_REPORT_SIZE);
     hid_device_submit_report(hid_dev, KB_BOOT_REPORT_SIZE, tx_report);
 }

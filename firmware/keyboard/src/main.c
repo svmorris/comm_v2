@@ -41,7 +41,7 @@ int main(void)
         return err;
     }
 
-    LOG_INF("starting keyscan");
+    LOG_INF("Starting keyscan!");
     uint8_t offset_tmp = 0;
     uint64_t keyflags_tmp = 0;
     // by storing the previous keyflags we can avoid
@@ -59,11 +59,11 @@ int main(void)
 
             if(KFLAG_TEST(FN_KEY))
             {
-                printk("FN!\n");
 
                 keyflags_tmp = keyflags;
                 while (keyflags_tmp)
                 {
+                    printk("fn + offset: %d\n", offset_tmp);
                     offset_tmp = __builtin_ctzll(keyflags_tmp);
                     if (offset_tmp == FN_KEY)
                     {
@@ -95,7 +95,7 @@ int main(void)
                 while (keyflags_tmp)
                 {
                     offset_tmp = __builtin_ctzll(keyflags_tmp);
-                    printk("offset_tmp: %d\n", offset_tmp);
+                    printk("offset: %d\n", offset_tmp);
 
                     // Both the mod and regular keys can be added
                     // since if they are not set they are just 0.
@@ -119,7 +119,7 @@ int main(void)
             for (int j = 0; j < KB_BOOT_REPORT_SIZE; j++)
                 printk("%02x ", keyreport[j]);
             printk("\n");
-            test_kb_send_letter(keyreport);
+            kb_hid_send_report(keyreport);
             keyflags_prev = keyflags;
         }
 

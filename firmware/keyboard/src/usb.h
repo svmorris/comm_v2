@@ -25,8 +25,7 @@ enum {
 
 
 int usbd_setup_helper();
-void test_kb_send_letter(uint8_t *keyreport);
-int kb_hid_submit_boot_report(const uint8_t report[KB_BOOT_REPORT_SIZE]);
+void kb_hid_send_report(uint8_t *keyreport);
 
 
 // Forward declare from usb_device.c
