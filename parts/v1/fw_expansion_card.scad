@@ -224,5 +224,5 @@ module expansion_card_fw_exp(open_end, make_printable, pcb_mount="boss") {
 module expansion_card() {
     rotate([90, 0, 0])
         translate([0, 0, 0])
-        expansion_card_fw_exp(open_end = true, make_printable = true, pcb_mount="");
+        expansion_card_fw_exp(pcb_mount="");
 }

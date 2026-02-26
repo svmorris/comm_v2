@@ -227,7 +227,7 @@ module ExpansionBay(cutout=false) {
     }
 }
 
-module Externals(cutout=false) {
+module Externals(cutout=false, fw=false) {
     translate([CASE_W/2 - 4, CASE_D/2, CASE_H-8])
         rotate([0, 90, 0])
         mirror([1, 0, 0])
@@ -262,6 +262,16 @@ module Externals(cutout=false) {
     translate([CASE_W-1, 11.5, 80+e])
         rotate([0, 90, 0])
         cylinder(2, 1.5, 1.5);
+
+    if (fw) {
+        color("silver") translate([CASE_THICKNESS, FWB_D+FPT_D+KB_D+2-FWB_INSET, 0])
+            for (i = [0:1]) {
+                translate([30/2+(10+fw_exp[0])*i, 0, 0]) {
+                    translate([0, 1, -e])
+                        expansion_card();
+                }
+            }
+    }
 }
 
 CORE_THICKNESS = 0.5;

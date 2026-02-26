@@ -1,4 +1,4 @@
-// TH_A1OC: Misc. modules
+// TH-A1OC: Misc. modules
 include <parts.scad>
 
 x = 0;

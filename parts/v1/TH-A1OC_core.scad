@@ -1,10 +1,10 @@
-// TH_A1OC: Shell
+// TH-A1OC: Core (inner shell)
 include <parts.scad>
 
-solid = is_undef(SOLID_SHELL) ? false : SOLID_SHELL;
-
 render() difference() {
-    Case(hollow=!solid);
+    union() {
+        Internals();
+    }
     Externals(cutout=true);
     ExpansionBay(cutout=true);
 }
