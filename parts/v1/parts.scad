@@ -21,7 +21,7 @@ KB_H = 40;
 KB_D = 10;
 KB_CASE_THICKNESS = 0.5;
 KB_PCB_D = 1.56;
-KB_CHIN = 5;
+KB_CHIN = 0;
 
 KB_BTN = button_6mm;
 KB_KEY_W = KB_BTN[1];
@@ -138,27 +138,30 @@ module Keyboard(cutout=false) {
 SCR_W = 67.25;
 SCR_H = 79.874;
 SCR_D = 0.7;
+SCR_MARGIN = 3;
 
-SCR_BEZEL_L = SCR_W * 0.05;
-SCR_BEZEL_R = SCR_W * 0.05;
+SCR_BEZEL_L = 0.9;
+SCR_BEZEL_R = 0.9;
 SCR_BEZEL_X = SCR_BEZEL_L + SCR_BEZEL_R;
-SCR_BEZEL_T = SCR_H * 0.08;
-SCR_BEZEL_B = SCR_H * 0.12;
+SCR_BEZEL_T = 0.9;
+SCR_BEZEL_B = 3.8;
 SCR_BEZEL_Y = SCR_BEZEL_T + SCR_BEZEL_B;
 
 SCR_H_TOTAL = SCR_H;
 
+echo(SCR_W-SCR_BEZEL_X, SCR_H-SCR_BEZEL_Y);
+
 module Screen() {
     // https://aliexpress.com/item/1005006168560918.html
-    translate([0, 0, 0]) {
+    translate([0, 0, 0]) rotate([0, 0, 0]) {
         difference() {
-            color("gray") cube([SCR_W, SCR_D, SCR_H]);
-            translate([SCR_BEZEL_L, -1, SCR_BEZEL_B])
-                cube([SCR_W-SCR_BEZEL_X, SCR_D+2, SCR_H-SCR_BEZEL_Y]);
+            color("gray") cube([SCR_H, SCR_D, SCR_W]);
+            translate([0, -1, SCR_BEZEL_R])
+                cube([SCR_H-SCR_BEZEL_Y, SCR_D+2, SCR_W-SCR_BEZEL_X]);
         }
         color("black")
-            translate([SCR_BEZEL_L, 0, SCR_BEZEL_B])
-            cube([SCR_W-SCR_BEZEL_X, SCR_D, SCR_H-SCR_BEZEL_Y]);
+            translate([0, 0, SCR_BEZEL_R])
+            cube([SCR_H-SCR_BEZEL_Y, SCR_D, SCR_W-SCR_BEZEL_X]);
     }
 }
 
@@ -177,7 +180,7 @@ module Speaker() {
     x_offset = (SPK_W - (cols-1)*spacing) / 2;
     z_offset = (SPK_H - (rows-1)*spacing) / 2;
 
-    difference() {
+    *difference() {
         color("silver") cube([SPK_W, 5, SPK_H]);
         for (row = [0:rows-1]) {
             for (col = [0:cols-1]) {
@@ -189,9 +192,13 @@ module Speaker() {
     }
 }
 
+onetwentyfive = 124;
+CORE_THICKNESS = 1;
+CORE_MARGIN = 0.1;
+
 CASE_THICKNESS = 2;
 CASE_RADIUS = 3;
-CASE_H = 140;
+CASE_H = onetwentyfive+2*CORE_THICKNESS+2*CASE_THICKNESS;
 CASE_W = 2*MODULE_MARGIN+MODULE_W+2*CASE_THICKNESS;
 CASE_D = 23;
 
@@ -206,11 +213,12 @@ module Case(hollow=true) {
             translate([0, -1, 0]) cube([
                 MODULE_W+2*MODULE_MARGIN+e,
                 FPT_D+1+e,
-                KB_H_TOTAL+SCR_H_TOTAL+2*MODULE_MARGIN+e
+                onetwentyfive
             ]);
             if (hollow)
                 translate([0, -FPT_D, 0]) cube([INR_W, INR_D, INR_H]);
         }
+        PinInterface(cutout=true);
     }
 }
 
@@ -225,7 +233,7 @@ module Frontplate() {
         cube([
             MODULE_W+2*MODULE_MARGIN-2,
             FPT_D+e,
-            CASE_H-2*CASE_THICKNESS-2*CORE_THICKNESS,
+            onetwentyfive,
         ]);
 
         x = MODULE_MARGIN;
@@ -236,13 +244,13 @@ module Frontplate() {
                 cube([MODULE_W, cut_depth, KB_H_TOTAL]);
 
             // Screen
-            let(x = x+SCR_BEZEL_L)
-            let(y = y+KB_H_TOTAL+SCR_BEZEL_B) {
+            let(y = y+KB_H_TOTAL+SCR_MARGIN+SCR_BEZEL_R) {
                 translate([x, e, y])
-                cube([SCR_W-SCR_BEZEL_X, cut_depth, SCR_H-SCR_BEZEL_Y]);
+                //cube([SCR_W-SCR_BEZEL_X, cut_depth, SCR_H-SCR_BEZEL_Y]);
+                cube([SCR_H-SCR_BEZEL_Y, cut_depth, SCR_W-SCR_BEZEL_X]);
 
             // Indicator
-            let(x = x+SCR_W+SPK_MARGIN) {
+            *let(x = x+SCR_W+SPK_MARGIN) {
                 translate([x, 0, y])
                 cube([SPK_W, cut_depth, SPK_H]);
             }}
@@ -282,14 +290,14 @@ module ExpansionBay(cutout=false) {
 }
 
 module Externals(cutout=false, fw=false) {
-    translate([CASE_W/2 - 4, CASE_D/2, CASE_H-8])
+    translate([CASE_W-30, CASE_D/2, CASE_H-8])
         rotate([0, 90, 0])
         mirror([1, 0, 0])
         jack(cutout=cutout);
 
-    translate([3.6, (CASE_D-3.26)/2, 125])
+    translate([12, (CASE_D+3.26)/2, CASE_H-6])
         mirror([1, 0, 0])
-        rotate([-90, 0, 0])
+        rotate([0, -90, 90])
         usb_C(cutout=cutout);
 
     *translate([CASE_THICKNESS+MODULE_MARGIN-1, FPT_D, CASE_THICKNESS+MODULE_MARGIN-1]) color("green") {
@@ -297,23 +305,16 @@ module Externals(cutout=false, fw=false) {
         translate([0, SCR_D, 60]) cube([MODULE_W+2, 10, 60]);
     }
         
-    translate([0, CASE_D/2-e, 85])
-        mirror([1, 0, 0])
-        rotate([0, 90, 0])
-        d_socket(DCONN25, pcb=true);
-
-    translate([CASE_W-18, CASE_D/2, CASE_H+e])
+    *translate([CASE_W-18, CASE_D/2, CASE_H+e])
         rotate([0, 0, 90])
         rocker(micro_rocker, colour="green");
 
-    translate([CASE_W-38, CASE_D/2, CASE_H+e])
+    translate([CASE_W-12, CASE_D/2, CASE_H+e])
         rotate([0, 0, 90])
         rocker(micro_rocker);
 
-    translate([CASE_W-8, (CASE_D-3)/2, 65])
+    *translate([MODULE_MARGIN+SCR_H+SPK_MARGIN, 0, KB_H_TOTAL+SCR_BEZEL_R+MODULE_MARGIN+KB_CHIN])
         color("silver") cube([8+e, 3, 60]);
-
-    translate([CASE_W-1, 11.5, 80+e])
         rotate([0, 90, 0])
         cylinder(2, 1.5, 1.5);
 
@@ -328,25 +329,46 @@ module Externals(cutout=false, fw=false) {
     }
 }
 
-CORE_THICKNESS = 1;
-CORE_MARGIN = 0.1;
-
 module Internals(cutout=false) {
     core_d = CASE_D - FPT_D - 2*CORE_MARGIN+FWB_INSET;
     w = CASE_W-2*CASE_THICKNESS-2*CORE_MARGIN;
 
-    translate([CASE_THICKNESS+CORE_MARGIN, CORE_MARGIN, CASE_THICKNESS+CORE_MARGIN]) {
-        translate([0, CASE_D-FWB_D-CORE_MARGIN-CASE_THICKNESS, 0])
-            cube([w, FWB_D+FWB_INSET, fw_exp[1]+1]);
+    difference() {
+        translate([CASE_THICKNESS+CORE_MARGIN, CORE_MARGIN, CASE_THICKNESS+CORE_MARGIN]) {
+            translate([0, CASE_D-FWB_D-CORE_MARGIN-CASE_THICKNESS, 0])
+                cube([w, FWB_D+FWB_INSET, fw_exp[1]+1]);
 
-        difference() {
-            cube([INR_W-CORE_MARGIN*2, core_d, INR_H-CORE_MARGIN*2]);
-            translate([CORE_THICKNESS, -e, CORE_THICKNESS])
-                cube([
-                    INR_W-2*CORE_THICKNESS-CORE_MARGIN*2,
-                    core_d-CORE_THICKNESS+e,
-                    INR_H-2*CORE_THICKNESS-CORE_MARGIN*2,
-                ]);
+            difference() {
+                cube([INR_W-CORE_MARGIN*2, core_d, INR_H-CORE_MARGIN*2]);
+                translate([CORE_THICKNESS, -e, CORE_THICKNESS])
+                    cube([
+                        INR_W-2*CORE_THICKNESS-CORE_MARGIN*2,
+                        core_d-CORE_THICKNESS+e,
+                        INR_H-2*CORE_THICKNESS-CORE_MARGIN*2,
+                    ]);
+            }
         }
+        PinInterface(cutout=true);
     }
+}
+
+module PinInterface(cutout=false) {
+    rows = 2;
+    cols = 15;
+    width = 2.5;
+    height = 2.5;
+    depth = 11;
+
+    translate([(CASE_W-37.5)/2, CASE_D, CASE_H-12]) mirror([0, 1, 0])
+        for (row = [0:rows-1]) {
+            for (col = [0:cols-1]) {
+                translate([col*width, 0, row*height])
+                    difference() {
+                        color("black") cube([width, depth, height]);
+                        if (!cutout)
+                            translate([width/4, -e, height/4])
+                            color("silver") cube([width/2, height, height/2]);
+                    }
+            }
+        }
 }
