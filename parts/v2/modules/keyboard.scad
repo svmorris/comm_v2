@@ -21,7 +21,7 @@ module Keyboard(cutout=false) {
 
     inr_w = width-2*margin;
     inr_h = height-2*margin;
-    inr_r = RADIUS-FP_MARGIN;
+    inr_r = RADIUS-MARGIN;
 
     translate([gap, -e, 0]) {
         if (cutout) {
