@@ -10420,7 +10420,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uH"
+		(property "Value" "10uH"
 			(at 443.23 71.12 90)
 			(effects
 				(font
