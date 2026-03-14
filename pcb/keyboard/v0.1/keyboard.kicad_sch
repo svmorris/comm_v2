@@ -6176,7 +6176,7 @@
 		)
 		(uuid "13ea8cc5-7343-4729-b12c-baccf781674a")
 	)
-	(label "VBUS"
+	(label "VBUS_USB"
 		(at 463.55 52.07 0)
 		(effects
 			(font
