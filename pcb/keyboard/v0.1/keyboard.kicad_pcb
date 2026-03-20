@@ -197,12 +197,12 @@
 	(net 57 "Net-(D50-A)")
 	(net 58 "Net-(D51-A)")
 	(net 59 "Net-(D52-A)")
-	(net 60 "Net-(D54-A)")
-	(net 61 "Net-(D55-A)")
-	(net 62 "Net-(D56-A)")
-	(net 63 "Net-(D57-A)")
-	(net 64 "Net-(D59-A)")
-	(net 65 "Net-(D62-A)")
+	(net 60 "Net-(D3-A)")
+	(net 61 "Net-(D4-A)")
+	(net 62 "Net-(D5-A)")
+	(net 63 "Net-(D6-A)")
+	(net 64 "Net-(D7-A)")
+	(net 65 "Net-(D8-A)")
 	(net 66 "/D-")
 	(net 67 "/VBUS_USB")
 	(net 68 "/D+")
@@ -243,11 +243,16 @@
 	(net 103 "unconnected-(U1A-P0.10{slash}NFC2-Pad54)")
 	(net 104 "unconnected-(U1A-P1.12_LF-Pad5)")
 	(net 105 "unconnected-(U1A-P1.04_LF-Pad56)")
+	(net 106 "Net-(D9-A)")
+	(net 107 "Net-(D10-A)")
+	(net 108 "Net-(D11-A)")
+	(net 109 "Net-(D12-A)")
+	(net 110 "Net-(D53-A)")
 	(footprint "TH-A1OC:tact_switch_4.5x4.5_PTS647"
 		(layer "F.Cu")
 		(uuid "02503ac8-e56c-4ab7-bd13-f75474d931e1")
 		(at 98.8 43.75 90)
-		(property "Reference" "SW24"
+		(property "Reference" "SW12"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -263,6 +268,7 @@
 			(at 7.5 1.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "52c4071a-b4d5-4560-82f1-1c9f394e6296")
 			(effects
 				(font
@@ -478,7 +484,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 31 "Net-(D24-A)")
+			(net 109 "Net-(D12-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -491,7 +497,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 31 "Net-(D24-A)")
+			(net 109 "Net-(D12-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -521,7 +527,7 @@
 		(property "Reference" "C1"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
-			(uuid "70323162-cf4f-4821-8ece-17f2af7bc10a")
+			(uuid "27b502c4-0402-4b8b-9d9a-787051b8feff")
 			(effects
 				(font
 					(size 1 1)
@@ -532,7 +538,7 @@
 		(property "Value" "10uf"
 			(at 0 1.68 0)
 			(layer "F.Fab")
-			(uuid "d2cc8b03-aa7d-4bbd-88e5-f0f0f0a66702")
+			(uuid "70a6724b-65ea-4377-9170-c75350df26cd")
 			(effects
 				(font
 					(size 1 1)
@@ -544,7 +550,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6e8f6b93-a60e-49fd-a854-ff4702f3e426")
+			(uuid "3a34b9ab-e09f-4b0b-bfdd-d94239080e62")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -556,7 +562,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0cfcb329-81c8-4718-b43f-082eb265568c")
+			(uuid "359bf104-cfc0-4b9e-bc49-5850573a342d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -714,7 +720,7 @@
 		(property "Reference" "JP1"
 			(at 0 -1.8 0)
 			(layer "F.SilkS")
-			(uuid "c5120c5a-1960-48f5-8a12-ede8ed0da4ba")
+			(uuid "baf45951-7e06-4697-b59a-6814920d09ad")
 			(effects
 				(font
 					(size 1 1)
@@ -725,7 +731,7 @@
 		(property "Value" "SolderJumper_2_Open"
 			(at 0 1.9 0)
 			(layer "F.Fab")
-			(uuid "bd04ab1b-e5d1-43be-8a07-ebab70fc6073")
+			(uuid "d1b1821d-2612-499d-b903-1feb1d75624d")
 			(effects
 				(font
 					(size 1 1)
@@ -738,7 +744,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6f9b41dd-e767-4496-8a97-2e2017fa84c4")
+			(uuid "5726bc61-05c0-4829-ad36-13474757b7f0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -751,7 +757,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "52dcb011-f226-4019-bdb5-659b0b6c76be")
+			(uuid "d6efc4c2-80af-4aad-a2d5-e53e4572f5f8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -912,7 +918,7 @@
 		(at 49.431818 63.9)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D40"
+		(property "Reference" "D28"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1230,7 +1236,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 47 "Net-(D40-A)")
+			(net 35 "Net-(D28-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "2e32bdcf-878c-4080-9dd8-c32e50e5bff5")
@@ -1252,7 +1258,7 @@
 		(layer "F.Cu")
 		(uuid "0d65b2e9-715f-4bde-be91-53ed82d4e48c")
 		(at 66.363636 62 90)
-		(property "Reference" "SW43"
+		(property "Reference" "SW31"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1484,7 +1490,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 50 "Net-(D43-A)")
+			(net 38 "Net-(D31-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -1497,7 +1503,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 50 "Net-(D43-A)")
+			(net 38 "Net-(D31-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -1522,11 +1528,11 @@
 		(layer "F.Cu")
 		(uuid "0fd8f957-5378-4d1c-a248-773a7f10da54")
 		(at 53.4 71.25 90)
-		(property "Reference" "SW1"
+		(property "Reference" "SW41"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "4a6247af-33fc-49fc-a591-2ae6a5da96fa")
+			(uuid "fe72d6ab-6602-4564-bffe-2501bfef81ef")
 			(effects
 				(font
 					(size 1 1)
@@ -1539,7 +1545,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a129b4fc-b3b2-4561-b99e-735343f0c400")
+			(uuid "e558d4db-a57e-41a9-8a24-8ac733534e6a")
 			(effects
 				(font
 					(size 1 1)
@@ -1552,7 +1558,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ae14b118-f3bb-482f-9599-b8442cfc2e64")
+			(uuid "dd4ae56c-1a62-4246-a69f-bc895036460e")
 			(effects
 				(font
 					(size 1 1)
@@ -1565,7 +1571,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c363ff90-e1bb-442e-bce8-7b790211edec")
+			(uuid "5d9de478-6d5e-41a3-9e05-17259d868227")
 			(effects
 				(font
 					(size 1 1)
@@ -1754,7 +1760,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 7 "Net-(D1-A)")
+			(net 48 "Net-(D41-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -1767,13 +1773,553 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 7 "Net-(D1-A)")
+			(net 48 "Net-(D41-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin 0.1)
 			(clearance 0.1)
 			(uuid "926588b8-ff4f-4d72-9aab-ff3bb1f83605")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../../lib/3D_models/4.5mm_button.stp"
+			(offset
+				(xyz 14.85 0.6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+	)
+	(footprint "TH-A1OC:tact_switch_4.5x4.5_PTS647"
+		(layer "F.Cu")
+		(uuid "15fd4886-65af-4fe5-a48e-4e8fef22a1de")
+		(at 67.05 84.25 90)
+		(property "Reference" "SW49"
+			(at 1 5 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7da22445-8185-47ea-88a3-4ec28c554040")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "C3"
+			(at 7.5 1.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9b5d4b41-5a9f-4ab2-9434-6d39c903c8d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a4bd04a-0edf-426f-b997-a94910ef4164")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d533f03-f46d-4145-a804-ee8018d2609a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35d3f7b5-dd37-4470-9d9c-d0ba8afb9876")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr. Part no." "PTS647SM50SMTR2LFS"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2edbc991-1cc9-4439-bbb0-e195ccfcf3b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part no." "C2689518"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e3091d3-acc3-4256-bdfd-330c210ac877")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/C2689518.html?s_z=n_4.5mm%20push%20button%20SMT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f798a89-a8bd-44f3-ad3c-f3c713c4dd2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/bcafd89b-c53f-4b81-99ab-cef30c3ec008")
+		(sheetname "/")
+		(sheetfile "keyboard.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 2.65 0)
+			(end 2.65 0.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "0dda7f86-5284-4895-a5f8-1d43d4e762d4")
+		)
+		(fp_line
+			(start 1.1 0)
+			(end 4.2 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "0bcf3cb1-7394-4c8b-ae60-012e3f6baca3")
+		)
+		(fp_line
+			(start 2.65 0.8)
+			(end 1.9 1.9)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "be927544-78a9-4ac1-a43d-1f0434b78790")
+		)
+		(fp_line
+			(start 2.65 3.2)
+			(end 2.65 2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "c3d4a1ed-f3ed-47dd-9896-b0839003456c")
+		)
+		(fp_line
+			(start 2.65 3.2)
+			(end 2.65 2.4)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "087c8490-12e5-4b79-8ef7-89cb638755c3")
+		)
+		(fp_line
+			(start 1 3.2)
+			(end 4.3 3.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "f790f959-f9be-4284-bbc9-d90343895948")
+		)
+		(fp_rect
+			(start 0.1 -0.9)
+			(end 5.1 4.1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "0854bb9f-92a8-4c47-9c5c-90e0b7573aa5")
+		)
+		(fp_rect
+			(start -1.05 -1.1)
+			(end 6.3 4.3)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "d5e8edbe-cdee-4ac5-92a2-a699ec25b4c5")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 2.6 1.6 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "74223145-2e07-4752-b721-c449442dfaba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0 90)
+			(size 1.55 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 77 "/SOURCE5")
+			(pinfunction "1")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin 0.1)
+			(clearance 0.1)
+			(uuid "5439c5d2-69cb-479a-a7bc-c0f3ce5098ff")
+		)
+		(pad "1" smd roundrect
+			(at 5.25 0 90)
+			(size 1.55 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 77 "/SOURCE5")
+			(pinfunction "1")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin 0.1)
+			(clearance 0.1)
+			(uuid "16f74592-804f-440c-a8fc-093ceb8f921a")
+		)
+		(pad "2" smd roundrect
+			(at 0 3.2 90)
+			(size 1.55 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 56 "Net-(D49-A)")
+			(pinfunction "2")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin 0.1)
+			(clearance 0.1)
+			(uuid "81c94472-8b2d-4c7e-bd45-bed3fedcf984")
+		)
+		(pad "2" smd roundrect
+			(at 5.25 3.2 90)
+			(size 1.55 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 56 "Net-(D49-A)")
+			(pinfunction "2")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin 0.1)
+			(clearance 0.1)
+			(uuid "41b1a976-bb0c-41da-a12e-ec18ccf6bb1c")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../../lib/3D_models/4.5mm_button.stp"
+			(offset
+				(xyz 14.85 0.6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+	)
+	(footprint "TH-A1OC:tact_switch_4.5x4.5_PTS647"
+		(layer "F.Cu")
+		(uuid "199a7cd5-ccc1-4d81-baf3-67d997ccd093")
+		(at 54 84.25 90)
+		(property "Reference" "SW47"
+			(at 1 5 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "e4f3708f-85b7-44fd-b6f8-c4fc3e85c633")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "C1"
+			(at 7.5 1.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9112a8b1-1d0f-48cb-b3ae-d3a5d0def47f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e719b3d-01cf-4d71-a576-261cbec296bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b975bce7-5912-4a9f-b229-a353ea8951ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa025d6c-347a-4494-8f23-d591cdeb3699")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr. Part no." "PTS647SM50SMTR2LFS"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f0df861-b91c-4dae-9052-682b0cbf240b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part no." "C2689518"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce95cb39-bde2-4142-8be9-d8e34a935931")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/C2689518.html?s_z=n_4.5mm%20push%20button%20SMT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2634ce4-e9dd-407c-8194-c6e4f197fe6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/5d02e3f6-1a39-4935-a3aa-7cc78cbe3995")
+		(sheetname "/")
+		(sheetfile "keyboard.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 2.65 0)
+			(end 2.65 0.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "8f0252c8-5612-4bef-8b7a-233601ed28e4")
+		)
+		(fp_line
+			(start 1.1 0)
+			(end 4.2 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "eda8d958-a922-4d5b-ac91-94c318098faa")
+		)
+		(fp_line
+			(start 2.65 0.8)
+			(end 1.9 1.9)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "734bbb54-93d1-4a8c-ad44-8527d29439b7")
+		)
+		(fp_line
+			(start 2.65 3.2)
+			(end 2.65 2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "8ddd250e-a740-405f-adda-5962619237ce")
+		)
+		(fp_line
+			(start 2.65 3.2)
+			(end 2.65 2.4)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "3ddaf190-8ba5-4b40-b6e6-72a8666116d5")
+		)
+		(fp_line
+			(start 1 3.2)
+			(end 4.3 3.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "24f5f1c3-49ef-49a1-b456-7fb7c9719104")
+		)
+		(fp_rect
+			(start 0.1 -0.9)
+			(end 5.1 4.1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "e1f8045e-d184-4001-b9b7-52191fd5db51")
+		)
+		(fp_rect
+			(start -1.05 -1.1)
+			(end 6.3 4.3)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "e8901810-4843-4b67-bc0a-b82d3335d2ec")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 2.6 1.6 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a93d0208-d8d6-4abb-93f1-1771f0b1f35f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0 90)
+			(size 1.55 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 77 "/SOURCE5")
+			(pinfunction "1")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin 0.1)
+			(clearance 0.1)
+			(uuid "1751b688-1fa1-40a5-a94d-37aaace4e2c4")
+		)
+		(pad "1" smd roundrect
+			(at 5.25 0 90)
+			(size 1.55 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 77 "/SOURCE5")
+			(pinfunction "1")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin 0.1)
+			(clearance 0.1)
+			(uuid "8c9cdbac-2268-4643-ad29-a7c9a120db2b")
+		)
+		(pad "2" smd roundrect
+			(at 0 3.2 90)
+			(size 1.55 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 54 "Net-(D47-A)")
+			(pinfunction "2")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin 0.1)
+			(clearance 0.1)
+			(uuid "c3f14c14-1b31-46cc-a6e1-acaeb52d7f20")
+		)
+		(pad "2" smd roundrect
+			(at 5.25 3.2 90)
+			(size 1.55 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 54 "Net-(D47-A)")
+			(pinfunction "2")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin 0.1)
+			(clearance 0.1)
+			(uuid "04020b19-5ef1-4910-9c87-e46be5a755cd")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/../../lib/3D_models/4.5mm_button.stp"
@@ -1795,9 +2341,9 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 -1.43 0)
+			(at -0.075 -0.72 0)
 			(layer "F.SilkS")
-			(uuid "3a101875-5af0-4143-a3e0-48ec5d2b041c")
+			(uuid "3d812128-9145-46a6-a40f-dcf64102a195")
 			(effects
 				(font
 					(size 1 1)
@@ -1808,7 +2354,7 @@
 		(property "Value" "2R2"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "12266335-8dec-4f4a-b47c-0bf0de8dbc9a")
+			(uuid "fe81f1e0-897f-4030-b31e-ee535cb9507e")
 			(effects
 				(font
 					(size 1 1)
@@ -1820,7 +2366,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fe3d1a81-1b98-4193-81ae-a2c2d35daf22")
+			(uuid "40295cf1-f528-4eba-a143-2276e3581754")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1832,7 +2378,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d01501fa-42c2-438d-bf3c-edba7767a283")
+			(uuid "c3c49a4f-14ef-43dd-96c5-d7bccb5d164f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1989,7 +2535,7 @@
 			(at -0.2 -1.95 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "11b67a3c-e15f-4078-acef-4fda78d51abd")
+			(uuid "4eff1558-a422-4f21-be24-5e5ce665772c")
 			(effects
 				(font
 					(size 1 1)
@@ -2001,7 +2547,7 @@
 			(at 3.8 1.85 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "ac840e0d-04f6-497d-9216-fa861c950abd")
+			(uuid "d6803d38-098d-42ff-a650-a0f7b4cd487b")
 			(effects
 				(font
 					(size 1 1)
@@ -2014,7 +2560,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6a0193d4-de06-40a2-b0af-35ed7c5edb47")
+			(uuid "3204822a-668b-4065-adab-593ff8359f68")
 			(effects
 				(font
 					(size 1 1)
@@ -2027,7 +2573,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "860516b2-4e19-4fa5-af69-297114c527f9")
+			(uuid "f914234f-744d-4686-970f-fbb56586c7e4")
 			(effects
 				(font
 					(size 1 1)
@@ -2132,7 +2678,7 @@
 		(property "Reference" "TP3"
 			(at 0 -1.998 0)
 			(layer "F.SilkS")
-			(uuid "01c19deb-f8bb-470b-9b61-5ede9ca167b0")
+			(uuid "70b6d72c-753c-481e-92ba-38e62063f7f5")
 			(effects
 				(font
 					(size 1 1)
@@ -2143,7 +2689,7 @@
 		(property "Value" "TestPoint"
 			(at 0 2.05 0)
 			(layer "F.Fab")
-			(uuid "b7443e76-75c4-4dd5-bc33-2256e95f78ef")
+			(uuid "3827462f-3927-4dc6-ab9e-3f5201842f6e")
 			(effects
 				(font
 					(size 1 1)
@@ -2156,7 +2702,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b2b028f3-2756-43d3-be56-dda69e4fdf30")
+			(uuid "4d5bc6ac-8b95-40b8-8cac-846a040c8deb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2169,7 +2715,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9de25802-b1a4-43d5-8efe-3c61c39d3189")
+			(uuid "ec35da1d-fb44-44d8-b70c-b040c9689c35")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2232,7 +2778,7 @@
 		(at 81.868182 54.75)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D33"
+		(property "Reference" "D21"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2550,7 +3096,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 40 "Net-(D33-A)")
+			(net 24 "Net-(D21-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "bfa10db2-4e59-4e8d-b96f-803f1fbfce09")
@@ -2574,7 +3120,7 @@
 		(at 42.954545 63.9)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D39"
+		(property "Reference" "D27"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2892,7 +3438,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 46 "Net-(D39-A)")
+			(net 34 "Net-(D27-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "66ac3cc0-470c-44af-b3f2-054294a53b17")
@@ -2919,7 +3465,7 @@
 		(property "Reference" "TP2"
 			(at 0 -1.998 0)
 			(layer "F.SilkS")
-			(uuid "83ce63de-4af3-4a9d-adc6-ff08eb179e67")
+			(uuid "b065b5fa-774a-42d7-be0c-85fd629d060b")
 			(effects
 				(font
 					(size 1 1)
@@ -2930,7 +3476,7 @@
 		(property "Value" "TestPoint"
 			(at 0 2.05 0)
 			(layer "F.Fab")
-			(uuid "e5e43e14-c2b2-47e8-99fd-afb82a5e5924")
+			(uuid "95db3ce7-24b7-4bef-ac32-cea63d9a23f8")
 			(effects
 				(font
 					(size 1 1)
@@ -2943,7 +3489,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "595c5170-047b-4323-a8d4-827106b554e7")
+			(uuid "842d42e2-f8a4-4b14-9582-79248317eda2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2956,7 +3502,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a28f7712-872a-4f15-9418-2840df1d6d4b")
+			(uuid "27289536-b4c8-4e84-bb02-a51a86b4d055")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3019,7 +3565,7 @@
 		(at 94.822727 54.75)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D35"
+		(property "Reference" "D23"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -3337,7 +3883,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 42 "Net-(D35-A)")
+			(net 28 "Net-(D23-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "d10011e0-63f5-43af-8feb-8cb44f5ba053")
@@ -3359,7 +3905,7 @@
 		(layer "F.Cu")
 		(uuid "2cca9d43-b677-485a-91b1-0c82263543dd")
 		(at 46.931818 62 90)
-		(property "Reference" "SW40"
+		(property "Reference" "SW28"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3591,7 +4137,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 47 "Net-(D40-A)")
+			(net 35 "Net-(D28-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -3604,7 +4150,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 47 "Net-(D40-A)")
+			(net 35 "Net-(D28-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -3631,7 +4177,7 @@
 		(at 62.436364 54.75)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D30"
+		(property "Reference" "D18"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -3949,7 +4495,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 37 "Net-(D30-A)")
+			(net 20 "Net-(D18-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "f6216dd9-79e8-4f1f-ae1a-5a7cde18defd")
@@ -3976,7 +4522,7 @@
 		(property "Reference" "C2"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
-			(uuid "49958089-81e1-4b7e-a9be-c6757002a3ba")
+			(uuid "53f95c1a-fba9-49a6-a563-630d09af8941")
 			(effects
 				(font
 					(size 1 1)
@@ -3987,7 +4533,7 @@
 		(property "Value" "10uf"
 			(at 0 1.68 0)
 			(layer "F.Fab")
-			(uuid "4baab301-26a6-45f7-a1c6-5d2cfe14a087")
+			(uuid "f2907db2-62a9-4566-8d88-49c4d43cef51")
 			(effects
 				(font
 					(size 1 1)
@@ -3999,7 +4545,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6ccdc06a-5dc3-4114-9fb6-486d6e88ae73")
+			(uuid "2597c48f-f2d7-4fc7-bac0-b4bb2c8dd159")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4011,7 +4557,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6ddcaf5e-82ce-4b3b-8ee6-5feff16b327b")
+			(uuid "01aaecb3-e8a4-41ca-a089-9d62f9c0c3f5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4164,7 +4710,7 @@
 		(layer "F.Cu")
 		(uuid "33085dc2-5105-438e-befd-3d929410b291")
 		(at 34.0125 71.25 90)
-		(property "Reference" "SW50"
+		(property "Reference" "SW38"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4396,7 +4942,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 57 "Net-(D50-A)")
+			(net 45 "Net-(D38-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -4409,7 +4955,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 57 "Net-(D50-A)")
+			(net 45 "Net-(D38-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -4434,7 +4980,7 @@
 		(layer "F.Cu")
 		(uuid "3677e14b-d0ca-4c07-bfe2-b3cf27ebb654")
 		(at 72.840909 62 90)
-		(property "Reference" "SW44"
+		(property "Reference" "SW32"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4666,7 +5212,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 51 "Net-(D44-A)")
+			(net 39 "Net-(D32-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -4679,7 +5225,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 51 "Net-(D44-A)")
+			(net 39 "Net-(D32-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -4704,7 +5250,7 @@
 		(layer "F.Cu")
 		(uuid "3a4cc623-8b26-4865-ad77-8b8b34e4e74a")
 		(at 98.8 52.85 90)
-		(property "Reference" "SW36"
+		(property "Reference" "SW24"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4936,7 +5482,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 43 "Net-(D36-A)")
+			(net 31 "Net-(D24-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -4949,7 +5495,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 43 "Net-(D36-A)")
+			(net 31 "Net-(D24-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -4976,7 +5522,7 @@
 		(at 42.975 73.2)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D51"
+		(property "Reference" "D39"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -5294,7 +5840,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 58 "Net-(D51-A)")
+			(net 46 "Net-(D39-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "2cba0f24-5b8b-4bd5-a275-5909176c6397")
@@ -5318,7 +5864,7 @@
 		(at 101.3 73.2)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D57"
+		(property "Reference" "D46"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -5636,7 +6182,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 63 "Net-(D57-A)")
+			(net 53 "Net-(D46-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "d49c366a-9305-48d8-bcce-2cabff01eaed")
@@ -5658,7 +6204,7 @@
 		(layer "F.Cu")
 		(uuid "3fbec80a-55f1-47ac-8ce8-1cb00791f48e")
 		(at 40.504545 52.85 90)
-		(property "Reference" "SW27"
+		(property "Reference" "SW15"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5890,7 +6436,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 34 "Net-(D27-A)")
+			(net 15 "Net-(D15-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -5903,7 +6449,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 34 "Net-(D27-A)")
+			(net 15 "Net-(D15-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -5930,7 +6476,7 @@
 		(at 55.959091 54.75)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D29"
+		(property "Reference" "D17"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -6248,7 +6794,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 36 "Net-(D29-A)")
+			(net 18 "Net-(D17-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "7c4f52a7-1f0e-4cb5-bb5d-603d975f22df")
@@ -6275,7 +6821,7 @@
 		(property "Reference" "L1"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
-			(uuid "c6188253-c51b-472f-b168-d1f1b8f1c446")
+			(uuid "4676bf98-3b1f-4460-bc1a-bd7d2716e5e2")
 			(effects
 				(font
 					(size 1 1)
@@ -6286,7 +6832,7 @@
 		(property "Value" "10uH"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "e8507592-2257-4c80-9933-19128728e210")
+			(uuid "4248ed29-6df0-4536-9a64-44230ee6e860")
 			(effects
 				(font
 					(size 1 1)
@@ -6298,7 +6844,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0245210d-d4f1-400e-a5fe-1c6ec5984ecb")
+			(uuid "c7ec3243-73b9-4078-ba3a-3d15e1d92206")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6310,7 +6856,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b53f945c-2a80-40b8-a609-2473ba8d22f4")
+			(uuid "23f54bbd-4b8d-407e-9d3f-2b5cf1fd75cf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6465,7 +7011,7 @@
 		(layer "F.Cu")
 		(uuid "41bd325c-6fb1-45fe-8996-68b16e239614")
 		(at 66.413636 52.85 90)
-		(property "Reference" "SW31"
+		(property "Reference" "SW19"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6697,7 +7243,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 38 "Net-(D31-A)")
+			(net 22 "Net-(D19-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -6710,7 +7256,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 38 "Net-(D31-A)")
+			(net 22 "Net-(D19-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -6737,7 +7283,7 @@
 		(at 68.913636 54.75)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D31"
+		(property "Reference" "D19"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -7055,7 +7601,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 38 "Net-(D31-A)")
+			(net 22 "Net-(D19-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "43f3b48a-4980-46aa-9da4-d58de0a62f1b")
@@ -7077,7 +7623,7 @@
 		(layer "F.Cu")
 		(uuid "479fe5ba-9760-493b-8009-19a3b3ffa057")
 		(at 53.459091 52.85 90)
-		(property "Reference" "SW29"
+		(property "Reference" "SW17"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7309,7 +7855,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 36 "Net-(D29-A)")
+			(net 18 "Net-(D17-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -7322,7 +7868,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 36 "Net-(D29-A)")
+			(net 18 "Net-(D17-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -7347,7 +7893,7 @@
 		(layer "F.Cu")
 		(uuid "47ef82a6-9a6e-4c21-ace3-323c42d23761")
 		(at 59.936364 43.75 90)
-		(property "Reference" "SW18"
+		(property "Reference" "SW6"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7363,6 +7909,7 @@
 			(at 7.5 1.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a8db0ba3-b258-48ec-8560-4709758d0403")
 			(effects
 				(font
@@ -7578,7 +8125,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 20 "Net-(D18-A)")
+			(net 63 "Net-(D6-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -7591,7 +8138,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 20 "Net-(D18-A)")
+			(net 63 "Net-(D6-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -7612,11 +8159,353 @@
 			)
 		)
 	)
+	(footprint "Diode_SMD:D_SOD-523"
+		(layer "F.Cu")
+		(uuid "48337d40-8b73-4385-994c-2a9054c760f3")
+		(at 101.25 83)
+		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
+		(tags "Diode SOD523")
+		(property "Reference" "D53"
+			(at 0 -1.3 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "849a2b39-a322-4a3f-98d0-0c830c7b5d87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 0 1.4 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "331e3fa7-28cf-46a9-a727-541f2834fec9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0a0ef34-ce0d-496e-9bed-876078b48cb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "080d511c-91a1-4e31-8b13-1d04703d740b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24d17987-6446-458e-8d54-7eff75a3def2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e39189ec-9478-4d49-8917-4d7edff52e9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YONGYUTAI"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad4380b9-7ef3-45f1-92ed-d59d45d02c9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr. Part no." "CD4148WTP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2026e510-a58e-43dc-afcf-bcba9c6fc551")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part no." "C30584800"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75ea3a52-cd68-471f-9b1f-c8205e9948cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/C30584800.html"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f4c07e8-84cb-4d07-945d-5809e69fc50b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
+		(path "/62513d38-accd-47b2-83cd-24964a98894b")
+		(sheetname "/")
+		(sheetfile "keyboard.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -1.26 -0.6)
+			(end -1.26 0.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3588cea2-579f-4fd2-94ea-a5176cd154e3")
+		)
+		(fp_line
+			(start 0.7 -0.6)
+			(end -1.26 -0.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3607cac2-f1d2-4e46-9d3f-68f5673d3938")
+		)
+		(fp_line
+			(start 0.7 0.6)
+			(end -1.26 0.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "330483f3-1362-4ce1-bee7-adfa26d7971a")
+		)
+		(fp_line
+			(start -1.25 -0.7)
+			(end 1.25 -0.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9b828cca-7f9f-4f7d-ac9c-6e6397a6307c")
+		)
+		(fp_line
+			(start -1.25 0.7)
+			(end -1.25 -0.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "eebc1333-5b57-4100-af38-d553a92d9157")
+		)
+		(fp_line
+			(start 1.25 -0.7)
+			(end 1.25 0.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "aa174850-b682-49e0-b4d1-e3a98fd157b1")
+		)
+		(fp_line
+			(start 1.25 0.7)
+			(end -1.25 0.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d290a760-a80f-42b7-a8da-df974c398932")
+		)
+		(fp_line
+			(start -0.65 -0.45)
+			(end 0.65 -0.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3b078c6a-e185-4636-8ae2-ca69014b781a")
+		)
+		(fp_line
+			(start -0.65 0.45)
+			(end -0.65 -0.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a5b33fc8-8ecf-4eb6-8585-14c657b9e31a")
+		)
+		(fp_line
+			(start -0.2 0)
+			(end -0.35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "02f633d6-3549-40ad-a7a3-257502e15132")
+		)
+		(fp_line
+			(start -0.2 0)
+			(end 0.1 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "eae118ae-11ad-423c-8fca-7841033d7459")
+		)
+		(fp_line
+			(start -0.2 0.2)
+			(end -0.2 -0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fefdbc45-373c-41d5-8409-c8c0a09f1bd7")
+		)
+		(fp_line
+			(start 0.1 -0.2)
+			(end -0.2 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "01e45eb5-ff4f-4d70-a04b-3b5e666d8b51")
+		)
+		(fp_line
+			(start 0.1 0)
+			(end 0.25 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9839069e-99b7-4d08-9366-6f32cb97edfa")
+		)
+		(fp_line
+			(start 0.1 0.2)
+			(end 0.1 -0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "10acda2b-d275-4078-a5e2-ca397ff3c973")
+		)
+		(fp_line
+			(start 0.65 -0.45)
+			(end 0.65 0.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "78b94cee-ab78-434b-8b5e-62bd6b7c05ec")
+		)
+		(fp_line
+			(start 0.65 0.45)
+			(end -0.65 0.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a1aa3c9a-76e0-476d-9035-d8ea809ec71c")
+		)
+		(pad "1" smd roundrect
+			(at -0.7 0 180)
+			(size 0.6 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 30 "/INPUT12")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "bac257c6-4ef1-4a83-a68b-17cd9947533a")
+		)
+		(pad "2" smd roundrect
+			(at 0.7 0 180)
+			(size 0.6 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 110 "Net-(D53-A)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "84e01160-6009-421f-a1a3-a85954fc4be2")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-523.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "TH-A1OC:tact_switch_4.5x4.5_PTS647"
 		(layer "F.Cu")
 		(uuid "5029fd30-2d9d-4b42-8e76-acf99f12a39b")
 		(at 27.5 62 90)
-		(property "Reference" "SW37"
+		(property "Reference" "SW25"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7848,7 +8737,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 44 "Net-(D37-A)")
+			(net 32 "Net-(D25-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -7861,7 +8750,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 44 "Net-(D37-A)")
+			(net 32 "Net-(D25-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -7882,11 +8771,695 @@
 			)
 		)
 	)
+	(footprint "Diode_SMD:D_SOD-523"
+		(layer "F.Cu")
+		(uuid "503aced6-c3a4-4017-8f09-18c059fe6263")
+		(at 56.5 86)
+		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
+		(tags "Diode SOD523")
+		(property "Reference" "D47"
+			(at 0 -1.3 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a14ec37f-d67f-498b-aeb3-5f326d18e52b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 0 1.4 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39d9a8a4-f378-433b-afa4-08a944379f05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5531c5fa-efda-47a1-8190-d65ce9c13fe6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f42c8ef-ec64-4846-b132-8328dca8db52")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef0c5805-63d9-48d8-92a8-a33716b01343")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d51a55a-b150-496b-8372-cfb56f27d27a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YONGYUTAI"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50e2f780-62b2-44f5-b7bf-40ed4b62b487")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr. Part no." "CD4148WTP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "534f39b8-1dee-4e33-ae35-9fbca541eabd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part no." "C30584800"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0c298ce-39d3-484b-9b54-5e1c2f6160d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/C30584800.html"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d05a43d0-52b1-42b9-a157-cd9aa23b56f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
+		(path "/3589eef7-da96-4235-ab26-e455fced3538")
+		(sheetname "/")
+		(sheetfile "keyboard.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -1.26 -0.6)
+			(end -1.26 0.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c9b13dab-ef6a-4e2c-a928-fed2661085de")
+		)
+		(fp_line
+			(start 0.7 -0.6)
+			(end -1.26 -0.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3635c67c-279a-4669-9e50-661a80b4ff7a")
+		)
+		(fp_line
+			(start 0.7 0.6)
+			(end -1.26 0.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "36c32b3f-bfcb-4202-9286-d0d8579b580d")
+		)
+		(fp_line
+			(start -1.25 -0.7)
+			(end 1.25 -0.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1bf79ddf-b011-4b7c-a802-ba2c9ec19f9c")
+		)
+		(fp_line
+			(start -1.25 0.7)
+			(end -1.25 -0.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5fba11d5-5396-4238-8658-55a232b6819f")
+		)
+		(fp_line
+			(start 1.25 -0.7)
+			(end 1.25 0.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fe7c3c54-bbfe-45b0-8f16-30593a06db0c")
+		)
+		(fp_line
+			(start 1.25 0.7)
+			(end -1.25 0.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "906232f0-18ae-4cb8-adf5-5ad5c6361a75")
+		)
+		(fp_line
+			(start -0.65 -0.45)
+			(end 0.65 -0.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0fefedcb-d4ed-4af7-97b8-e322eadfad53")
+		)
+		(fp_line
+			(start -0.65 0.45)
+			(end -0.65 -0.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fd589326-e9d8-4f8f-839d-67bc26075606")
+		)
+		(fp_line
+			(start -0.2 0)
+			(end -0.35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fc2b9286-8785-4702-9bef-1b48d7a843a2")
+		)
+		(fp_line
+			(start -0.2 0)
+			(end 0.1 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "18985d0c-b02b-467a-bfd9-c6ad89e6b3eb")
+		)
+		(fp_line
+			(start -0.2 0.2)
+			(end -0.2 -0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "eeb7e3f7-591a-4056-bac9-9e321722d0e2")
+		)
+		(fp_line
+			(start 0.1 -0.2)
+			(end -0.2 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6b61316b-fec9-48e7-ac55-292de549f86d")
+		)
+		(fp_line
+			(start 0.1 0)
+			(end 0.25 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9b9a1972-4a86-4794-aa93-eda25857e046")
+		)
+		(fp_line
+			(start 0.1 0.2)
+			(end 0.1 -0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e5f69a41-8cf5-4ce7-aebc-2a775dfdebb4")
+		)
+		(fp_line
+			(start 0.65 -0.45)
+			(end 0.65 0.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "38235edb-2b37-4fcb-9a6e-d341f8f4ebac")
+		)
+		(fp_line
+			(start 0.65 0.45)
+			(end -0.65 0.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8c48a397-e87b-4154-b9ff-29c107ec8d91")
+		)
+		(pad "1" smd roundrect
+			(at -0.7 0 180)
+			(size 0.6 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 19 "/INPUT6")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "8149e232-8e82-4554-8680-7a58282577d3")
+		)
+		(pad "2" smd roundrect
+			(at 0.7 0 180)
+			(size 0.6 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 54 "Net-(D47-A)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "f2790ed4-07e7-4abd-be90-bf2cae7e5cab")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-523.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Diode_SMD:D_SOD-523"
+		(layer "F.Cu")
+		(uuid "51b317bd-858e-422b-aba8-be8999b7d907")
+		(at 94.2 78.25)
+		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
+		(tags "Diode SOD523")
+		(property "Reference" "D52"
+			(at 0 -1.3 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "62a093c7-28a3-4d1f-ad4b-c0d2f0d966e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 0 1.4 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6da65c5a-7284-4611-96ef-fb1aaf3e75f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b336144-4388-41cc-a9aa-6a97d8133635")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bcc09866-92cb-4d5f-b158-8bfa1fa8e25c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b067890a-70e1-4578-9f1c-dd8fb4d63be1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10bb845a-71b2-4faf-b8c7-6510e84dd7da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YONGYUTAI"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b6422f0-9884-4e06-9e3c-1dd2c8d032e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr. Part no." "CD4148WTP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6db1963-80fa-4c5d-9b84-458138040a3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part no." "C30584800"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd698a00-c67f-4e2a-8492-1fe829a077c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/C30584800.html"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4056a6dd-c78b-47b9-81ff-c0aa4f4392f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
+		(path "/1f9593d8-27c8-48ce-8ec9-c1e5fb988536")
+		(sheetname "/")
+		(sheetfile "keyboard.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -1.26 -0.6)
+			(end -1.26 0.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ef611838-04c7-45c8-8265-0f91c18f8084")
+		)
+		(fp_line
+			(start 0.7 -0.6)
+			(end -1.26 -0.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "98e50706-4550-4356-8439-13860e18e060")
+		)
+		(fp_line
+			(start 0.7 0.6)
+			(end -1.26 0.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "19022da5-47d7-4082-b0f7-b686d6a91752")
+		)
+		(fp_line
+			(start -1.25 -0.7)
+			(end 1.25 -0.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ea40af61-de36-4f49-bd62-1825a636daab")
+		)
+		(fp_line
+			(start -1.25 0.7)
+			(end -1.25 -0.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ca1ed2d8-297c-4dab-89e1-61b9ccb2f47e")
+		)
+		(fp_line
+			(start 1.25 -0.7)
+			(end 1.25 0.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3ee0a4c6-dc67-4232-8463-c1c816770fb0")
+		)
+		(fp_line
+			(start 1.25 0.7)
+			(end -1.25 0.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "98e452b0-f38c-453e-8bc6-097b59affd62")
+		)
+		(fp_line
+			(start -0.65 -0.45)
+			(end 0.65 -0.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ce94b08e-3afe-469c-a9f2-ce32798af6f5")
+		)
+		(fp_line
+			(start -0.65 0.45)
+			(end -0.65 -0.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cddd378e-ec82-4a7b-bb86-c7b3c106de14")
+		)
+		(fp_line
+			(start -0.2 0)
+			(end -0.35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "58d0af08-23ef-49cb-b19a-b7f29116974d")
+		)
+		(fp_line
+			(start -0.2 0)
+			(end 0.1 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "99d15913-c35d-4ca1-a4fd-e5f405127133")
+		)
+		(fp_line
+			(start -0.2 0.2)
+			(end -0.2 -0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4134abdb-c67e-4497-bbd3-2da37789182b")
+		)
+		(fp_line
+			(start 0.1 -0.2)
+			(end -0.2 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ab939dc5-6703-45fb-b957-994db8047a38")
+		)
+		(fp_line
+			(start 0.1 0)
+			(end 0.25 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8dfbdcbb-ce8b-47e7-b3e0-1c11c59446e4")
+		)
+		(fp_line
+			(start 0.1 0.2)
+			(end 0.1 -0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a230638b-815f-4207-a25c-4bbcd3a2548f")
+		)
+		(fp_line
+			(start 0.65 -0.45)
+			(end 0.65 0.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fdac1f94-d40c-4a3d-a9bf-82c6f657c7f8")
+		)
+		(fp_line
+			(start 0.65 0.45)
+			(end -0.65 0.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6ef54828-e8b8-48e5-b5a5-2482deeb50f2")
+		)
+		(pad "1" smd roundrect
+			(at -0.7 0 180)
+			(size 0.6 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 29 "/INPUT11")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "2d8e42f9-3768-45be-b25f-e31cd26c4821")
+		)
+		(pad "2" smd roundrect
+			(at 0.7 0 180)
+			(size 0.6 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 59 "Net-(D52-A)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "2d529781-bc40-4b3d-99a3-10855ddb9058")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-523.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "TH-A1OC:tact_switch_4.5x4.5_PTS647"
 		(layer "F.Cu")
 		(uuid "586801e1-9e8e-411c-a21c-80408e6a4a5d")
 		(at 85.845455 52.85 90)
-		(property "Reference" "SW34"
+		(property "Reference" "SW22"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8118,7 +9691,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 41 "Net-(D34-A)")
+			(net 26 "Net-(D22-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -8131,7 +9704,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 41 "Net-(D34-A)")
+			(net 26 "Net-(D22-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -8161,7 +9734,7 @@
 		(property "Reference" "C3"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
-			(uuid "def63f79-b712-42cc-bbbd-c6321d5e5090")
+			(uuid "ba1e2ac9-b260-4fab-85ff-5708dd6a72dd")
 			(effects
 				(font
 					(size 1 1)
@@ -8172,7 +9745,7 @@
 		(property "Value" "12pF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "766ce267-951f-439c-821d-4d9ce5f17b00")
+			(uuid "eb348d5c-37dc-4d58-a5fc-4a9d46b915ef")
 			(effects
 				(font
 					(size 1 1)
@@ -8184,7 +9757,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cdffa929-9ec0-44b5-985b-eb0363b59c3b")
+			(uuid "013d055c-752b-47e7-a94e-58e394c18dd7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8196,7 +9769,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bb71b420-cc9b-46f7-acca-7f90de6985f8")
+			(uuid "e1baa30f-b051-449c-9ae5-3e1ee91ecfbd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8351,7 +9924,7 @@
 		(at 68.863636 63.9)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D43"
+		(property "Reference" "D31"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -8669,7 +10242,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 50 "Net-(D43-A)")
+			(net 38 "Net-(D31-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "78861055-7121-47a3-91f7-fcc5f4fe5a87")
@@ -8691,7 +10264,7 @@
 		(layer "F.Cu")
 		(uuid "61bf42c8-ff4f-41d9-8dc9-2c527364ad55")
 		(at 79.318182 62 90)
-		(property "Reference" "SW45"
+		(property "Reference" "SW33"
 			(at 1 0.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8923,7 +10496,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 52 "Net-(D45-A)")
+			(net 40 "Net-(D33-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -8936,7 +10509,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 52 "Net-(D45-A)")
+			(net 40 "Net-(D33-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -8963,7 +10536,7 @@
 		(at 75.340909 63.9)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D44"
+		(property "Reference" "D32"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -9281,7 +10854,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 51 "Net-(D44-A)")
+			(net 39 "Net-(D32-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "f9546d1c-6315-430e-94eb-e36dd88e036e")
@@ -9305,7 +10878,7 @@
 		(at 36.527273 54.75)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D26"
+		(property "Reference" "D14"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -9623,7 +11196,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 33 "Net-(D26-A)")
+			(net 12 "Net-(D14-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "76b078ca-13a3-47ec-aafe-1ae1cb36a05a")
@@ -9644,14 +11217,14 @@
 	(footprint "Diode_SMD:D_SOD-523"
 		(layer "F.Cu")
 		(uuid "668be9df-5995-42e7-866a-dce514634127")
-		(at 30.05 73.2)
+		(at 31.8 73.25)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D49"
+		(property "Reference" "D37"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a6da18b3-55e8-4c3a-8e13-8b3d127db082")
+			(uuid "43a52d9e-18e5-4229-8a8e-a6251449d2c4")
 			(effects
 				(font
 					(size 1 1)
@@ -9663,7 +11236,7 @@
 			(at 0 1.4 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3856a522-ad29-4c62-830f-608a7d7b482b")
+			(uuid "de8d5702-fe24-493a-85d9-373bc3ec0de5")
 			(effects
 				(font
 					(size 1 1)
@@ -9676,7 +11249,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "83b45383-4068-480f-a7db-f0bdd0f4b140")
+			(uuid "6e02607b-2175-489b-bbff-0ca3fa927d81")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9689,7 +11262,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1113cdc1-f44b-41d3-b9be-1f90db0a1e9c")
+			(uuid "4c68f3f5-254d-4d5f-92a7-feb48ad553d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9965,7 +11538,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 56 "Net-(D49-A)")
+			(net 44 "Net-(D37-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "17d8aeaf-f5a0-49ea-8db0-f01b1bd715a1")
@@ -9986,14 +11559,14 @@
 	(footprint "Diode_SMD:D_SOD-523"
 		(layer "F.Cu")
 		(uuid "68b55412-53fb-49d2-9e99-4cbd296cc39f")
-		(at 89.065957 102.5)
+		(at 63 86)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D59"
+		(property "Reference" "D48"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "9f1721f3-014f-4b6f-acce-01b7c861b784")
+			(uuid "7981b456-7d5f-4d7a-8426-97696e3a8370")
 			(effects
 				(font
 					(size 1 1)
@@ -10005,7 +11578,7 @@
 			(at 0 1.4 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "520fa361-cf5a-4a3d-8743-66242378055f")
+			(uuid "d1e79fd2-4086-4ccd-8a6a-c97fad470d8b")
 			(effects
 				(font
 					(size 1 1)
@@ -10018,7 +11591,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5a13cecf-9975-4d20-a301-920ce8c9f18f")
+			(uuid "b6ad86d0-cca2-4ad1-8e11-54641d82748b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10031,7 +11604,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0dcb688b-9ee0-4b51-ba7b-7da95867f092")
+			(uuid "47789eed-9d2d-4caa-809c-b87c097b3554")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10297,7 +11870,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 14 "/INPUT3")
+			(net 21 "/INPUT7")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "c4f17e56-bba8-410b-a965-7647843cdf33")
@@ -10307,7 +11880,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 64 "Net-(D59-A)")
+			(net 55 "Net-(D48-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "30862f89-2957-4468-bec3-a244e1c5c66a")
@@ -10329,7 +11902,7 @@
 		(layer "F.Cu")
 		(uuid "6a6ed26b-4137-483c-9622-a8ffa737683c")
 		(at 40.504545 43.75 90)
-		(property "Reference" "SW15"
+		(property "Reference" "SW3"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10345,6 +11918,7 @@
 			(at 7.5 1.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8f803c2e-5e43-444c-bc65-0d1e8690d671")
 			(effects
 				(font
@@ -10560,7 +12134,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 15 "Net-(D15-A)")
+			(net 60 "Net-(D3-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -10573,7 +12147,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 15 "Net-(D15-A)")
+			(net 60 "Net-(D3-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -10600,7 +12174,7 @@
 		(at 36.477273 63.9)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D38"
+		(property "Reference" "D26"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -10918,7 +12492,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 45 "Net-(D38-A)")
+			(net 33 "Net-(D26-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "ea062238-c8b0-4bd8-9627-4a719804b179")
@@ -10940,7 +12514,7 @@
 		(layer "F.Cu")
 		(uuid "6c280c4f-2a8b-497c-8c35-3d752502d3dc")
 		(at 46.981818 43.75 90)
-		(property "Reference" "SW16"
+		(property "Reference" "SW4"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10956,6 +12530,7 @@
 			(at 7.5 1.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8afb2b37-3b4e-4cf4-a885-65636bfa1f02")
 			(effects
 				(font
@@ -11171,7 +12746,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 16 "Net-(D16-A)")
+			(net 61 "Net-(D4-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -11184,7 +12759,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 16 "Net-(D16-A)")
+			(net 61 "Net-(D4-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -11211,11 +12786,11 @@
 		(at 55.9 73.2)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D1"
+		(property "Reference" "D41"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "1b8aea3d-d676-48f8-8158-7dff950dc51f")
+			(uuid "b1b8dae4-0c6c-4f90-8427-49f0b284b85d")
 			(effects
 				(font
 					(size 1 1)
@@ -11227,7 +12802,7 @@
 			(at 0 1.4 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d15abec3-d47e-4486-ae9f-05a045d408bd")
+			(uuid "3808fd03-1e12-44ff-b144-e22f0a7c837c")
 			(effects
 				(font
 					(size 1 1)
@@ -11240,7 +12815,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "906632a0-96fe-45d1-b02c-d32d2675db91")
+			(uuid "75d1cc1a-8758-40ab-9042-73e660a9b980")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11253,7 +12828,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "de8714ba-20d9-4e95-8db4-a0c1c0520dc8")
+			(uuid "94c96eaa-b6a2-4576-9c02-ce0526452a16")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11529,7 +13104,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 7 "Net-(D1-A)")
+			(net 48 "Net-(D41-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "bf5d3c81-60ca-449a-a666-c13b3ba4edd2")
@@ -11551,7 +13126,7 @@
 		(layer "F.Cu")
 		(uuid "73f73cfa-4796-4d0c-9a22-23460e782a7a")
 		(at 27.55 43.75 90)
-		(property "Reference" "SW13"
+		(property "Reference" "SW1"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11567,6 +13142,7 @@
 			(at 7.5 1.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ff62d166-7b0a-4263-8fe8-1f7c377e4fa7")
 			(effects
 				(font
@@ -11782,7 +13358,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 11 "Net-(D13-A)")
+			(net 7 "Net-(D1-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -11795,7 +13371,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 11 "Net-(D13-A)")
+			(net 7 "Net-(D1-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -11822,7 +13398,7 @@
 		(at 80.15 73.2)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D54"
+		(property "Reference" "D43"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -12140,7 +13716,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 60 "Net-(D54-A)")
+			(net 50 "Net-(D43-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "7716bdfc-d552-4bf3-97c4-8d64fc1398c8")
@@ -12164,7 +13740,7 @@
 		(at 30 63.9)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D37"
+		(property "Reference" "D25"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -12482,7 +14058,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 44 "Net-(D37-A)")
+			(net 32 "Net-(D25-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "8c127932-bd6f-4a06-af53-c02cad6febfd")
@@ -12504,7 +14080,7 @@
 		(layer "F.Cu")
 		(uuid "7bb24df1-f7af-4d0d-b7ad-b9e48f63cc19")
 		(at 46.9375 71.25 90)
-		(property "Reference" "SW52"
+		(property "Reference" "SW40"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12736,7 +14312,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 59 "Net-(D52-A)")
+			(net 47 "Net-(D40-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -12749,7 +14325,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 59 "Net-(D52-A)")
+			(net 47 "Net-(D40-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -12776,7 +14352,7 @@
 		(at 55.909091 63.9)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D41"
+		(property "Reference" "D29"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -13094,7 +14670,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 48 "Net-(D41-A)")
+			(net 36 "Net-(D29-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "0941aeb5-1d80-4a6f-9b4b-fefad63aa228")
@@ -13121,7 +14697,7 @@
 		(property "Reference" "C4"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
-			(uuid "336eb741-ad54-43eb-8624-60477edd9a59")
+			(uuid "7b9583ac-9413-422a-b596-347c9fd46a2e")
 			(effects
 				(font
 					(size 1 1)
@@ -13132,7 +14708,7 @@
 		(property "Value" "12pF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "b732dbfd-80e6-4707-8baf-db785fa874e4")
+			(uuid "dc428018-d79f-4b40-8c0d-ecf9fdbcca02")
 			(effects
 				(font
 					(size 1 1)
@@ -13144,7 +14720,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a9d78ba5-3fe4-4131-ba8f-02990a165139")
+			(uuid "dd7a4b4b-bbf1-4910-9f01-9294a2205afa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13156,7 +14732,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "43600988-fdb4-4ec6-a9f3-64967ca14a9e")
+			(uuid "3e718174-824f-48fa-b047-20a315981cb9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13305,6 +14881,276 @@
 			)
 		)
 	)
+	(footprint "TH-A1OC:tact_switch_4.5x4.5_PTS647"
+		(layer "F.Cu")
+		(uuid "84bc2dde-b202-436a-8961-b17dd60e740c")
+		(at 98.8 81.05 90)
+		(property "Reference" "SW53"
+			(at 1 5 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "cbde2371-b8ee-4a6a-9b7d-123c7cbfb01c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "C7"
+			(at 7.5 1.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bc36865a-108b-4497-9db3-61cb69c15611")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b4eef55-2272-4080-b326-66d28aee8144")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5bdc81c-5ac2-4419-b4c9-3627f47c44e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3342587f-f7d0-4c0b-83cb-85231af881d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr. Part no." "PTS647SM50SMTR2LFS"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a316d127-c284-4ad7-9105-8e6fd3838451")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part no." "C2689518"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b2e6372-2fa5-4860-9fd4-4c84758d82f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/C2689518.html?s_z=n_4.5mm%20push%20button%20SMT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c71eb058-2efc-434d-a0e9-bd67132356ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/06aa71d7-a758-43a0-a594-223187e74e2d")
+		(sheetname "/")
+		(sheetfile "keyboard.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 2.65 0)
+			(end 2.65 0.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "0a651563-e216-46ab-b249-368edbaa046c")
+		)
+		(fp_line
+			(start 1.1 0)
+			(end 4.2 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "91d620a0-7948-4e24-97ca-c1f60445c835")
+		)
+		(fp_line
+			(start 2.65 0.8)
+			(end 1.9 1.9)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "05614eef-3c11-45e7-9c01-952cffbd21da")
+		)
+		(fp_line
+			(start 2.65 3.2)
+			(end 2.65 2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "b2f9695e-ebd5-4f34-97bb-1f8ea7a79cf9")
+		)
+		(fp_line
+			(start 2.65 3.2)
+			(end 2.65 2.4)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "0977f49d-e2f3-4cc1-b708-69c61d5b0897")
+		)
+		(fp_line
+			(start 1 3.2)
+			(end 4.3 3.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "a3f075f0-49f5-4c1b-8e8a-ddbcd7645f71")
+		)
+		(fp_rect
+			(start 0.1 -0.9)
+			(end 5.1 4.1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "1d82f35e-eb6e-4644-ae96-78e1a6c829f5")
+		)
+		(fp_rect
+			(start -1.05 -1.1)
+			(end 6.3 4.3)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "903b5dbc-d4fa-4ebc-b98a-a3c3b75e43bd")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 2.6 1.6 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "aab37687-a223-4c0f-b088-da9c2667c8d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0 90)
+			(size 1.55 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 77 "/SOURCE5")
+			(pinfunction "1")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin 0.1)
+			(clearance 0.1)
+			(uuid "f8846c74-2118-45dd-a261-d1b14d109b7f")
+		)
+		(pad "1" smd roundrect
+			(at 5.25 0 90)
+			(size 1.55 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 77 "/SOURCE5")
+			(pinfunction "1")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin 0.1)
+			(clearance 0.1)
+			(uuid "3d364de8-0e40-424a-a2b9-89a4f45f59d7")
+		)
+		(pad "2" smd roundrect
+			(at 0 3.2 90)
+			(size 1.55 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 110 "Net-(D53-A)")
+			(pinfunction "2")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin 0.1)
+			(clearance 0.1)
+			(uuid "5349fa9f-56dc-45ed-b3cf-32ef3092a63d")
+		)
+		(pad "2" smd roundrect
+			(at 5.25 3.2 90)
+			(size 1.55 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 110 "Net-(D53-A)")
+			(pinfunction "2")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin 0.1)
+			(clearance 0.1)
+			(uuid "844733ed-98af-431c-8da0-9feb3372fc33")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../../lib/3D_models/4.5mm_button.stp"
+			(offset
+				(xyz 14.85 0.6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "85779169-f52a-46be-b27a-9efab46f8fd6")
@@ -13314,7 +15160,7 @@
 		(property "Reference" "R2"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
-			(uuid "96edc605-4557-4833-8991-d035a197971b")
+			(uuid "3578eed3-a49d-4eb0-b3c3-dd729a0eb89c")
 			(effects
 				(font
 					(size 1 1)
@@ -13325,7 +15171,7 @@
 		(property "Value" "27R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "c1078eb4-2518-4ff0-969b-02b7f81cd0c4")
+			(uuid "67ae68b5-a670-42c2-9d13-8a0e2c3130b2")
 			(effects
 				(font
 					(size 1 1)
@@ -13337,7 +15183,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6b20ab80-3253-4b22-a9fa-b58b073c2753")
+			(uuid "c844b63f-a44b-4d4f-a547-a6880aef8958")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13349,7 +15195,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e3dce100-84fc-40fe-90dc-437e75b305ef")
+			(uuid "1c718277-1e81-486d-a81a-7bbe6c3cf71b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13502,11 +15348,11 @@
 		(layer "F.Cu")
 		(uuid "887b6a0d-b74b-444f-abe3-a54456a8537d")
 		(at 70.6 71.25 90)
-		(property "Reference" "SW2"
+		(property "Reference" "SW42"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "9961eebc-76fc-49a8-90a6-940e46cd1dfd")
+			(uuid "d110d36b-5427-48f0-b46e-fced1425a3dd")
 			(effects
 				(font
 					(size 1 1)
@@ -13519,7 +15365,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "79c5d462-59ec-43ef-b1b7-13f72d9b9c99")
+			(uuid "4c15ca99-a647-447b-8d28-672e13cf5d80")
 			(effects
 				(font
 					(size 1 1)
@@ -13532,7 +15378,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "751b7e48-f9e0-4a1b-851c-6b20b37a5d68")
+			(uuid "4b52fb77-75eb-4727-a62e-d8b778b588a2")
 			(effects
 				(font
 					(size 1 1)
@@ -13545,7 +15391,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "70a628e9-19ef-4228-9dc8-346be6718bc5")
+			(uuid "a75260c3-80e6-470b-94a9-64a994096aef")
 			(effects
 				(font
 					(size 1 1)
@@ -13734,7 +15580,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 8 "Net-(D2-A)")
+			(net 49 "Net-(D42-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -13747,7 +15593,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 8 "Net-(D2-A)")
+			(net 49 "Net-(D42-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -13774,7 +15620,7 @@
 		(at 62.386364 63.9)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D42"
+		(property "Reference" "D30"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -14092,7 +15938,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 49 "Net-(D42-A)")
+			(net 37 "Net-(D30-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "28743e78-09cd-4579-b9f1-c026f0e0702d")
@@ -14116,7 +15962,7 @@
 		(at 94.25 73.2)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D56"
+		(property "Reference" "D45"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -14434,7 +16280,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 62 "Net-(D56-A)")
+			(net 52 "Net-(D45-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "2030908a-9c7d-49be-844f-da83add95e17")
@@ -14456,7 +16302,7 @@
 		(layer "F.Cu")
 		(uuid "8a3cba41-f71a-4636-9968-f1caad79e65c")
 		(at 53.409091 62 90)
-		(property "Reference" "SW41"
+		(property "Reference" "SW29"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14688,7 +16534,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 48 "Net-(D41-A)")
+			(net 36 "Net-(D29-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -14701,7 +16547,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 48 "Net-(D41-A)")
+			(net 36 "Net-(D29-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -14728,7 +16574,7 @@
 		(at 87.2 73.2)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D55"
+		(property "Reference" "D44"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -15046,7 +16892,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 61 "Net-(D55-A)")
+			(net 51 "Net-(D44-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "ec462661-5917-4b11-87e1-31893329bee2")
@@ -15073,7 +16919,7 @@
 		(property "Reference" "TP1"
 			(at 0 -1.998 0)
 			(layer "F.SilkS")
-			(uuid "10eec78a-9908-41b6-a7bb-76bf5ecabf8a")
+			(uuid "b525a70b-0937-47bd-8d88-e76a22727ae6")
 			(effects
 				(font
 					(size 1 1)
@@ -15084,7 +16930,7 @@
 		(property "Value" "TestPoint"
 			(at 0 2.05 0)
 			(layer "F.Fab")
-			(uuid "6e5e7785-fe8e-4ee0-a5c4-912e1c1f9cde")
+			(uuid "8bde3c92-f3e5-4570-82ae-fce084397e28")
 			(effects
 				(font
 					(size 1 1)
@@ -15097,7 +16943,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7248826a-0706-4b76-967a-1bb8864aa227")
+			(uuid "a08ee61c-4166-418e-9998-a0c4298a0fed")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15110,7 +16956,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a48eb367-d09e-462e-9c38-7c6c18da29c5")
+			(uuid "55e83e1b-e06b-41ef-831a-69e1a7068a1d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15171,7 +17017,7 @@
 		(layer "F.Cu")
 		(uuid "8f2b12f9-b002-4096-847d-4b086e4d9a7a")
 		(at 40.454545 62 90)
-		(property "Reference" "SW39"
+		(property "Reference" "SW27"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15403,7 +17249,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 46 "Net-(D39-A)")
+			(net 34 "Net-(D27-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -15416,7 +17262,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 46 "Net-(D39-A)")
+			(net 34 "Net-(D27-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -15441,7 +17287,7 @@
 		(layer "F.Cu")
 		(uuid "8fc17d9c-5e72-4009-b7c2-14047f7bc3d4")
 		(at 98.75 62 90)
-		(property "Reference" "SW48"
+		(property "Reference" "SW36"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15673,7 +17519,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 55 "Net-(D48-A)")
+			(net 43 "Net-(D36-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -15686,7 +17532,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 55 "Net-(D48-A)")
+			(net 43 "Net-(D36-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -15710,14 +17556,14 @@
 	(footprint "Diode_SMD:D_SOD-523"
 		(layer "F.Cu")
 		(uuid "945a6370-4657-471e-8d50-3ccfbdffc79a")
-		(at 92.682979 102.5)
+		(at 87 83)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D62"
+		(property "Reference" "D51"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "21204043-1134-4f27-93bf-bb3f909fbe40")
+			(uuid "f66c12fe-d5f3-4137-9881-223f1286f80e")
 			(effects
 				(font
 					(size 1 1)
@@ -15729,7 +17575,7 @@
 			(at 0 1.4 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bc775d4f-1124-4550-ab0c-40fab51072df")
+			(uuid "f370d8ae-307f-4b4e-bbae-0c96ca018275")
 			(effects
 				(font
 					(size 1 1)
@@ -15742,7 +17588,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a0f77976-ea42-4e5e-92b8-efdde0ec8b01")
+			(uuid "f00b1bca-3ed8-4029-9acf-0bd765d8e20f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15755,7 +17601,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c4b4b4db-8ce1-4ff1-8d68-34effe1eb023")
+			(uuid "283ef259-6c9a-4453-96d3-1dec7e7d74c1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16021,7 +17867,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 25 "/INPUT9")
+			(net 27 "/INPUT10")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "7946e60f-a916-4216-ac44-c742cbcb7571")
@@ -16031,7 +17877,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 65 "Net-(D62-A)")
+			(net 58 "Net-(D51-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "95d2474b-de14-4aa1-98ab-5b2a87ef6ccd")
@@ -16055,7 +17901,7 @@
 		(at 30.05 54.75)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D25"
+		(property "Reference" "D13"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -16373,7 +18219,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 32 "Net-(D25-A)")
+			(net 11 "Net-(D13-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "3762fa10-1ce8-43b3-9db7-e6f6795e844b")
@@ -16395,7 +18241,7 @@
 		(layer "F.Cu")
 		(uuid "9814bfe6-0f13-4a64-943b-f3f74d33f9f0")
 		(at 79.368182 43.75 90)
-		(property "Reference" "SW21"
+		(property "Reference" "SW9"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16411,6 +18257,7 @@
 			(at 7.5 1.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0593acd9-59b9-4cf3-a0cf-4e31b49be88c")
 			(effects
 				(font
@@ -16626,7 +18473,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 24 "Net-(D21-A)")
+			(net 106 "Net-(D9-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -16639,7 +18486,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 24 "Net-(D21-A)")
+			(net 106 "Net-(D9-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -16664,7 +18511,7 @@
 		(layer "F.Cu")
 		(uuid "990174dd-a216-465e-b71d-5d0551aa2a2c")
 		(at 34.027273 52.85 90)
-		(property "Reference" "SW26"
+		(property "Reference" "SW14"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16896,7 +18743,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 33 "Net-(D26-A)")
+			(net 12 "Net-(D14-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -16909,7 +18756,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 33 "Net-(D26-A)")
+			(net 12 "Net-(D14-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -16930,11 +18777,353 @@
 			)
 		)
 	)
+	(footprint "Diode_SMD:D_SOD-523"
+		(layer "F.Cu")
+		(uuid "990f2769-1cd4-4f6f-861d-4f2bd5eee9bc")
+		(at 69.55 86)
+		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
+		(tags "Diode SOD523")
+		(property "Reference" "D49"
+			(at 0 -1.3 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "afc6f515-7e35-4688-8342-4b20c208f5a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 0 1.4 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b022987-b192-43fc-8b0e-3168a537273a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4271899-78e7-4737-80eb-72b3feef7a40")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "245713e4-1117-46f1-a2c4-9dc17186236f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f6177d4-f17a-4fa4-866c-46433b6bc3db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d77f2a3-348f-407d-b6c9-2cf514ea011d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YONGYUTAI"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f86da7c-ef9c-4b70-9418-b49a79fca9eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr. Part no." "CD4148WTP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a934cad-ab52-462c-a64e-76d2c4dc0821")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part no." "C30584800"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "824f2402-40af-4135-ab5b-e5e8985ed2db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/C30584800.html"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64607ed1-1dc9-4bd7-a51a-5154f02d63e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
+		(path "/ae3d4ead-d578-4561-9964-f05c242d4755")
+		(sheetname "/")
+		(sheetfile "keyboard.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -1.26 -0.6)
+			(end -1.26 0.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d2360ef0-3521-4a5e-a060-33ca00fda4b0")
+		)
+		(fp_line
+			(start 0.7 -0.6)
+			(end -1.26 -0.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7009bce7-0f2b-4586-a9db-c7f75eff8b4c")
+		)
+		(fp_line
+			(start 0.7 0.6)
+			(end -1.26 0.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c888e129-5567-4b00-a96f-fe166599b476")
+		)
+		(fp_line
+			(start -1.25 -0.7)
+			(end 1.25 -0.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "97eab6cf-8fdc-4159-9d8a-37571e4484ca")
+		)
+		(fp_line
+			(start -1.25 0.7)
+			(end -1.25 -0.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "047490c6-afb4-4713-b4b0-58413a94c6fd")
+		)
+		(fp_line
+			(start 1.25 -0.7)
+			(end 1.25 0.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9e0a4a91-0785-4392-9522-1bf764fd2886")
+		)
+		(fp_line
+			(start 1.25 0.7)
+			(end -1.25 0.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "63eb7c3c-b2f3-4e03-8335-ea89bd5b9d92")
+		)
+		(fp_line
+			(start -0.65 -0.45)
+			(end 0.65 -0.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b0fb8e45-19fb-4a8e-be2b-d14dc562ea56")
+		)
+		(fp_line
+			(start -0.65 0.45)
+			(end -0.65 -0.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "56b24511-2027-4933-a08c-8080a66ef731")
+		)
+		(fp_line
+			(start -0.2 0)
+			(end -0.35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b29913af-0a62-4724-822e-1bb05087be1e")
+		)
+		(fp_line
+			(start -0.2 0)
+			(end 0.1 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "db9d7c4f-288a-465e-90a6-74df2e8a3fbd")
+		)
+		(fp_line
+			(start -0.2 0.2)
+			(end -0.2 -0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3446d340-d0c9-4b40-bea3-09aaa3389f1d")
+		)
+		(fp_line
+			(start 0.1 -0.2)
+			(end -0.2 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6727769a-436d-4a5c-a611-9062232e0a9f")
+		)
+		(fp_line
+			(start 0.1 0)
+			(end 0.25 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ebea4238-dc06-43de-8e3c-7725b856e63c")
+		)
+		(fp_line
+			(start 0.1 0.2)
+			(end 0.1 -0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0951417a-9068-4551-88bc-7ec20806984f")
+		)
+		(fp_line
+			(start 0.65 -0.45)
+			(end 0.65 0.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ef2817ff-2614-4e40-b4ef-7e59ca52af10")
+		)
+		(fp_line
+			(start 0.65 0.45)
+			(end -0.65 0.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "805fc060-0c68-4e3d-b245-67825ee2ea3a")
+		)
+		(pad "1" smd roundrect
+			(at -0.7 0 180)
+			(size 0.6 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 9 "/INPUT8")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "03d8ef5d-6682-47dc-b667-72d08b6ffb7a")
+		)
+		(pad "2" smd roundrect
+			(at 0.7 0 180)
+			(size 0.6 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 56 "Net-(D49-A)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "82a2d16b-d480-4297-a148-191df1e296c4")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-523.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "TH-A1OC:tact_switch_4.5x4.5_PTS647"
 		(layer "F.Cu")
 		(uuid "9b0fcc76-ad44-4f98-b680-4cbc1637812d")
 		(at 72.890909 43.75 90)
-		(property "Reference" "SW20"
+		(property "Reference" "SW8"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16950,6 +19139,7 @@
 			(at 7.5 1.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "036c69ef-71a5-481b-ba52-cf44d4beb01c")
 			(effects
 				(font
@@ -17165,7 +19355,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 23 "Net-(D20-A)")
+			(net 65 "Net-(D8-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -17178,7 +19368,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 23 "Net-(D20-A)")
+			(net 65 "Net-(D8-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -17205,7 +19395,7 @@
 		(at 88.345455 54.75)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D34"
+		(property "Reference" "D22"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -17523,7 +19713,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 41 "Net-(D34-A)")
+			(net 26 "Net-(D22-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "5013ee24-f44c-4ace-9529-7d2b607df5b2")
@@ -17550,7 +19740,7 @@
 		(property "Reference" "R4"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
-			(uuid "39d5a698-a479-4a39-9d3c-ead69db36b90")
+			(uuid "c4e84f88-d6a4-4855-8e5c-9f59055c5a88")
 			(effects
 				(font
 					(size 1 1)
@@ -17561,7 +19751,7 @@
 		(property "Value" "10K"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "8499f65e-af00-4ecc-baba-b5b1467f06ce")
+			(uuid "d8c7c314-a378-42a7-bb1e-99408f5d031e")
 			(effects
 				(font
 					(size 1 1)
@@ -17573,7 +19763,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3a5a205e-3f7c-41d3-b48d-dd9f936b02b3")
+			(uuid "8bf9e955-3b75-42ce-bf75-3e3beb21cbd8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17585,7 +19775,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a89c1aa7-9dd2-4af0-812e-eb662cb350c9")
+			(uuid "28f7060e-2964-40fb-85a9-6f0d160973d3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17738,7 +19928,7 @@
 		(layer "F.Cu")
 		(uuid "a2bb2f87-1ebc-4cd3-8ba0-6bab3c46ef81")
 		(at 72.890909 52.85 90)
-		(property "Reference" "SW32"
+		(property "Reference" "SW20"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17970,7 +20160,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 39 "Net-(D32-A)")
+			(net 23 "Net-(D20-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -17983,7 +20173,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 39 "Net-(D32-A)")
+			(net 23 "Net-(D20-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -18008,7 +20198,7 @@
 		(layer "F.Cu")
 		(uuid "a391e76a-a391-4e4e-8c2d-7f601688047f")
 		(at 79.368182 52.85 90)
-		(property "Reference" "SW33"
+		(property "Reference" "SW21"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18240,7 +20430,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 40 "Net-(D33-A)")
+			(net 24 "Net-(D21-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -18253,7 +20443,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 40 "Net-(D33-A)")
+			(net 24 "Net-(D21-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -18280,11 +20470,11 @@
 		(at 73.1 73.2)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D2"
+		(property "Reference" "D42"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ab1e1ba9-1ffd-414d-8c0a-4dc30a610f78")
+			(uuid "895fb491-68e7-45fe-999d-e0e2f3400d40")
 			(effects
 				(font
 					(size 1 1)
@@ -18296,7 +20486,7 @@
 			(at 0 1.4 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5377b0a7-0563-486e-9c11-fdf8cfc0b6d0")
+			(uuid "05ff7b4b-52ab-4255-825a-a86c78a87507")
 			(effects
 				(font
 					(size 1 1)
@@ -18309,7 +20499,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ffa04b23-9ee4-4e48-8be1-efb1afdf91ea")
+			(uuid "98d58416-84bb-4d62-8074-0f977d225276")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18322,7 +20512,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a8f4df03-a357-4460-9e0e-32d292b83e88")
+			(uuid "034fceb7-f309-4c49-a896-1c96552bfad1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18598,7 +20788,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 8 "Net-(D2-A)")
+			(net 49 "Net-(D42-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "525b8fd7-9523-4740-b726-8fc6f724d598")
@@ -18620,7 +20810,7 @@
 		(layer "F.Cu")
 		(uuid "a43ee38a-fa43-459d-9da0-757d644ac195")
 		(at 53.459091 43.75 90)
-		(property "Reference" "SW17"
+		(property "Reference" "SW5"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18636,6 +20826,7 @@
 			(at 7.5 1.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "2637f92a-3965-4d99-9a86-4b7328b69f62")
 			(effects
 				(font
@@ -18851,7 +21042,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 18 "Net-(D17-A)")
+			(net 62 "Net-(D5-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -18864,7 +21055,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 18 "Net-(D17-A)")
+			(net 62 "Net-(D5-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -18891,7 +21082,7 @@
 		(at 36.527273 45.6)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D14"
+		(property "Reference" "D2"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -19209,7 +21400,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 12 "Net-(D14-A)")
+			(net 8 "Net-(D2-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "b015c52f-58e9-427a-96ae-0ead0db19565")
@@ -19231,7 +21422,7 @@
 		(layer "F.Cu")
 		(uuid "a799260a-98ee-461f-9ded-e1178c841928")
 		(at 27.55 71.25 90)
-		(property "Reference" "SW49"
+		(property "Reference" "SW37"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19463,7 +21654,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 56 "Net-(D49-A)")
+			(net 44 "Net-(D37-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -19476,7 +21667,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 56 "Net-(D49-A)")
+			(net 44 "Net-(D37-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -19501,7 +21692,7 @@
 		(layer "F.Cu")
 		(uuid "a95f8707-8520-4950-a55f-a69682defba6")
 		(at 84.7 71.25 90)
-		(property "Reference" "SW55"
+		(property "Reference" "SW44"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19733,7 +21924,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 61 "Net-(D55-A)")
+			(net 51 "Net-(D44-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -19746,7 +21937,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 61 "Net-(D55-A)")
+			(net 51 "Net-(D44-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -19771,7 +21962,7 @@
 		(layer "F.Cu")
 		(uuid "ab901e7b-b84f-400a-910c-95540b599593")
 		(at 33.977273 62 90)
-		(property "Reference" "SW38"
+		(property "Reference" "SW26"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20003,7 +22194,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 45 "Net-(D38-A)")
+			(net 33 "Net-(D26-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -20016,7 +22207,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 45 "Net-(D38-A)")
+			(net 33 "Net-(D26-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -20043,7 +22234,7 @@
 		(at 43.004545 45.6)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D15"
+		(property "Reference" "D3"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -20361,7 +22552,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 15 "Net-(D15-A)")
+			(net 60 "Net-(D3-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "2d5efe54-281f-461c-8af8-7899daf6bab0")
@@ -20383,7 +22574,7 @@
 		(layer "F.Cu")
 		(uuid "b18fd002-ae52-4981-9044-96218b22e66c")
 		(at 59.936364 52.85 90)
-		(property "Reference" "SW30"
+		(property "Reference" "SW18"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20615,7 +22806,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 37 "Net-(D30-A)")
+			(net 20 "Net-(D18-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -20628,7 +22819,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 37 "Net-(D30-A)")
+			(net 20 "Net-(D18-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -20655,7 +22846,7 @@
 		(at 101.25 63.9)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D48"
+		(property "Reference" "D36"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -20973,7 +23164,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 55 "Net-(D48-A)")
+			(net 43 "Net-(D36-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "4fd2e02d-7c0e-4030-94c3-2fb0ad0a8a28")
@@ -20997,7 +23188,7 @@
 		(at 49.481818 45.6)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D16"
+		(property "Reference" "D4"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -21315,7 +23506,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 16 "Net-(D16-A)")
+			(net 61 "Net-(D4-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "78eb2548-939a-4112-95a0-a732c9a990d6")
@@ -21336,12 +23527,12 @@
 	(footprint "TH-A1OC:tact_switch_4.5x4.5_PTS647"
 		(layer "F.Cu")
 		(uuid "b22fcda1-c33e-4d93-aeb8-034c1d2c39ef")
-		(at -22.5 113.3)
-		(property "Reference" "SW59"
-			(at 1 5 0)
+		(at 60.5 84.25 90)
+		(property "Reference" "SW48"
+			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "be45404a-e621-470a-af85-8c552514ef72")
+			(uuid "5ec0d91a-ce0f-47d6-9fd3-b3f2e4e80dbe")
 			(effects
 				(font
 					(size 1 1)
@@ -21350,10 +23541,11 @@
 			)
 		)
 		(property "Value" "C2"
-			(at 7.5 1.5 270)
+			(at 7.5 1.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "311634bc-1616-4b47-9b17-21d18ca2f92b")
+			(hide yes)
+			(uuid "a69e8b83-d761-4446-b51f-4f8fe42403e6")
 			(effects
 				(font
 					(size 1 1)
@@ -21362,11 +23554,11 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d31d8867-1baa-4ebd-a464-29641324a424")
+			(uuid "a41bc856-75aa-4c41-9a4a-81596669b983")
 			(effects
 				(font
 					(size 1 1)
@@ -21375,11 +23567,11 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6cd04fda-0380-4a9e-804c-3388d621431d")
+			(uuid "2a3fb554-a7b3-4378-90da-bc03bdfde351")
 			(effects
 				(font
 					(size 1 1)
@@ -21388,7 +23580,7 @@
 			)
 		)
 		(property "Manufacturer" "C&K"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21401,7 +23593,7 @@
 			)
 		)
 		(property "Mfr. Part no." "PTS647SM50SMTR2LFS"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21414,7 +23606,7 @@
 			)
 		)
 		(property "LCSC Part no." "C2689518"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21427,7 +23619,7 @@
 			)
 		)
 		(property "Distributor Link" "https://www.lcsc.com/product-detail/C2689518.html?s_z=n_4.5mm%20push%20button%20SMT"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21444,14 +23636,14 @@
 		(sheetfile "keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 1 3.2)
-			(end 4.3 3.2)
+			(start 2.65 0)
+			(end 2.65 0.8)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "a2658955-f23f-4766-a7f6-928e968b849f")
+			(uuid "e2b781d1-0fc9-4c85-b194-c0acda647df6")
 		)
 		(fp_line
 			(start 1.1 0)
@@ -21462,16 +23654,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "041a063f-5323-4b89-bda1-ebdd9b71b9c9")
-		)
-		(fp_line
-			(start 2.65 0)
-			(end 2.65 0.8)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "e2b781d1-0fc9-4c85-b194-c0acda647df6")
 		)
 		(fp_line
 			(start 2.65 0.8)
@@ -21503,6 +23685,16 @@
 			(layer "F.SilkS")
 			(uuid "6b08c139-5703-446f-9d94-33a6b9245779")
 		)
+		(fp_line
+			(start 1 3.2)
+			(end 4.3 3.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "a2658955-f23f-4766-a7f6-928e968b849f")
+		)
 		(fp_rect
 			(start 0.1 -0.9)
 			(end 5.1 4.1)
@@ -21526,7 +23718,7 @@
 			(uuid "41381010-9275-43e9-b750-437875e3843d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.6 1.6 0)
+			(at 2.6 1.6 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "64774124-167b-4f56-b99a-d9ca0bd82b5f")
@@ -21538,7 +23730,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
@@ -21551,7 +23743,7 @@
 			(uuid "65ecd74e-cd8b-44a8-a756-84191e7a636f")
 		)
 		(pad "1" smd roundrect
-			(at 5.25 0)
+			(at 5.25 0 90)
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
@@ -21564,11 +23756,11 @@
 			(uuid "893862d7-b283-4483-91e0-f50dd767540b")
 		)
 		(pad "2" smd roundrect
-			(at 0 3.2)
+			(at 0 3.2 90)
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 64 "Net-(D59-A)")
+			(net 55 "Net-(D48-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -21577,11 +23769,11 @@
 			(uuid "bca9b022-d320-4e74-88e0-1bdbfd1d8aa8")
 		)
 		(pad "2" smd roundrect
-			(at 5.25 3.2)
+			(at 5.25 3.2 90)
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 64 "Net-(D59-A)")
+			(net 55 "Net-(D48-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -21608,7 +23800,7 @@
 		(at 94.822727 45.6)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D23"
+		(property "Reference" "D11"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -21926,7 +24118,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 28 "Net-(D23-A)")
+			(net 108 "Net-(D11-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "044c74d3-b714-4a97-bb5d-7c58ed1bd9a8")
@@ -21946,9 +24138,279 @@
 	)
 	(footprint "TH-A1OC:tact_switch_4.5x4.5_PTS647"
 		(layer "F.Cu")
+		(uuid "b9cc119f-578d-4231-80d6-676eb52007e2")
+		(at 74.05 84.25 90)
+		(property "Reference" "SW50"
+			(at 1 5 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "906f71b2-558c-4dec-addf-9edcc61725bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "C4"
+			(at 7.5 1.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9cd413ce-581e-4b1e-876b-2a2b979c52a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a22dd3c1-b9fb-4eea-b7e6-f5227927fb1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0634fbe9-0bcb-4e6e-9fa6-2b8db941c449")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39d391c0-9e90-4d91-9405-0d735629481d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr. Part no." "PTS647SM50SMTR2LFS"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf9f8e84-979c-4692-8e54-1327c4baaef8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part no." "C2689518"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02a0701e-a748-4852-9c5d-28a0278e9b91")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/C2689518.html?s_z=n_4.5mm%20push%20button%20SMT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26d24c68-0792-4494-9f9e-d45d25f3ecbc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/7a7ee492-151c-4072-a9ed-f992ac7d87b3")
+		(sheetname "/")
+		(sheetfile "keyboard.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 2.65 0)
+			(end 2.65 0.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "a2000d28-fe74-437b-8166-4fb987a88882")
+		)
+		(fp_line
+			(start 1.1 0)
+			(end 4.2 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "0142f471-7ec8-48f2-bd62-142399330c54")
+		)
+		(fp_line
+			(start 2.65 0.8)
+			(end 1.9 1.9)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "a9015df2-3a7d-4628-97f7-24dd072ef713")
+		)
+		(fp_line
+			(start 2.65 3.2)
+			(end 2.65 2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "78df9897-ae58-4036-947f-cfce69d803b2")
+		)
+		(fp_line
+			(start 2.65 3.2)
+			(end 2.65 2.4)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "605ca769-b383-4102-91da-90edac580acb")
+		)
+		(fp_line
+			(start 1 3.2)
+			(end 4.3 3.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "f3196314-c860-40b1-a84c-703a041c22e0")
+		)
+		(fp_rect
+			(start 0.1 -0.9)
+			(end 5.1 4.1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "e37597b0-0f19-40e4-952d-dc38320d7035")
+		)
+		(fp_rect
+			(start -1.05 -1.1)
+			(end 6.3 4.3)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "80097d11-01f2-4f5e-840f-2adf6c893678")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 2.6 1.6 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "8617c89e-30c0-4ce0-81c0-2888a57eedd7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0 90)
+			(size 1.55 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 77 "/SOURCE5")
+			(pinfunction "1")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin 0.1)
+			(clearance 0.1)
+			(uuid "50664084-e806-4cb8-a615-8e15dab6c42f")
+		)
+		(pad "1" smd roundrect
+			(at 5.25 0 90)
+			(size 1.55 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 77 "/SOURCE5")
+			(pinfunction "1")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin 0.1)
+			(clearance 0.1)
+			(uuid "acd8fa8c-68a3-4680-b8c0-63545ebbef91")
+		)
+		(pad "2" smd roundrect
+			(at 0 3.2 90)
+			(size 1.55 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 57 "Net-(D50-A)")
+			(pinfunction "2")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin 0.1)
+			(clearance 0.1)
+			(uuid "064d4114-2ead-40f5-b078-f7130970d9da")
+		)
+		(pad "2" smd roundrect
+			(at 5.25 3.2 90)
+			(size 1.55 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 57 "Net-(D50-A)")
+			(pinfunction "2")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin 0.1)
+			(clearance 0.1)
+			(uuid "1fb0c0bf-0c1a-491d-94fa-288e53c94f42")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../../lib/3D_models/4.5mm_button.stp"
+			(offset
+				(xyz 14.85 0.6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+	)
+	(footprint "TH-A1OC:tact_switch_4.5x4.5_PTS647"
+		(layer "F.Cu")
 		(uuid "badeac46-d47b-43c9-84b8-3d484ad03441")
 		(at 27.55 52.85 90)
-		(property "Reference" "SW25"
+		(property "Reference" "SW13"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22180,7 +24642,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 32 "Net-(D25-A)")
+			(net 11 "Net-(D13-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -22193,7 +24655,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 32 "Net-(D25-A)")
+			(net 11 "Net-(D13-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -22220,7 +24682,7 @@
 		(at 88.345455 45.6)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D22"
+		(property "Reference" "D10"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -22538,7 +25000,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 26 "Net-(D22-A)")
+			(net 107 "Net-(D10-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "4979523e-a53b-41a4-92d5-350fa3f3648e")
@@ -22562,7 +25024,7 @@
 		(at 75.390909 54.75)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D32"
+		(property "Reference" "D20"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -22880,7 +25342,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 39 "Net-(D32-A)")
+			(net 23 "Net-(D20-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "39c1bd2b-93a5-4126-addd-a5f3f0aaa1d5")
@@ -22902,7 +25364,7 @@
 		(layer "F.Cu")
 		(uuid "bc1ff859-b8a5-4435-8b45-521103c06955")
 		(at 92.322727 43.75 90)
-		(property "Reference" "SW23"
+		(property "Reference" "SW11"
 			(at 1 8.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22918,6 +25380,7 @@
 			(at 7.5 1.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0c3accff-145c-4068-b71a-836404b0fe82")
 			(effects
 				(font
@@ -23133,7 +25596,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 28 "Net-(D23-A)")
+			(net 108 "Net-(D11-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -23146,7 +25609,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 28 "Net-(D23-A)")
+			(net 108 "Net-(D11-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -23171,7 +25634,7 @@
 		(layer "F.Cu")
 		(uuid "bcfe806c-d4ef-4566-aa5e-f9f7901029bf")
 		(at 85.845455 43.75 90)
-		(property "Reference" "SW22"
+		(property "Reference" "SW10"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23187,6 +25650,7 @@
 			(at 7.5 1.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "2f4bd08f-29d3-4a71-94ea-4b24353eb3d6")
 			(effects
 				(font
@@ -23402,7 +25866,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 26 "Net-(D22-A)")
+			(net 107 "Net-(D10-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -23415,7 +25879,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 26 "Net-(D22-A)")
+			(net 107 "Net-(D10-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -23440,7 +25904,7 @@
 		(layer "F.Cu")
 		(uuid "bd8cd3f5-c77e-437d-8dcf-2da6275993c2")
 		(at 85.795455 62 90)
-		(property "Reference" "SW46"
+		(property "Reference" "SW34"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23672,7 +26136,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 53 "Net-(D46-A)")
+			(net 41 "Net-(D34-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -23685,7 +26149,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 53 "Net-(D46-A)")
+			(net 41 "Net-(D34-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -23709,12 +26173,13 @@
 	(footprint "TH-A1OC:TH_MDBT50Q-P1MV2"
 		(layer "F.Cu")
 		(uuid "bec758f8-2b73-45cf-873f-2ef22406bd24")
-		(at 69.550001 90.6 180)
+		(at 25 87.099998 90)
 		(property "Reference" "U1"
-			(at 2.1951 -0.653001 180)
+			(at 2.1951 -0.653001 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "21a84805-a89e-461c-804e-da14c828ca61")
+			(hide yes)
+			(uuid "3e03c96e-56f2-4931-b8f3-056c1ccf5e4a")
 			(effects
 				(font
 					(size 1 1)
@@ -23723,10 +26188,11 @@
 			)
 		)
 		(property "Value" "MDBT50Q-P1MV2"
-			(at 4.9 16.65 180)
+			(at 4.9 16.65 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "6cf04480-a7a8-4351-9850-ac638e76d6ce")
+			(hide yes)
+			(uuid "25cb3706-51e6-4616-ae55-9d30ced29970")
 			(effects
 				(font
 					(size 1 1)
@@ -23735,11 +26201,11 @@
 			)
 		)
 		(property "Datasheet" "https://www.raytac.com/download/index.php?index_id=43"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "52ba1998-10a3-4630-8ae0-a11935f08682")
+			(uuid "c5e53a03-666b-4509-99e0-bdb4aee1f6ec")
 			(effects
 				(font
 					(size 1 1)
@@ -23748,11 +26214,11 @@
 			)
 		)
 		(property "Description" "NRF52840 aQFN integrated module"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "074da9e4-4a0f-4a40-9e9c-8f6192818436")
+			(uuid "c9e86e0b-1153-4e5b-aa70-31601521dcba")
 			(effects
 				(font
 					(size 1 1)
@@ -23761,7 +26227,7 @@
 			)
 		)
 		(property "Manufacturer" "RAYTAC"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23774,7 +26240,7 @@
 			)
 		)
 		(property "Mfr Part no." "MDBT50Q-P1MV2"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23787,7 +26253,7 @@
 			)
 		)
 		(property "LCSC Part no." "C5119772"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23800,7 +26266,7 @@
 			)
 		)
 		(property "Distributor Link" "https://www.digikey.co.uk/en/products/detail/seeed-technology-co-ltd/113990583/9697026"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23813,7 +26279,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.lcsc.com/product-detail/C5119772.html?s_z=n_MDBT50Q-P1MV2"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23852,16 +26318,6 @@
 			(uuid "1d530ef5-b0cf-4d82-b57c-a9e65ee3bd9c")
 		)
 		(fp_line
-			(start 10.9951 16.096999)
-			(end 10.9951 0.602999)
-			(stroke
-				(width 0.0254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "9726fe78-6068-4e49-ab0c-b7eb9b879287")
-		)
-		(fp_line
 			(start 10.9951 0.602999)
 			(end 0.5049 0.602999)
 			(stroke
@@ -23872,14 +26328,14 @@
 			(uuid "cee87242-b250-4172-89d1-e5ab44fc296d")
 		)
 		(fp_line
-			(start 0.5049 16.096999)
-			(end 10.9951 16.096999)
+			(start 0.5049 0.602999)
+			(end 0.5049 16.096999)
 			(stroke
 				(width 0.0254)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "45397d8e-ed3d-413f-ae34-fe1a8d4b1d52")
+			(uuid "44bee3a5-1cd6-48de-bd26-c1bc88f9e67f")
 		)
 		(fp_line
 			(start 0.5049 1.872999)
@@ -23892,14 +26348,24 @@
 			(uuid "c8884ae9-59ff-40e9-95a4-0e6063e818f5")
 		)
 		(fp_line
-			(start 0.5049 0.602999)
-			(end 0.5049 16.096999)
+			(start 10.9951 16.096999)
+			(end 10.9951 0.602999)
 			(stroke
 				(width 0.0254)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "44bee3a5-1cd6-48de-bd26-c1bc88f9e67f")
+			(uuid "9726fe78-6068-4e49-ab0c-b7eb9b879287")
+		)
+		(fp_line
+			(start 0.5049 16.096999)
+			(end 10.9951 16.096999)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "45397d8e-ed3d-413f-ae34-fe1a8d4b1d52")
 		)
 		(fp_rect
 			(start -3.275 -2.1)
@@ -23913,7 +26379,7 @@
 			(uuid "f086ff07-778f-4337-8356-e4626194a0fd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.7442 8.195999 180)
+			(at 5.7442 8.195999 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "77ec74e0-c951-4684-b3e7-3ffb113a088f")
@@ -23925,7 +26391,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at 1.099998 4.6 270)
+			(at 1.099998 4.6 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 2 "GND")
@@ -23934,7 +26400,7 @@
 			(uuid "ebd02ed3-913a-4903-a46e-e4175100f270")
 		)
 		(pad "2" smd rect
-			(at 1.099998 5.7 270)
+			(at 1.099998 5.7 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 2 "GND")
@@ -23943,7 +26409,7 @@
 			(uuid "3f2a9757-53d7-4e90-86af-b5f64729aefd")
 		)
 		(pad "3" smd rect
-			(at 1.099998 6.5 270)
+			(at 1.099998 6.5 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 99 "unconnected-(U1A-P1.10_LF-Pad3)")
@@ -23952,7 +26418,7 @@
 			(uuid "9c91f776-7611-476c-93ef-80183608cf4e")
 		)
 		(pad "4" smd rect
-			(at 1.099998 8.1 270)
+			(at 1.099998 8.1 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 86 "unconnected-(U1A-P1.11_LF-Pad4)")
@@ -23961,7 +26427,7 @@
 			(uuid "449e6b1f-9597-4ccc-be35-b13829560684")
 		)
 		(pad "5" smd rect
-			(at 1.999998 8.5 270)
+			(at 1.999998 8.5 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 104 "unconnected-(U1A-P1.12_LF-Pad5)")
@@ -23970,7 +26436,7 @@
 			(uuid "e12607e3-7052-49f3-a760-26143d47da58")
 		)
 		(pad "6" smd rect
-			(at 1.099998 8.9 270)
+			(at 1.099998 8.9 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 98 "unconnected-(U1A-P1.13_LF-Pad6)")
@@ -23979,7 +26445,7 @@
 			(uuid "989ba5bc-70c8-4555-a0a7-cdb2ace31bcf")
 		)
 		(pad "7" smd rect
-			(at 1.999998 9.3 270)
+			(at 1.999998 9.3 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 82 "unconnected-(U1A-P1.14_LF-Pad7)")
@@ -23988,7 +26454,7 @@
 			(uuid "1cb6dcd3-46ad-422b-8d01-9e78c45656d9")
 		)
 		(pad "8" smd rect
-			(at 1.099998 9.7 270)
+			(at 1.099998 9.7 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 71 "/ofeature_enable")
@@ -23997,7 +26463,7 @@
 			(uuid "39b07b88-9dc2-47b9-aa40-a7ce0e2ed97d")
 		)
 		(pad "9" smd rect
-			(at 1.999998 10.1 270)
+			(at 1.999998 10.1 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 92 "unconnected-(U1A-P0.03_LF{slash}AIN1-Pad9)")
@@ -24006,7 +26472,7 @@
 			(uuid "70676a2e-449f-4f04-a046-d48b01f92ca3")
 		)
 		(pad "10" smd rect
-			(at 1.099998 10.5 270)
+			(at 1.099998 10.5 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 79 "unconnected-(U1A-P0.29_LF{slash}AIN5-Pad10)")
@@ -24015,7 +26481,7 @@
 			(uuid "025485ba-916b-4dae-8f6b-5d3715d3a797")
 		)
 		(pad "11" smd rect
-			(at 1.999998 10.9 270)
+			(at 1.999998 10.9 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 100 "unconnected-(U1A-P0.02_LF{slash}AIN0-Pad11)")
@@ -24024,7 +26490,7 @@
 			(uuid "b8ccb5ef-8a0b-4070-8430-a17b7dad1ace")
 		)
 		(pad "12" smd rect
-			(at 1.099998 11.3 270)
+			(at 1.099998 11.3 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 87 "unconnected-(U1A-P0.31_LF{slash}AIN7-Pad12)")
@@ -24033,7 +26499,7 @@
 			(uuid "523d8d74-5356-4d27-a5af-5704391523c6")
 		)
 		(pad "13" smd rect
-			(at 1.999998 11.7 270)
+			(at 1.999998 11.7 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 89 "unconnected-(U1A-P0.28_LF{slash}AIN4-Pad13)")
@@ -24042,7 +26508,7 @@
 			(uuid "5b24a0fe-08f0-4c41-97ee-a4f0fb489af6")
 		)
 		(pad "14" smd rect
-			(at 1.099998 12.1 270)
+			(at 1.099998 12.1 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 83 "unconnected-(U1A-P0.30{slash}AIN6-Pad14)")
@@ -24051,7 +26517,7 @@
 			(uuid "37e7e804-5152-43d1-8e4c-1a3f4a07e435")
 		)
 		(pad "15" smd rect
-			(at 0.949999 15.5 180)
+			(at 0.949999 15.5 90)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 2 "GND")
@@ -24060,7 +26526,7 @@
 			(uuid "3ff240db-0c8c-4408-9885-7e70ea6683fe")
 		)
 		(pad "16" smd rect
-			(at 1.75 15.5 180)
+			(at 1.75 15.5 90)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 94 "unconnected-(U1A-P0.27-Pad16)")
@@ -24069,7 +26535,7 @@
 			(uuid "8b5032b3-579f-4502-b588-db825386a559")
 		)
 		(pad "17" smd rect
-			(at 2.550001 15.5 180)
+			(at 2.550001 15.5 90)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 5 "/XL1")
@@ -24078,7 +26544,7 @@
 			(uuid "89fe2dbf-e547-4fef-81af-917749a83a44")
 		)
 		(pad "18" smd rect
-			(at 3.35 15.5 180)
+			(at 3.35 15.5 90)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 4 "/XL2")
@@ -24087,7 +26553,7 @@
 			(uuid "62a20c69-5f48-4a25-840e-f23cc9ff924a")
 		)
 		(pad "19" smd rect
-			(at 3.75 14.6 180)
+			(at 3.75 14.6 90)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 101 "unconnected-(U1A-P0.26-Pad19)")
@@ -24096,7 +26562,7 @@
 			(uuid "c2d3b793-9e0e-448d-9ad6-bf0ea97c0fea")
 		)
 		(pad "20" smd rect
-			(at 4.150001 15.5 180)
+			(at 4.150001 15.5 90)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 95 "unconnected-(U1A-P0.04{slash}AIN2-Pad20)")
@@ -24105,7 +26571,7 @@
 			(uuid "8f0d056d-d1c0-4eac-aea0-d0900d2b3dff")
 		)
 		(pad "21" smd rect
-			(at 4.550001 14.6 180)
+			(at 4.550001 14.6 90)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 74 "/SOURCE1")
@@ -24114,7 +26580,7 @@
 			(uuid "7b85e208-bb62-49a7-a695-c30b57801d72")
 		)
 		(pad "22" smd rect
-			(at 4.949999 15.5 180)
+			(at 4.949999 15.5 90)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 91 "unconnected-(U1A-P0.06-Pad22)")
@@ -24123,7 +26589,7 @@
 			(uuid "5f0e3eb0-ef25-4602-9717-4e9075c73772")
 		)
 		(pad "23" smd rect
-			(at 5.349999 14.6 180)
+			(at 5.349999 14.6 90)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 75 "/SOURCE2")
@@ -24132,7 +26598,7 @@
 			(uuid "3eef2861-5a5d-4e55-95ec-cad71afea993")
 		)
 		(pad "24" smd rect
-			(at 5.75 15.5 180)
+			(at 5.75 15.5 90)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 81 "unconnected-(U1A-P0.08-Pad24)")
@@ -24141,7 +26607,7 @@
 			(uuid "1b00d740-3a8c-4bb2-ac33-110c9d0b841c")
 		)
 		(pad "25" smd rect
-			(at 6.15 14.6 180)
+			(at 6.15 14.6 90)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 76 "/SOURCE3")
@@ -24150,7 +26616,7 @@
 			(uuid "542ffb7b-68a9-4c13-8ff4-8f0678fb446f")
 		)
 		(pad "26" smd rect
-			(at 6.550001 15.5 180)
+			(at 6.550001 15.5 90)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 97 "unconnected-(U1A-P1.09{slash}TRACEDATA3-Pad26)")
@@ -24159,7 +26625,7 @@
 			(uuid "90f518fa-7ec1-4db1-adfb-0a68931d3df6")
 		)
 		(pad "27" smd rect
-			(at 6.950001 14.6 180)
+			(at 6.950001 14.6 90)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 73 "/SOURCE4")
@@ -24168,7 +26634,7 @@
 			(uuid "652a496f-9a8e-40d7-9ae1-47a6a3bdcb29")
 		)
 		(pad "28" smd rect
-			(at 7.349999 15.5 180)
+			(at 7.349999 15.5 90)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 3 "VDD")
@@ -24177,7 +26643,7 @@
 			(uuid "69fef43e-172a-4fe7-b761-98be959eb25b")
 		)
 		(pad "29" smd rect
-			(at 7.749999 14.6 180)
+			(at 7.749999 14.6 90)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 77 "/SOURCE5")
@@ -24186,7 +26652,7 @@
 			(uuid "92fcc8c9-5bac-4749-bcb2-2fce12bc9b54")
 		)
 		(pad "30" smd rect
-			(at 8.15 15.5 180)
+			(at 8.15 15.5 90)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "/VBUS")
@@ -24195,7 +26661,7 @@
 			(uuid "2773c1a2-7fb0-4b20-9a06-7a8e4b645ade")
 		)
 		(pad "31" smd rect
-			(at 8.949999 15.5 180)
+			(at 8.949999 15.5 90)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 72 "/DCCH")
@@ -24204,7 +26670,7 @@
 			(uuid "57314fb4-0fef-4bd7-b8db-89552812622e")
 		)
 		(pad "32" smd rect
-			(at 9.75 15.5 180)
+			(at 9.75 15.5 90)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "/VBUS")
@@ -24213,7 +26679,7 @@
 			(uuid "f639d5f2-9e3f-4bc1-b40b-e2ab45a275b2")
 		)
 		(pad "33" smd rect
-			(at 10.549998 15.5 180)
+			(at 10.549998 15.5 90)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 2 "GND")
@@ -24222,7 +26688,7 @@
 			(uuid "3291300d-bbf6-426f-88f5-c40da5d119b7")
 		)
 		(pad "34" smd rect
-			(at 10.399998 14.5 270)
+			(at 10.399998 14.5 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 66 "/D-")
@@ -24231,7 +26697,7 @@
 			(uuid "eab731c2-7183-484e-8e41-5cc93321ba2b")
 		)
 		(pad "35" smd rect
-			(at 10.399998 13.7 270)
+			(at 10.399998 13.7 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 68 "/D+")
@@ -24240,7 +26706,7 @@
 			(uuid "b48b13ce-fa9f-4c07-b177-aff1c74299a8")
 		)
 		(pad "36" smd rect
-			(at 9.499998 13.3 270)
+			(at 9.499998 13.3 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 102 "unconnected-(U1A-P0.14-Pad36)")
@@ -24249,7 +26715,7 @@
 			(uuid "c912b8f9-28d6-4958-8916-ba5cd06cfbdd")
 		)
 		(pad "37" smd rect
-			(at 10.399998 12.9 270)
+			(at 10.399998 12.9 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 84 "unconnected-(U1A-P0.13-Pad37)")
@@ -24258,7 +26724,7 @@
 			(uuid "390c7419-752f-4c9d-a0ed-a2d1cd327f38")
 		)
 		(pad "38" smd rect
-			(at 9.499998 12.5 270)
+			(at 9.499998 12.5 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 30 "/INPUT12")
@@ -24267,7 +26733,7 @@
 			(uuid "fd12baca-c0b0-476a-baf2-74236bbf20d3")
 		)
 		(pad "39" smd rect
-			(at 10.399998 12.1 270)
+			(at 10.399998 12.1 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 29 "/INPUT11")
@@ -24276,7 +26742,7 @@
 			(uuid "39c2e5ea-92e8-4e58-98a4-3971e90fd3fc")
 		)
 		(pad "40" smd rect
-			(at 9.499998 11.7 270)
+			(at 9.499998 11.7 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 78 "/RESET")
@@ -24285,7 +26751,7 @@
 			(uuid "458b5f91-a468-4496-8eae-ef29f56d289c")
 		)
 		(pad "41" smd rect
-			(at 10.399998 11.3 270)
+			(at 10.399998 11.3 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 27 "/INPUT10")
@@ -24294,7 +26760,7 @@
 			(uuid "c82196b4-bc2a-4f9a-bfbf-de56e32d039e")
 		)
 		(pad "42" smd rect
-			(at 9.499998 10.9 270)
+			(at 9.499998 10.9 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 25 "/INPUT9")
@@ -24303,7 +26769,7 @@
 			(uuid "7ab833a5-4fde-433f-baae-f7a5866d15fe")
 		)
 		(pad "43" smd rect
-			(at 9.499998 10.1 270)
+			(at 9.499998 10.1 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 9 "/INPUT8")
@@ -24312,7 +26778,7 @@
 			(uuid "e8cc8703-2516-4a96-8858-01b90b6acf29")
 		)
 		(pad "44" smd rect
-			(at 10.399998 9.7 270)
+			(at 10.399998 9.7 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 21 "/INPUT7")
@@ -24321,7 +26787,7 @@
 			(uuid "22b24379-ee13-4607-afa7-7f5f5e63d12b")
 		)
 		(pad "45" smd rect
-			(at 9.499998 9.3 270)
+			(at 9.499998 9.3 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 19 "/INPUT6")
@@ -24330,7 +26796,7 @@
 			(uuid "142023cf-5399-4d62-be6e-0dd087d35e3b")
 		)
 		(pad "46" smd rect
-			(at 10.399998 8.9 270)
+			(at 10.399998 8.9 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 6 "/INPUT5")
@@ -24339,7 +26805,7 @@
 			(uuid "3ff3de25-f020-4acf-bebf-e4b22a11dcdd")
 		)
 		(pad "47" smd rect
-			(at 9.499998 8.5 270)
+			(at 9.499998 8.5 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 17 "/INPUT4")
@@ -24348,7 +26814,7 @@
 			(uuid "bbc489a0-0458-481f-822f-9007d3509ac0")
 		)
 		(pad "48" smd rect
-			(at 10.399998 8.1 270)
+			(at 10.399998 8.1 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 14 "/INPUT3")
@@ -24357,7 +26823,7 @@
 			(uuid "488ec14d-05d9-4714-bc3a-be760779a75c")
 		)
 		(pad "49" smd rect
-			(at 9.499998 7.7 270)
+			(at 9.499998 7.7 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 13 "/INPUT2")
@@ -24366,7 +26832,7 @@
 			(uuid "b75ab6f2-c627-4bf2-8a1c-d38e7cb7580f")
 		)
 		(pad "50" smd rect
-			(at 9.499998 6.9 270)
+			(at 9.499998 6.9 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 10 "/INPUT1")
@@ -24375,7 +26841,7 @@
 			(uuid "653a05c9-c164-4dd2-adeb-b4d560c2f3c5")
 		)
 		(pad "51" smd rect
-			(at 10.399998 6.5 270)
+			(at 10.399998 6.5 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 69 "/SWDIO")
@@ -24384,7 +26850,7 @@
 			(uuid "40c9d911-53a0-4b12-b416-2d7b83943893")
 		)
 		(pad "52" smd rect
-			(at 9.499998 6.1 270)
+			(at 9.499998 6.1 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 85 "unconnected-(U1A-P0.09{slash}NFC1-Pad52)")
@@ -24393,7 +26859,7 @@
 			(uuid "3ee19487-9538-4090-a635-3f83cade4d08")
 		)
 		(pad "53" smd rect
-			(at 10.399998 5.7 270)
+			(at 10.399998 5.7 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 70 "/SWDCLK")
@@ -24402,7 +26868,7 @@
 			(uuid "9a0d2afe-8d10-4fb4-a101-f8e9ec104e7c")
 		)
 		(pad "54" smd rect
-			(at 9.499998 5.3 270)
+			(at 9.499998 5.3 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 103 "unconnected-(U1A-P0.10{slash}NFC2-Pad54)")
@@ -24411,7 +26877,7 @@
 			(uuid "d32ff470-b5d7-4a58-a9ee-8a7fdb1d270a")
 		)
 		(pad "55" smd rect
-			(at 10.399998 4.6 270)
+			(at 10.399998 4.6 180)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 2 "GND")
@@ -24420,7 +26886,7 @@
 			(uuid "853a4c76-ded4-450c-887b-29f1603688df")
 		)
 		(pad "56" smd rect
-			(at 3.75 8.9 180)
+			(at 3.75 8.9 90)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 105 "unconnected-(U1A-P1.04_LF-Pad56)")
@@ -24429,7 +26895,7 @@
 			(uuid "f451c032-82e4-4a2f-8bf8-930a3806cf33")
 		)
 		(pad "57" smd rect
-			(at 4.550001 8.9 180)
+			(at 4.550001 8.9 90)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 80 "unconnected-(U1A-P1.06_LF-Pad57)")
@@ -24438,7 +26904,7 @@
 			(uuid "13c84003-ef59-4fff-98e9-0f287b506371")
 		)
 		(pad "58" smd rect
-			(at 5.349999 8.9 180)
+			(at 5.349999 8.9 90)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 88 "unconnected-(U1A-P1.07_LF-Pad58)")
@@ -24447,7 +26913,7 @@
 			(uuid "570bfb31-0ba1-419b-87ac-a840d3e066c4")
 		)
 		(pad "59" smd rect
-			(at 6.15 8.9 180)
+			(at 6.15 8.9 90)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 90 "unconnected-(U1A-P1.05_LF-Pad59)")
@@ -24456,7 +26922,7 @@
 			(uuid "5b2c0eb7-4232-458d-a32b-f80034a315a4")
 		)
 		(pad "60" smd rect
-			(at 6.950001 8.9 180)
+			(at 6.950001 8.9 90)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 93 "unconnected-(U1A-P1.03_LF-Pad60)")
@@ -24465,7 +26931,7 @@
 			(uuid "87ac87e2-6b72-4232-8dd7-70042a775198")
 		)
 		(pad "61" smd rect
-			(at 7.749999 8.9 180)
+			(at 7.749999 8.9 90)
 			(size 0.4064 0.6096)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 96 "unconnected-(U1A-P1.01_LF-Pad61)")
@@ -24502,7 +26968,7 @@
 			)
 			(polygon
 				(pts
-					(xy 72.800001 92.65) (xy 54.800001 92.65) (xy 54.800001 86.3) (xy 72.800001 86.3)
+					(xy 22.95 90.349998) (xy 22.95 72.349998) (xy 29.3 72.349998) (xy 29.3 90.349998)
 				)
 			)
 		)
@@ -24525,7 +26991,7 @@
 		(at 101.3 45.6)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D24"
+		(property "Reference" "D12"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -24843,7 +27309,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 31 "Net-(D24-A)")
+			(net 109 "Net-(D12-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "7b5ffe06-bbf2-4085-ba7a-02586000c91a")
@@ -24869,7 +27335,7 @@
 			(at -0.2 -1.95 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "303a5c78-1a11-4725-96ac-9e1c6263db01")
+			(uuid "831dca1e-3d7a-43bf-b292-9091fc3dce16")
 			(effects
 				(font
 					(size 1 1)
@@ -24881,7 +27347,7 @@
 			(at 2.55 1.75 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "323baebe-5961-480d-a53a-bce709acd275")
+			(uuid "36970c3f-9464-4523-80ae-f357f7f83330")
 			(effects
 				(font
 					(size 1 1)
@@ -24894,7 +27360,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f065851f-6290-432b-8ad9-b970cc159526")
+			(uuid "dc162fd9-c486-4aeb-a2a3-9968805a01b4")
 			(effects
 				(font
 					(size 1 1)
@@ -24907,7 +27373,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "46348ab5-c81a-4e65-8540-70b6db03b2c8")
+			(uuid "2dfadd1f-411c-4fa0-806d-db6e48f64894")
 			(effects
 				(font
 					(size 1 1)
@@ -24997,7 +27463,7 @@
 		(at 36.5125 73.2)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D50"
+		(property "Reference" "D38"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -25315,7 +27781,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 57 "Net-(D50-A)")
+			(net 45 "Net-(D38-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "aa6318e2-ada7-4161-8f05-38f12379f44f")
@@ -25339,7 +27805,7 @@
 		(at 62.436364 45.6)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D18"
+		(property "Reference" "D6"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -25657,7 +28123,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 20 "Net-(D18-A)")
+			(net 63 "Net-(D6-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "7e6e5a55-f18e-4abd-9279-791ccc3b400c")
@@ -25681,7 +28147,7 @@
 		(at 101.3 54.75)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D36"
+		(property "Reference" "D24"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -25999,7 +28465,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 43 "Net-(D36-A)")
+			(net 31 "Net-(D24-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "be596859-e1b5-456b-8ccf-2537fc92d101")
@@ -26021,7 +28487,7 @@
 		(layer "F.Cu")
 		(uuid "c7927ef8-e43e-4f38-8efc-987198f4c61f")
 		(at 98.8 71.25 90)
-		(property "Reference" "SW57"
+		(property "Reference" "SW46"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26253,7 +28719,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 63 "Net-(D57-A)")
+			(net 53 "Net-(D46-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -26266,7 +28732,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 63 "Net-(D57-A)")
+			(net 53 "Net-(D46-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -26293,7 +28759,7 @@
 		(at 81.818182 63.9)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D45"
+		(property "Reference" "D33"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -26611,7 +29077,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 52 "Net-(D45-A)")
+			(net 40 "Net-(D33-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "8adcf2b0-d83c-49d9-914b-25754fa02ec5")
@@ -26633,7 +29099,7 @@
 		(layer "F.Cu")
 		(uuid "cc717d72-0919-4d93-8f68-f96b3565fcf5")
 		(at 59.886364 62 90)
-		(property "Reference" "SW42"
+		(property "Reference" "SW30"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26865,7 +29331,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 49 "Net-(D42-A)")
+			(net 37 "Net-(D30-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -26878,7 +29344,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 49 "Net-(D42-A)")
+			(net 37 "Net-(D30-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -26905,7 +29371,7 @@
 		(at 43.004545 54.75)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D27"
+		(property "Reference" "D15"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -27223,7 +29689,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 34 "Net-(D27-A)")
+			(net 15 "Net-(D15-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "36cd344c-7244-483d-921f-9097b4096de8")
@@ -27247,7 +29713,7 @@
 		(at 81.868182 45.6)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D21"
+		(property "Reference" "D9"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -27565,10 +30031,352 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 24 "Net-(D21-A)")
+			(net 106 "Net-(D9-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "1ad5c8ce-0a3c-42b6-9253-a244173ecf78")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-523.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Diode_SMD:D_SOD-523"
+		(layer "F.Cu")
+		(uuid "cd8a107b-4f1e-4a60-a20c-e86c36c2e472")
+		(at 76.45 86)
+		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
+		(tags "Diode SOD523")
+		(property "Reference" "D50"
+			(at 0 -1.3 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "76619f54-c9db-4db2-b8e3-2e1b2ecbe428")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 0 1.4 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05611a3a-434b-4cdf-8143-30db6e37d407")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c20a2ec-2637-4271-8d25-80a318a7bd69")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f657773-c36a-4f17-b845-de960a995e5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1debe75-9c9f-4b90-a96f-04fac8703ee1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db52cf35-81eb-4809-8929-6802e478061c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YONGYUTAI"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fca8e409-cde3-435c-86ed-9b373a30443b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr. Part no." "CD4148WTP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c570cf5-eacc-42f5-8234-cfd4ec41747e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part no." "C30584800"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7fdcf8f-ee4a-4678-aede-576e3a7daf26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/C30584800.html"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67e18e83-300f-413b-85cb-470db3598acb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
+		(path "/a11c00fa-b3e7-4191-b390-531426791e16")
+		(sheetname "/")
+		(sheetfile "keyboard.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -1.26 -0.6)
+			(end -1.26 0.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c08e069e-09b5-4dc2-9f29-42de8f1951fe")
+		)
+		(fp_line
+			(start 0.7 -0.6)
+			(end -1.26 -0.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bdf6d487-6af1-4106-a224-45faea20767f")
+		)
+		(fp_line
+			(start 0.7 0.6)
+			(end -1.26 0.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "817150c2-5ef7-49ee-9b58-0bd51fd818f4")
+		)
+		(fp_line
+			(start -1.25 -0.7)
+			(end 1.25 -0.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "33df5257-8685-4996-93fa-42e384608324")
+		)
+		(fp_line
+			(start -1.25 0.7)
+			(end -1.25 -0.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d7250be6-e22e-40dc-b204-817a07565b05")
+		)
+		(fp_line
+			(start 1.25 -0.7)
+			(end 1.25 0.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ea5bb215-f727-4327-8644-892e7b30e74e")
+		)
+		(fp_line
+			(start 1.25 0.7)
+			(end -1.25 0.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "54f97de3-6891-4a15-b0cb-b9d4756dcd9f")
+		)
+		(fp_line
+			(start -0.65 -0.45)
+			(end 0.65 -0.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "76b02021-db3a-4979-be08-ae72a595096e")
+		)
+		(fp_line
+			(start -0.65 0.45)
+			(end -0.65 -0.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "66c9e408-029b-4aed-abd3-1d1c39611a12")
+		)
+		(fp_line
+			(start -0.2 0)
+			(end -0.35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1d44ac73-6603-4349-9176-c21b4e0550fd")
+		)
+		(fp_line
+			(start -0.2 0)
+			(end 0.1 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0be0c8a0-6164-4614-8bd3-12192201746a")
+		)
+		(fp_line
+			(start -0.2 0.2)
+			(end -0.2 -0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d12db7c0-e567-46b2-b8cd-1fbf7b736073")
+		)
+		(fp_line
+			(start 0.1 -0.2)
+			(end -0.2 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "aabc91a4-0fba-4523-b0ac-f44d2dcae07a")
+		)
+		(fp_line
+			(start 0.1 0)
+			(end 0.25 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5262fdf9-8288-42f6-8263-f3b99d3dbe71")
+		)
+		(fp_line
+			(start 0.1 0.2)
+			(end 0.1 -0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "adad0dc3-e25a-464b-8e0c-ad6dfac55706")
+		)
+		(fp_line
+			(start 0.65 -0.45)
+			(end 0.65 0.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fb0fe59d-c74c-41f8-85bd-ce050be99602")
+		)
+		(fp_line
+			(start 0.65 0.45)
+			(end -0.65 0.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c36a706e-631c-4546-a32c-53f1699cb413")
+		)
+		(pad "1" smd roundrect
+			(at -0.7 0 180)
+			(size 0.6 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 25 "/INPUT9")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "5e441d1f-e218-40c3-9ee6-40ffdf1da854")
+		)
+		(pad "2" smd roundrect
+			(at 0.7 0 180)
+			(size 0.6 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 57 "Net-(D50-A)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "7329d6aa-97c9-4d6d-bf48-0220773eb8e5")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-523.step"
@@ -27587,7 +30395,7 @@
 		(layer "F.Cu")
 		(uuid "d05f3437-9235-4210-b653-d565d2c83efb")
 		(at 34.027273 43.75 90)
-		(property "Reference" "SW14"
+		(property "Reference" "SW2"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27603,6 +30411,7 @@
 			(at 7.5 1.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "58f0896d-ff75-420d-938e-633312e8b65a")
 			(effects
 				(font
@@ -27818,7 +30627,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 12 "Net-(D14-A)")
+			(net 8 "Net-(D2-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -27831,7 +30640,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 12 "Net-(D14-A)")
+			(net 8 "Net-(D2-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -27858,7 +30667,7 @@
 		(at 55.959091 45.6)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D17"
+		(property "Reference" "D5"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -28176,7 +30985,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 18 "Net-(D17-A)")
+			(net 62 "Net-(D5-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "c1ed61e2-2413-44a7-a983-80a736d272f2")
@@ -28197,12 +31006,12 @@
 	(footprint "TH-A1OC:tact_switch_4.5x4.5_PTS647"
 		(layer "F.Cu")
 		(uuid "d64e1e87-a85c-4c86-b787-5f9d2313beb3")
-		(at -22.765 119.54)
-		(property "Reference" "SW62"
-			(at 1 5 0)
+		(at 84.6 81.05 90)
+		(property "Reference" "SW51"
+			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "072a26f9-a7a8-40da-8baa-d91b34be1164")
+			(uuid "bc51579e-55e6-4664-9c01-1bfdc02100a8")
 			(effects
 				(font
 					(size 1 1)
@@ -28211,10 +31020,11 @@
 			)
 		)
 		(property "Value" "C5"
-			(at 7.5 1.5 270)
+			(at 7.5 1.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "4e6e1fce-9838-471b-8fba-d97a88c2f311")
+			(hide yes)
+			(uuid "1f886e49-cdb8-489f-8bbf-cef693707f6a")
 			(effects
 				(font
 					(size 1 1)
@@ -28223,11 +31033,11 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bc0a7ffe-74ee-4c8d-bd62-424e6b800f78")
+			(uuid "13fc448d-2c7a-410d-9d2e-d7499777a5f7")
 			(effects
 				(font
 					(size 1 1)
@@ -28236,11 +31046,11 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e8fb191f-ec5d-4ac3-b9f6-bbb0c3b258a6")
+			(uuid "d16d6d6c-8b44-4e99-8427-5c827ec9de23")
 			(effects
 				(font
 					(size 1 1)
@@ -28249,7 +31059,7 @@
 			)
 		)
 		(property "Manufacturer" "C&K"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -28262,7 +31072,7 @@
 			)
 		)
 		(property "Mfr. Part no." "PTS647SM50SMTR2LFS"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -28275,7 +31085,7 @@
 			)
 		)
 		(property "LCSC Part no." "C2689518"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -28288,7 +31098,7 @@
 			)
 		)
 		(property "Distributor Link" "https://www.lcsc.com/product-detail/C2689518.html?s_z=n_4.5mm%20push%20button%20SMT"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -28305,14 +31115,14 @@
 		(sheetfile "keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 1 3.2)
-			(end 4.3 3.2)
+			(start 2.65 0)
+			(end 2.65 0.8)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "77261cb0-a75d-49ec-a4e7-0d8aec5be9fc")
+			(uuid "eae1e7e6-ed06-411e-aa90-9ff0cda40546")
 		)
 		(fp_line
 			(start 1.1 0)
@@ -28323,16 +31133,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "059c4cb5-b6da-4c24-8489-2c180487198a")
-		)
-		(fp_line
-			(start 2.65 0)
-			(end 2.65 0.8)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "eae1e7e6-ed06-411e-aa90-9ff0cda40546")
 		)
 		(fp_line
 			(start 2.65 0.8)
@@ -28364,6 +31164,16 @@
 			(layer "F.SilkS")
 			(uuid "221047c3-e76a-4616-a3d8-2f4638b6ba53")
 		)
+		(fp_line
+			(start 1 3.2)
+			(end 4.3 3.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "77261cb0-a75d-49ec-a4e7-0d8aec5be9fc")
+		)
 		(fp_rect
 			(start 0.1 -0.9)
 			(end 5.1 4.1)
@@ -28387,7 +31197,7 @@
 			(uuid "0ed1a10c-9176-48a5-b7c9-8a0b4d5a74cb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.6 1.6 0)
+			(at 2.6 1.6 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "c8c61b20-1a77-4c68-b0b8-68222b6149e6")
@@ -28399,7 +31209,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
@@ -28412,7 +31222,7 @@
 			(uuid "b57dcd09-a792-4522-9a4b-d7d0001d7f85")
 		)
 		(pad "1" smd roundrect
-			(at 5.25 0)
+			(at 5.25 0 90)
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
@@ -28425,11 +31235,11 @@
 			(uuid "7d6f3726-59d8-4bfc-aa71-dea18c4300ce")
 		)
 		(pad "2" smd roundrect
-			(at 0 3.2)
+			(at 0 3.2 90)
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 65 "Net-(D62-A)")
+			(net 58 "Net-(D51-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -28438,11 +31248,11 @@
 			(uuid "e59f39d3-facf-496a-8192-7e05168292fb")
 		)
 		(pad "2" smd roundrect
-			(at 5.25 3.2)
+			(at 5.25 3.2 90)
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 65 "Net-(D62-A)")
+			(net 58 "Net-(D51-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -28467,7 +31277,7 @@
 		(layer "F.Cu")
 		(uuid "d7f952a3-68f0-427c-9ae8-9e7af2360a0f")
 		(at 77.65 71.25 90)
-		(property "Reference" "SW54"
+		(property "Reference" "SW43"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28699,7 +31509,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 60 "Net-(D54-A)")
+			(net 50 "Net-(D43-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -28712,7 +31522,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 60 "Net-(D54-A)")
+			(net 50 "Net-(D43-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -28739,7 +31549,7 @@
 		(at 75.390909 45.6)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D20"
+		(property "Reference" "D8"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -29057,7 +31867,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 23 "Net-(D20-A)")
+			(net 65 "Net-(D8-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "95e76cb5-6588-4ab4-851a-7caf37f1a83d")
@@ -29081,7 +31891,7 @@
 		(at 88.295455 63.9)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D46"
+		(property "Reference" "D34"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -29399,7 +32209,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 53 "Net-(D46-A)")
+			(net 41 "Net-(D34-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "6c365201-3776-4bb6-937e-2f25c689996e")
@@ -29426,7 +32236,7 @@
 		(property "Reference" "R3"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
-			(uuid "5aa89080-500e-4d5c-8cf2-3fd5613d2cab")
+			(uuid "a20a480f-eba3-41dd-a1ba-9ff896895cfa")
 			(effects
 				(font
 					(size 1 1)
@@ -29437,7 +32247,7 @@
 		(property "Value" "27R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "a63c6db7-9a73-4ec2-a865-adc8721005e2")
+			(uuid "cca41de3-c907-43d4-864b-7aef8af4825c")
 			(effects
 				(font
 					(size 1 1)
@@ -29449,7 +32259,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4e80591f-3103-4c25-83c1-9753f114c44e")
+			(uuid "d389f258-f13b-4df1-ac9a-fcc2dd8c0650")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29461,7 +32271,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e2d353e4-6693-4320-9f59-dfdff755949a")
+			(uuid "7e7d976c-9dcb-4b88-bc39-169c40b730ce")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29619,7 +32429,7 @@
 		(property "Reference" "Y1"
 			(at 0 -2 0)
 			(layer "F.SilkS")
-			(uuid "2fba2dfb-6555-42f1-acfb-226ee40f87dc")
+			(uuid "018bc4b0-4c3b-40d8-9dd1-26969180220b")
 			(effects
 				(font
 					(size 1 1)
@@ -29630,7 +32440,7 @@
 		(property "Value" "32.768"
 			(at 0 2 0)
 			(layer "F.Fab")
-			(uuid "673381fc-a0bb-407b-9015-93dc0d0de82c")
+			(uuid "3f6ee336-7297-465a-be04-f5501f9b501c")
 			(effects
 				(font
 					(size 1 1)
@@ -29643,7 +32453,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "65079c4b-a380-4311-a072-c6bab5a1fc3c")
+			(uuid "9636b3f3-c3e7-4be4-be46-29fa8dbff74c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29656,7 +32466,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6d4e6d1b-305c-4a13-8fad-23bfd7bf77b2")
+			(uuid "97809971-e87d-49cc-8560-2de93f3ccfda")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29882,7 +32692,7 @@
 		(at 49.481818 54.75)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D28"
+		(property "Reference" "D16"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -30200,7 +33010,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 35 "Net-(D28-A)")
+			(net 16 "Net-(D16-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "e3d11ac8-8e72-4ac9-ad47-1a0b7cba84e8")
@@ -30222,7 +33032,7 @@
 		(layer "F.Cu")
 		(uuid "e18d619d-a84c-4263-a523-d7b345cf2d05")
 		(at 66.413636 43.75 90)
-		(property "Reference" "SW19"
+		(property "Reference" "SW7"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30238,6 +33048,7 @@
 			(at 7.5 1.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9d865e70-8614-4904-90f2-c0fd721b9e47")
 			(effects
 				(font
@@ -30453,7 +33264,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 22 "Net-(D19-A)")
+			(net 64 "Net-(D7-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -30466,7 +33277,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 22 "Net-(D19-A)")
+			(net 64 "Net-(D7-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -30491,7 +33302,7 @@
 		(layer "F.Cu")
 		(uuid "f06eb754-e63a-4cb0-8713-911d4190feca")
 		(at 40.475 71.25 90)
-		(property "Reference" "SW51"
+		(property "Reference" "SW39"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30723,7 +33534,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 58 "Net-(D51-A)")
+			(net 46 "Net-(D39-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -30736,7 +33547,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 58 "Net-(D51-A)")
+			(net 46 "Net-(D39-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -30761,7 +33572,7 @@
 		(layer "F.Cu")
 		(uuid "f25eae58-68fe-442c-ad41-e90f23613494")
 		(at 46.981818 52.85 90)
-		(property "Reference" "SW28"
+		(property "Reference" "SW16"
 			(at 1 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30993,7 +33804,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 35 "Net-(D28-A)")
+			(net 16 "Net-(D16-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -31006,7 +33817,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 35 "Net-(D28-A)")
+			(net 16 "Net-(D16-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -31033,7 +33844,7 @@
 		(at 68.913636 45.6)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D19"
+		(property "Reference" "D7"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -31351,7 +34162,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 22 "Net-(D19-A)")
+			(net 64 "Net-(D7-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "da69a9d1-aa2e-4637-a8d0-3a98f116f82b")
@@ -31373,7 +34184,7 @@
 		(layer "F.Cu")
 		(uuid "f49bfa3c-7a97-49f2-b661-a7af970ab35d")
 		(at 92.272727 62 90)
-		(property "Reference" "SW47"
+		(property "Reference" "SW35"
 			(at 1 8.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31605,7 +34416,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 54 "Net-(D47-A)")
+			(net 42 "Net-(D35-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -31618,7 +34429,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 54 "Net-(D47-A)")
+			(net 42 "Net-(D35-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -31643,7 +34454,7 @@
 		(layer "F.Cu")
 		(uuid "f65f5dcb-36c8-4c9d-9dc9-9b6c7606bf6b")
 		(at 92.322727 52.85 90)
-		(property "Reference" "SW35"
+		(property "Reference" "SW23"
 			(at 1 8.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31875,7 +34686,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 42 "Net-(D35-A)")
+			(net 28 "Net-(D23-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -31888,7 +34699,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 42 "Net-(D35-A)")
+			(net 28 "Net-(D23-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -31915,7 +34726,7 @@
 		(at 49.4375 73.2)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D52"
+		(property "Reference" "D40"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -32233,7 +35044,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 59 "Net-(D52-A)")
+			(net 47 "Net-(D40-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "dcc97577-757f-464b-bd14-ad0b2ac157d6")
@@ -32251,13 +35062,284 @@
 			)
 		)
 	)
+	(footprint "TH-A1OC:tact_switch_4.5x4.5_PTS647"
+		(layer "F.Cu")
+		(uuid "f7594d78-8170-47ed-9b6f-153fb1edd7ec")
+		(at 91.7 85.4 90)
+		(property "Reference" "SW52"
+			(at 1 5 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85cb83a3-5d7d-4213-ba1a-7cc21d770676")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "C6"
+			(at 7.5 1.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6a992b41-dcc9-4997-98dc-d164088c49ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aec4d141-3696-4f7a-9006-5a4403331184")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cda7d5e8-0ffc-461b-a627-bfe3a35150f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc43bbe6-047c-43a0-aa34-e2d14a42b5d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr. Part no." "PTS647SM50SMTR2LFS"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4184c573-6df3-4f0d-806a-c178657703a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part no." "C2689518"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6f8ea3a-c226-4720-8426-d96215a82937")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/C2689518.html?s_z=n_4.5mm%20push%20button%20SMT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96a99a4d-a6f0-474c-abfd-3b390993a34c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/15167234-3d46-4052-8bc9-a87ecc53a7ed")
+		(sheetname "/")
+		(sheetfile "keyboard.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 2.65 0)
+			(end 2.65 0.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "942d0e6b-f41c-45f5-936e-ada155661082")
+		)
+		(fp_line
+			(start 1.1 0)
+			(end 4.2 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "481625e1-2920-446f-aea5-f594ffab4e2d")
+		)
+		(fp_line
+			(start 2.65 0.8)
+			(end 1.9 1.9)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "d73b0f3c-af62-4917-8ff3-bad4a657d4d6")
+		)
+		(fp_line
+			(start 2.65 3.2)
+			(end 2.65 2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "96ab7c9e-f974-4117-afd7-59e1736e58b0")
+		)
+		(fp_line
+			(start 2.65 3.2)
+			(end 2.65 2.4)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "edf2dee2-c53c-4216-bd11-b11f86a02e59")
+		)
+		(fp_line
+			(start 1 3.2)
+			(end 4.3 3.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "b2cc1aaf-50c0-48f5-8a5e-d8041c6fde8b")
+		)
+		(fp_rect
+			(start 0.1 -0.9)
+			(end 5.1 4.1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "3a2f77e6-a816-4b56-a45f-13151b483ea0")
+		)
+		(fp_rect
+			(start -1.05 -1.1)
+			(end 6.3 4.3)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "492a8cf2-308d-49e1-9ede-262cad4c4dc7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 2.6 1.6 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a350f6d3-5f9d-449c-9864-0b68e62ecc6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0 90)
+			(size 1.55 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 77 "/SOURCE5")
+			(pinfunction "1")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin 0.1)
+			(clearance 0.1)
+			(uuid "b491baf0-6401-49dd-9ee3-fb5caa3f3b58")
+		)
+		(pad "1" smd roundrect
+			(at 5.25 0 90)
+			(size 1.55 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 77 "/SOURCE5")
+			(pinfunction "1")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin 0.1)
+			(clearance 0.1)
+			(uuid "b4098959-70ae-4b48-b732-c434761782b4")
+		)
+		(pad "2" smd roundrect
+			(at 0 3.2 90)
+			(size 1.55 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 59 "Net-(D52-A)")
+			(pinfunction "2")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin 0.1)
+			(clearance 0.1)
+			(uuid "8b2102b7-ae58-4ead-bbb7-3235c87ad9ec")
+		)
+		(pad "2" smd roundrect
+			(at 5.25 3.2 90)
+			(size 1.55 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 59 "Net-(D52-A)")
+			(pinfunction "2")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin 0.1)
+			(clearance 0.1)
+			(uuid "df4a1349-d5b2-44d7-a053-42a564d96cb0")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../../lib/3D_models/4.5mm_button.stp"
+			(offset
+				(xyz 14.85 0.6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+	)
 	(footprint "Diode_SMD:D_SOD-523"
 		(layer "F.Cu")
 		(uuid "f7963432-c469-4e18-b77e-bda0eec1e5de")
 		(at 94.772727 63.9)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D47"
+		(property "Reference" "D35"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -32575,7 +35657,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 54 "Net-(D47-A)")
+			(net 42 "Net-(D35-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "162a0680-a96b-4e07-bf44-6f0e27f7c05f")
@@ -32597,7 +35679,7 @@
 		(layer "F.Cu")
 		(uuid "f7e378e4-2511-413c-b57a-089150782565")
 		(at 91.75 71.25 90)
-		(property "Reference" "SW56"
+		(property "Reference" "SW45"
 			(at 1 8.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32609,7 +35691,7 @@
 				)
 			)
 		)
-		(property "Value" "MENU"
+		(property "Value" "C8"
 			(at 7.5 1.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -32829,7 +35911,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 62 "Net-(D56-A)")
+			(net 52 "Net-(D45-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -32842,7 +35924,7 @@
 			(size 1.55 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 62 "Net-(D56-A)")
+			(net 52 "Net-(D45-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -32869,7 +35951,7 @@
 		(at 30.05 45.6)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
-		(property "Reference" "D13"
+		(property "Reference" "D1"
 			(at 0 -1.3 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -33187,7 +36269,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 11 "Net-(D13-A)")
+			(net 7 "Net-(D1-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "aebbcb2b-783f-4737-acff-3ad2023f816f")
@@ -33215,6 +36297,14 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "80c894e4-d291-4a2d-b9d2-29f29cc58b10")
+	)
+	(segment
+		(start 60.824 64.824)
+		(end 61.25 65.25)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 73)
+		(uuid "f21b2898-ef09-400f-ab38-e6a3f8840f13")
 	)
 	(embedded_fonts no)
 )

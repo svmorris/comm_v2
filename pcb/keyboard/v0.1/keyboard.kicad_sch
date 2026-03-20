@@ -3093,12 +3093,6 @@
 		(uuid "02ef388e-a4cf-4fe1-a4d9-772f596c8168")
 	)
 	(junction
-		(at 368.3 309.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "046a0453-267c-4e31-9414-e0e4cc3dd47e")
-	)
-	(junction
 		(at 215.9 284.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3129,10 +3123,16 @@
 		(uuid "076c9128-baa8-4ee1-8366-9b8868b9f939")
 	)
 	(junction
-		(at 215.9 309.88)
+		(at 393.7 309.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0ec7fb4e-846f-4181-9e73-1f7c0cb36703")
+		(uuid "0a94c7ef-f27e-44d2-a854-8bc403988c9a")
+	)
+	(junction
+		(at 444.5 309.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d51ec8d-e5bc-4678-bb1b-9d9870aa8cc3")
 	)
 	(junction
 		(at 443.23 60.96)
@@ -3151,6 +3151,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d7e8796-8dc3-4b7b-92b9-48a002b777c5")
+	)
+	(junction
+		(at 317.5 284.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20e65be8-4c4e-4343-89b9-d90728ae5999")
+	)
+	(junction
+		(at 292.1 284.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20ef0f65-fa5f-47bd-acab-19b6b5028430")
 	)
 	(junction
 		(at 266.7 259.08)
@@ -3213,6 +3225,12 @@
 		(uuid "37b12cf7-02e9-490f-be26-26bd70d1463d")
 	)
 	(junction
+		(at 304.8 330.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40306348-82b2-47f1-bd8a-96a4a68e51e8")
+	)
+	(junction
 		(at 393.7 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3247,6 +3265,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5361abfe-c172-4ec2-b84e-0317953635a7")
+	)
+	(junction
+		(at 431.8 330.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53fcc6ec-7385-4403-8814-66b39c1e38dd")
+	)
+	(junction
+		(at 419.1 309.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ead3fec-1f40-4451-9929-e9f0dd0f5003")
 	)
 	(junction
 		(at 215.9 233.68)
@@ -3351,6 +3381,12 @@
 		(uuid "86013c6e-7532-445a-a0e0-47d54b8b0084")
 	)
 	(junction
+		(at 368.3 309.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86371323-ce34-4aac-acf6-5ab8025602b6")
+	)
+	(junction
 		(at 190.5 259.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3411,6 +3447,12 @@
 		(uuid "aef31995-637a-43a0-af0d-0ed2791d8a2f")
 	)
 	(junction
+		(at 406.4 330.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af4fc7c9-a28e-468a-821c-15dd407e7766")
+	)
+	(junction
 		(at 342.9 259.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3459,6 +3501,12 @@
 		(uuid "bbe72807-716d-4232-af64-d8f2febe339b")
 	)
 	(junction
+		(at 381 330.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be839980-ac79-482c-98cf-291781fa2953")
+	)
+	(junction
 		(at 393.7 259.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3471,6 +3519,12 @@
 		(uuid "c1bc8c5f-a5d3-48b8-9a27-42a444c1fc14")
 	)
 	(junction
+		(at 330.2 330.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1cb48c6-e493-44c9-a4dd-f728d6674b7d")
+	)
+	(junction
 		(at 279.4 254)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3481,6 +3535,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c43d050f-3d86-411d-98c4-627bbf8729ef")
+	)
+	(junction
+		(at 355.6 330.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4469de2-63ae-4be1-8d27-738dd7a23497")
 	)
 	(junction
 		(at 241.3 233.68)
@@ -3523,12 +3583,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3226d5d-509c-45b6-85ee-3b85c7b5237e")
-	)
-	(junction
-		(at 368.3 330.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5e3b89f-c6d3-48ad-b47a-c8dcf14164c4")
 	)
 	(junction
 		(at 419.1 284.48)
@@ -3625,6 +3679,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f65c012e-2d1f-4d6a-a00e-5b99171944d2")
+	)
+	(junction
+		(at 342.9 309.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f87684fe-409f-415e-b6b0-c025bf69c78d")
 	)
 	(junction
 		(at 254 279.4)
@@ -3834,6 +3894,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 330.2) (xy 304.8 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08920c7c-16d0-4ae6-9328-831023b58efb")
+	)
+	(wire
+		(pts
 			(xy 553.72 127) (xy 553.72 128.27)
 		)
 		(stroke
@@ -3861,6 +3931,16 @@
 			(type default)
 		)
 		(uuid "13b0abda-4608-4234-8ad4-cb28f2b03204")
+	)
+	(wire
+		(pts
+			(xy 292.1 284.48) (xy 292.1 335.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14ca61b1-e28e-42cc-90ba-43e7074a5574")
 	)
 	(wire
 		(pts
@@ -4224,16 +4304,6 @@
 	)
 	(wire
 		(pts
-			(xy 381 322.58) (xy 368.3 322.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41367d0f-9c67-41c1-b5a1-425fb3d5c000")
-	)
-	(wire
-		(pts
 			(xy 438.15 73.66) (xy 438.15 78.74)
 		)
 		(stroke
@@ -4251,6 +4321,16 @@
 			(type default)
 		)
 		(uuid "47d2f77f-b889-47a2-9602-007f8094e1b5")
+	)
+	(wire
+		(pts
+			(xy 317.5 284.48) (xy 317.5 335.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d75c35-c14b-4258-af50-97bd25c2f8e4")
 	)
 	(wire
 		(pts
@@ -4281,6 +4361,16 @@
 			(type default)
 		)
 		(uuid "4b97a38c-fe65-405a-ba42-5cc0b1105a4c")
+	)
+	(wire
+		(pts
+			(xy 368.3 309.88) (xy 368.3 335.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c716993-e7d5-40ff-ac1a-44c552e36866")
 	)
 	(wire
 		(pts
@@ -4484,16 +4574,6 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 330.2) (xy 515.62 330.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69270d16-7f4e-435f-9a4a-037b9609fe17")
-	)
-	(wire
-		(pts
 			(xy 190.5 120.65) (xy 482.6 120.65)
 		)
 		(stroke
@@ -4514,13 +4594,13 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 323.85) (xy 215.9 309.88)
+			(xy 444.5 309.88) (xy 444.5 335.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6ed47789-5441-45d4-9c03-01f327b92b2e")
+		(uuid "6efd8f2d-df86-4118-882b-9c227fd4aa5b")
 	)
 	(wire
 		(pts
@@ -4551,16 +4631,6 @@
 			(type default)
 		)
 		(uuid "75237bf0-7767-457d-8279-5e9bcc37fad4")
-	)
-	(wire
-		(pts
-			(xy 368.3 322.58) (xy 368.3 309.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7789dc24-3b6d-4fd6-b3f5-6d4d93583dca")
 	)
 	(wire
 		(pts
@@ -4604,6 +4674,16 @@
 	)
 	(wire
 		(pts
+			(xy 342.9 309.88) (xy 342.9 335.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d06a1fd-e1aa-4df2-b7c3-ed61385d461a")
+	)
+	(wire
+		(pts
 			(xy 444.5 259.08) (xy 444.5 284.48)
 		)
 		(stroke
@@ -4621,6 +4701,16 @@
 			(type default)
 		)
 		(uuid "7f999f4e-6768-48da-ba4b-f5048d1d073d")
+	)
+	(wire
+		(pts
+			(xy 381 330.2) (xy 406.4 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ffe59cd-1a9e-4af9-877d-3beef1d41689")
 	)
 	(wire
 		(pts
@@ -4694,16 +4784,6 @@
 	)
 	(wire
 		(pts
-			(xy 381 335.28) (xy 381 322.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86a7ac0d-876b-45ad-8c70-4e9d6052b3ce")
-	)
-	(wire
-		(pts
 			(xy 177.8 254) (xy 203.2 254)
 		)
 		(stroke
@@ -4751,6 +4831,16 @@
 			(type default)
 		)
 		(uuid "8fbe1903-fa0f-4ad8-a1f6-50034084098f")
+	)
+	(wire
+		(pts
+			(xy 419.1 309.88) (xy 419.1 335.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "905c7c89-833a-485c-993d-ffa07c29bb32")
 	)
 	(wire
 		(pts
@@ -4894,6 +4984,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 330.2) (xy 355.6 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9af04b69-c9c1-4f8b-861b-39b413dad927")
+	)
+	(wire
+		(pts
 			(xy 444.5 284.48) (xy 444.5 309.88)
 		)
 		(stroke
@@ -4931,6 +5031,16 @@
 			(type default)
 		)
 		(uuid "9e6953bb-1525-43e3-888b-3bfe388f6d78")
+	)
+	(wire
+		(pts
+			(xy 431.8 330.2) (xy 515.62 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d4fb76-ab37-4fce-bb14-ad501a42b320")
 	)
 	(wire
 		(pts
@@ -4981,16 +5091,6 @@
 			(type default)
 		)
 		(uuid "aa77e75d-78d0-4b93-b53b-e92b118e285e")
-	)
-	(wire
-		(pts
-			(xy 228.6 323.85) (xy 215.9 323.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab1ecc81-1166-47eb-8e3c-f4bd4dc2be4b")
 	)
 	(wire
 		(pts
@@ -5144,13 +5244,13 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 330.2) (xy 368.3 330.2)
+			(xy 355.6 330.2) (xy 381 330.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba0d64f1-7cd3-4e43-876e-74efcc554528")
+		(uuid "b9ceea53-f09d-4395-a80a-2e03120c0f4f")
 	)
 	(wire
 		(pts
@@ -5181,16 +5281,6 @@
 			(type default)
 		)
 		(uuid "be8e3b3f-fbe3-445f-b871-9e2619c4d19e")
-	)
-	(wire
-		(pts
-			(xy 228.6 323.85) (xy 228.6 335.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0018fc3-c809-4508-8911-b07462a80bd2")
 	)
 	(wire
 		(pts
@@ -5444,6 +5534,16 @@
 	)
 	(wire
 		(pts
+			(xy 406.4 330.2) (xy 431.8 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e88e4a26-430f-4df6-8987-0555197dc153")
+	)
+	(wire
+		(pts
 			(xy 406.4 228.6) (xy 431.8 228.6)
 		)
 		(stroke
@@ -5471,6 +5571,16 @@
 			(type default)
 		)
 		(uuid "eb61ad0a-7d83-45e1-80bf-f9e34135cfc1")
+	)
+	(wire
+		(pts
+			(xy 393.7 309.88) (xy 393.7 335.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd2bb7d-46de-45ea-aea0-8cb1cb781ebc")
 	)
 	(wire
 		(pts
@@ -5591,6 +5701,16 @@
 			(type default)
 		)
 		(uuid "fc92c5cf-5b29-482e-8249-0557c0e7004e")
+	)
+	(wire
+		(pts
+			(xy 304.8 330.2) (xy 330.2 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd5e1160-839f-4a42-bc3e-e94f9488331f")
 	)
 	(label "INPUT8"
 		(at 476.25 135.89 180)
@@ -5922,7 +6042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "056c6d4c-f9f3-478a-a47a-229a1cda0102")
-		(property "Reference" "D51"
+		(property "Reference" "D39"
 			(at 212.09 303.53 0)
 			(effects
 				(font
@@ -6028,7 +6148,111 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D51")
+					(reference "D39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TH-A10C:SW_Push_45deg")
+		(at 434.34 332.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06aa71d7-a758-43a0-a594-223187e74e2d")
+		(property "Reference" "SW53"
+			(at 434.34 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C7"
+			(at 434.34 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TH-A1OC:tact_switch_4.5x4.5_PTS647"
+			(at 434.34 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 434.34 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 434.086 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 434.34 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part no." "PTS647SM50SMTR2LFS"
+			(at 434.34 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part no." "C2689518"
+			(at 434.34 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/C2689518.html?s_z=n_4.5mm%20push%20button%20SMT"
+			(at 434.34 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db5bc8af-700b-45c4-8c0b-2d690bf9dae9")
+		)
+		(pin "2"
+			(uuid "d5add772-6425-49d6-9d89-6819c185c622")
+		)
+		(instances
+			(project "keyboard"
+				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
+					(reference "SW53")
 					(unit 1)
 				)
 			)
@@ -6112,7 +6336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0be95553-478d-41d6-b11e-645949a14cef")
-		(property "Reference" "SW15"
+		(property "Reference" "SW3"
 			(at 205.74 223.52 0)
 			(effects
 				(font
@@ -6200,7 +6424,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW15")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -6216,7 +6440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10047237-28aa-4669-ab03-b9e8a8c164b3")
-		(property "Reference" "D25"
+		(property "Reference" "D13"
 			(at 161.29 252.73 0)
 			(effects
 				(font
@@ -6322,7 +6546,111 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D25")
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TH-A10C:SW_Push_45deg")
+		(at 408.94 332.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15167234-3d46-4052-8bc9-a87ecc53a7ed")
+		(property "Reference" "SW52"
+			(at 408.94 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C6"
+			(at 408.94 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TH-A1OC:tact_switch_4.5x4.5_PTS647"
+			(at 408.94 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 408.94 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 408.686 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 408.94 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part no." "PTS647SM50SMTR2LFS"
+			(at 408.94 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part no." "C2689518"
+			(at 408.94 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/C2689518.html?s_z=n_4.5mm%20push%20button%20SMT"
+			(at 408.94 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b6253a2-53ca-47f8-974f-b92340c309f8")
+		)
+		(pin "2"
+			(uuid "0389453a-69fe-444a-86a0-9e818a718e3a")
+		)
+		(instances
+			(project "keyboard"
+				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
+					(reference "SW52")
 					(unit 1)
 				)
 			)
@@ -6338,7 +6666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15db7c13-9f65-468b-a186-7b839a5e60a7")
-		(property "Reference" "SW14"
+		(property "Reference" "SW2"
 			(at 180.34 223.52 0)
 			(effects
 				(font
@@ -6426,7 +6754,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW14")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -6509,7 +6837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18da66a8-7bf0-491a-be77-9f1dc580ba2b")
-		(property "Reference" "D37"
+		(property "Reference" "D25"
 			(at 161.29 278.13 0)
 			(effects
 				(font
@@ -6615,7 +6943,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D37")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -6631,7 +6959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19101c7e-368d-4114-85d6-6f5eb4fe5011")
-		(property "Reference" "D26"
+		(property "Reference" "D14"
 			(at 186.69 252.73 0)
 			(effects
 				(font
@@ -6737,7 +7065,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D26")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -6753,7 +7081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bd584e5-6850-44cf-8861-782c19d7e993")
-		(property "Reference" "D52"
+		(property "Reference" "D40"
 			(at 237.49 303.53 0)
 			(effects
 				(font
@@ -6859,7 +7187,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D52")
+					(reference "D40")
 					(unit 1)
 				)
 			)
@@ -6875,7 +7203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cc29daa-b9e6-4c76-98eb-df6ad36f879a")
-		(property "Reference" "D16"
+		(property "Reference" "D4"
 			(at 237.49 227.33 0)
 			(effects
 				(font
@@ -6981,7 +7309,129 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D16")
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 415.29 335.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f9593d8-27c8-48ce-8ec9-c1e5fb988536")
+		(property "Reference" "D52"
+			(at 415.29 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 415.29 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 415.29 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 415.29 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 415.29 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 415.29 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 415.29 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YONGYUTAI"
+			(at 415.29 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part no." "CD4148WTP"
+			(at 415.29 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part no." "C30584800"
+			(at 415.29 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/C30584800.html"
+			(at 415.29 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "137edc94-63ca-4ba9-b0db-da05a4176372")
+		)
+		(pin "2"
+			(uuid "91b6836b-1843-44b9-9266-3647c4e97bce")
+		)
+		(instances
+			(project "keyboard"
+				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
+					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -6997,7 +7447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20a0180d-80d0-42eb-a5eb-e4afe372d258")
-		(property "Reference" "SW39"
+		(property "Reference" "SW27"
 			(at 205.74 274.32 0)
 			(effects
 				(font
@@ -7085,7 +7535,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW39")
+					(reference "SW27")
 					(unit 1)
 				)
 			)
@@ -7101,7 +7551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21ebfcfa-5b16-489b-a6a3-c60fe7c31b6e")
-		(property "Reference" "D36"
+		(property "Reference" "D24"
 			(at 440.69 252.73 0)
 			(effects
 				(font
@@ -7207,7 +7657,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D36")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -7223,7 +7673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "227874bf-fee4-446a-9e61-d85d666e3479")
-		(property "Reference" "SW51"
+		(property "Reference" "SW39"
 			(at 205.74 299.72 0)
 			(effects
 				(font
@@ -7311,7 +7761,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW51")
+					(reference "SW39")
 					(unit 1)
 				)
 			)
@@ -7327,7 +7777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25ca177c-d0ad-4e4d-a3c2-795417592511")
-		(property "Reference" "D44"
+		(property "Reference" "D32"
 			(at 339.09 278.13 0)
 			(effects
 				(font
@@ -7433,7 +7883,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D44")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -7449,7 +7899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29519afe-e131-46cf-9627-2f7a18386928")
-		(property "Reference" "SW45"
+		(property "Reference" "SW33"
 			(at 358.14 274.32 0)
 			(effects
 				(font
@@ -7537,7 +7987,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW45")
+					(reference "SW33")
 					(unit 1)
 				)
 			)
@@ -7553,7 +8003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "295e49b0-3f2c-4009-aba4-b4ea185d9ca3")
-		(property "Reference" "D20"
+		(property "Reference" "D8"
 			(at 339.09 227.33 0)
 			(effects
 				(font
@@ -7659,7 +8109,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D20")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -7675,7 +8125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b0942a9-ee8a-4b7d-9a67-f40aae0fa6e5")
-		(property "Reference" "SW34"
+		(property "Reference" "SW22"
 			(at 383.54 248.92 0)
 			(effects
 				(font
@@ -7763,7 +8213,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW34")
+					(reference "SW22")
 					(unit 1)
 				)
 			)
@@ -7779,7 +8229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "350fd389-f456-446f-a475-603aab77d649")
-		(property "Reference" "D54"
+		(property "Reference" "D43"
 			(at 364.49 303.53 0)
 			(effects
 				(font
@@ -7885,7 +8335,129 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D54")
+					(reference "D43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 288.29 335.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3589eef7-da96-4235-ab26-e455fced3538")
+		(property "Reference" "D47"
+			(at 288.29 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 288.29 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 288.29 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 288.29 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 288.29 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 288.29 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 288.29 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YONGYUTAI"
+			(at 288.29 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part no." "CD4148WTP"
+			(at 288.29 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part no." "C30584800"
+			(at 288.29 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/C30584800.html"
+			(at 288.29 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a33be40-004f-4cde-bfe3-0546bec51250")
+		)
+		(pin "2"
+			(uuid "1c3874a9-00c7-4b8d-86fd-601c1e781b6d")
+		)
+		(instances
+			(project "keyboard"
+				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -7968,7 +8540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "391e04ef-6c37-4c23-a7fd-739de5ce5696")
-		(property "Reference" "SW31"
+		(property "Reference" "SW19"
 			(at 307.34 248.92 0)
 			(effects
 				(font
@@ -8056,7 +8628,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW31")
+					(reference "SW19")
 					(unit 1)
 				)
 			)
@@ -8064,7 +8636,7 @@
 	)
 	(symbol
 		(lib_id "TH-A10C:SW_Push_45deg")
-		(at 370.84 332.74 0)
+		(at 383.54 332.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8072,8 +8644,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d79e0d1-4cf8-48a7-8411-64304aedd8fd")
-		(property "Reference" "SW62"
-			(at 370.84 325.12 0)
+		(property "Reference" "SW51"
+			(at 383.54 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8081,7 +8653,7 @@
 			)
 		)
 		(property "Value" "C5"
-			(at 370.84 327.66 0)
+			(at 383.54 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8089,7 +8661,7 @@
 			)
 		)
 		(property "Footprint" "TH-A1OC:tact_switch_4.5x4.5_PTS647"
-			(at 370.84 332.74 0)
+			(at 383.54 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8098,7 +8670,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 370.84 332.74 0)
+			(at 383.54 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8107,7 +8679,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 370.586 332.74 0)
+			(at 383.286 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8116,7 +8688,7 @@
 			)
 		)
 		(property "Manufacturer" "C&K"
-			(at 370.84 332.74 0)
+			(at 383.54 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8125,7 +8697,7 @@
 			)
 		)
 		(property "Mfr. Part no." "PTS647SM50SMTR2LFS"
-			(at 370.84 332.74 0)
+			(at 383.54 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8134,7 +8706,7 @@
 			)
 		)
 		(property "LCSC Part no." "C2689518"
-			(at 370.84 332.74 0)
+			(at 383.54 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8143,7 +8715,7 @@
 			)
 		)
 		(property "Distributor Link" "https://www.lcsc.com/product-detail/C2689518.html?s_z=n_4.5mm%20push%20button%20SMT"
-			(at 370.84 332.74 0)
+			(at 383.54 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8160,7 +8732,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW62")
+					(reference "SW51")
 					(unit 1)
 				)
 			)
@@ -8176,7 +8748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3dd68f32-95cf-4bbd-a5ac-4fe95d3aea4f")
-		(property "Reference" "D57"
+		(property "Reference" "D46"
 			(at 440.69 303.53 0)
 			(effects
 				(font
@@ -8282,7 +8854,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D57")
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -8298,7 +8870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f9fa389-2df0-45c6-8dbe-4c9895542bf0")
-		(property "Reference" "D1"
+		(property "Reference" "D41"
 			(at 262.89 303.53 0)
 			(effects
 				(font
@@ -8404,7 +8976,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D1")
+					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -8487,7 +9059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40119758-f188-4a81-bbb6-6094bcb66804")
-		(property "Reference" "D56"
+		(property "Reference" "D45"
 			(at 415.29 303.53 0)
 			(effects
 				(font
@@ -8593,7 +9165,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D56")
+					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -8609,7 +9181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40264882-1367-465d-8f9b-ce7c555207ec")
-		(property "Reference" "SW50"
+		(property "Reference" "SW38"
 			(at 180.34 299.72 0)
 			(effects
 				(font
@@ -8697,7 +9269,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW50")
+					(reference "SW38")
 					(unit 1)
 				)
 			)
@@ -8713,7 +9285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4057063b-92be-4f33-a0a4-00b143a01362")
-		(property "Reference" "SW28"
+		(property "Reference" "SW16"
 			(at 231.14 248.92 0)
 			(effects
 				(font
@@ -8801,7 +9373,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW28")
+					(reference "SW16")
 					(unit 1)
 				)
 			)
@@ -8817,7 +9389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "412208bb-34dc-496e-a6ff-b3ff44a61dbe")
-		(property "Reference" "D30"
+		(property "Reference" "D18"
 			(at 288.29 252.73 0)
 			(effects
 				(font
@@ -8923,7 +9495,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D30")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -9016,7 +9588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "433c99f1-f3ec-4645-a795-9de84f33c6cc")
-		(property "Reference" "SW37"
+		(property "Reference" "SW25"
 			(at 154.94 274.32 0)
 			(effects
 				(font
@@ -9104,7 +9676,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW37")
+					(reference "SW25")
 					(unit 1)
 				)
 			)
@@ -9112,7 +9684,7 @@
 	)
 	(symbol
 		(lib_id "TH-A10C:SW_Push_45deg")
-		(at 218.44 332.74 0)
+		(at 307.34 332.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9120,8 +9692,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43fc7d1e-cdfd-4b58-bb19-37887a1a16ef")
-		(property "Reference" "SW59"
-			(at 218.44 325.12 0)
+		(property "Reference" "SW48"
+			(at 307.34 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9129,7 +9701,7 @@
 			)
 		)
 		(property "Value" "C2"
-			(at 218.44 327.66 0)
+			(at 307.34 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9137,7 +9709,7 @@
 			)
 		)
 		(property "Footprint" "TH-A1OC:tact_switch_4.5x4.5_PTS647"
-			(at 218.44 332.74 0)
+			(at 307.34 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9146,7 +9718,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 332.74 0)
+			(at 307.34 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9155,7 +9727,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 218.186 332.74 0)
+			(at 307.086 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9164,7 +9736,7 @@
 			)
 		)
 		(property "Manufacturer" "C&K"
-			(at 218.44 332.74 0)
+			(at 307.34 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9173,7 +9745,7 @@
 			)
 		)
 		(property "Mfr. Part no." "PTS647SM50SMTR2LFS"
-			(at 218.44 332.74 0)
+			(at 307.34 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9182,7 +9754,7 @@
 			)
 		)
 		(property "LCSC Part no." "C2689518"
-			(at 218.44 332.74 0)
+			(at 307.34 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9191,7 +9763,7 @@
 			)
 		)
 		(property "Distributor Link" "https://www.lcsc.com/product-detail/C2689518.html?s_z=n_4.5mm%20push%20button%20SMT"
-			(at 218.44 332.74 0)
+			(at 307.34 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9208,7 +9780,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW59")
+					(reference "SW48")
 					(unit 1)
 				)
 			)
@@ -9224,7 +9796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "458c07d1-7411-4ca5-9e41-d97d3aff33ba")
-		(property "Reference" "SW44"
+		(property "Reference" "SW32"
 			(at 332.74 274.32 0)
 			(effects
 				(font
@@ -9312,7 +9884,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW44")
+					(reference "SW32")
 					(unit 1)
 				)
 			)
@@ -9328,7 +9900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45b7c533-7dc7-45be-9e54-4dc5305a7991")
-		(property "Reference" "D41"
+		(property "Reference" "D29"
 			(at 262.89 278.13 0)
 			(effects
 				(font
@@ -9434,7 +10006,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D41")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -9450,7 +10022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46a96419-0dfa-44ef-a992-477585bb8ace")
-		(property "Reference" "SW27"
+		(property "Reference" "SW15"
 			(at 205.74 248.92 0)
 			(effects
 				(font
@@ -9538,7 +10110,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW27")
+					(reference "SW15")
 					(unit 1)
 				)
 			)
@@ -9621,7 +10193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47975aa6-9d50-4c37-b655-0f06e063eeef")
-		(property "Reference" "SW57"
+		(property "Reference" "SW46"
 			(at 434.34 299.72 0)
 			(effects
 				(font
@@ -9709,7 +10281,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW57")
+					(reference "SW46")
 					(unit 1)
 				)
 			)
@@ -9935,7 +10507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5417f89a-0811-4f3e-993f-69e33de91b50")
-		(property "Reference" "SW26"
+		(property "Reference" "SW14"
 			(at 180.34 248.92 0)
 			(effects
 				(font
@@ -10023,7 +10595,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW26")
+					(reference "SW14")
 					(unit 1)
 				)
 			)
@@ -10039,7 +10611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "550b4d23-1d00-4658-8440-4df52131f115")
-		(property "Reference" "D33"
+		(property "Reference" "D21"
 			(at 364.49 252.73 0)
 			(effects
 				(font
@@ -10145,7 +10717,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D33")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -10161,7 +10733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59a4ea82-4508-4c08-90fe-e83634e305cb")
-		(property "Reference" "SW21"
+		(property "Reference" "SW9"
 			(at 358.14 223.52 0)
 			(effects
 				(font
@@ -10249,7 +10821,111 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW21")
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TH-A10C:SW_Push_45deg")
+		(at 281.94 332.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d02e3f6-1a39-4935-a3aa-7cc78cbe3995")
+		(property "Reference" "SW47"
+			(at 281.94 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C1"
+			(at 281.94 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TH-A1OC:tact_switch_4.5x4.5_PTS647"
+			(at 281.94 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 281.94 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 281.686 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 281.94 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part no." "PTS647SM50SMTR2LFS"
+			(at 281.94 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part no." "C2689518"
+			(at 281.94 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/C2689518.html?s_z=n_4.5mm%20push%20button%20SMT"
+			(at 281.94 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6765083c-e42e-480a-b46c-ebb6bbaf2dfd")
+		)
+		(pin "2"
+			(uuid "c0dbb4a3-ff18-4edc-80d6-fbce1b47480e")
+		)
+		(instances
+			(project "keyboard"
+				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
+					(reference "SW47")
 					(unit 1)
 				)
 			)
@@ -10265,7 +10941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d3eb8ec-b481-486a-9581-e1b9c757daff")
-		(property "Reference" "SW13"
+		(property "Reference" "SW1"
 			(at 154.94 223.52 0)
 			(effects
 				(font
@@ -10353,7 +11029,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW13")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -10369,7 +11045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f080c5a-4b30-43c3-a7ff-c1ccd8476a7a")
-		(property "Reference" "D45"
+		(property "Reference" "D33"
 			(at 364.49 278.13 0)
 			(effects
 				(font
@@ -10475,7 +11151,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D45")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -10491,7 +11167,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60018506-e0d1-4699-a8f4-2b394836932a")
-		(property "Reference" "SW36"
+		(property "Reference" "SW24"
 			(at 434.34 248.92 0)
 			(effects
 				(font
@@ -10579,7 +11255,129 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW36")
+					(reference "SW24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 440.69 335.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62513d38-accd-47b2-83cd-24964a98894b")
+		(property "Reference" "D53"
+			(at 440.69 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 440.69 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 440.69 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 440.69 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 440.69 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 440.69 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 440.69 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YONGYUTAI"
+			(at 440.69 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part no." "CD4148WTP"
+			(at 440.69 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part no." "C30584800"
+			(at 440.69 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/C30584800.html"
+			(at 440.69 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee6590e1-a4e2-491c-9916-f4c6b889d9d5")
+		)
+		(pin "2"
+			(uuid "e6841dd7-08db-48de-9ad7-12424ef790fb")
+		)
+		(instances
+			(project "keyboard"
+				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
+					(reference "D53")
 					(unit 1)
 				)
 			)
@@ -10595,7 +11393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63077f0a-bf46-4ea9-933e-786453f4199f")
-		(property "Reference" "D19"
+		(property "Reference" "D7"
 			(at 313.69 227.33 0)
 			(effects
 				(font
@@ -10701,7 +11499,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D19")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -10922,7 +11720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66c3240f-5171-4b21-9973-fe052e8fd809")
-		(property "Reference" "SW30"
+		(property "Reference" "SW18"
 			(at 281.94 248.92 0)
 			(effects
 				(font
@@ -11010,7 +11808,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW30")
+					(reference "SW18")
 					(unit 1)
 				)
 			)
@@ -11026,7 +11824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66cfcdbf-e563-4ebe-9c83-2e665fd27cba")
-		(property "Reference" "D39"
+		(property "Reference" "D27"
 			(at 212.09 278.13 0)
 			(effects
 				(font
@@ -11132,7 +11930,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D39")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -11148,7 +11946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cd58362-d693-4afc-b91c-99c8ed746201")
-		(property "Reference" "D21"
+		(property "Reference" "D9"
 			(at 364.49 227.33 0)
 			(effects
 				(font
@@ -11254,7 +12052,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D21")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -11376,7 +12174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ecaa951-da54-44dc-b45e-3af673220503")
-		(property "Reference" "SW40"
+		(property "Reference" "SW28"
 			(at 231.14 274.32 0)
 			(effects
 				(font
@@ -11464,7 +12262,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW40")
+					(reference "SW28")
 					(unit 1)
 				)
 			)
@@ -11480,7 +12278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "731bdc2c-15b9-46c2-beed-dbb6f9b54dd3")
-		(property "Reference" "SW1"
+		(property "Reference" "SW41"
 			(at 256.54 299.72 0)
 			(effects
 				(font
@@ -11568,7 +12366,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW1")
+					(reference "SW41")
 					(unit 1)
 				)
 			)
@@ -11584,7 +12382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "740de33e-b456-4ba9-883d-d8d811d25b0d")
-		(property "Reference" "D55"
+		(property "Reference" "D44"
 			(at 389.89 303.53 0)
 			(effects
 				(font
@@ -11690,7 +12488,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D55")
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -11706,7 +12504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74b16bbe-8021-4ae3-a411-82988d1d1c07")
-		(property "Reference" "SW41"
+		(property "Reference" "SW29"
 			(at 256.54 274.32 0)
 			(effects
 				(font
@@ -11794,7 +12592,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW41")
+					(reference "SW29")
 					(unit 1)
 				)
 			)
@@ -11810,7 +12608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76b84af3-8b2f-4513-b3ae-109538f49cb1")
-		(property "Reference" "SW49"
+		(property "Reference" "SW37"
 			(at 154.94 299.72 0)
 			(effects
 				(font
@@ -11898,7 +12696,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW49")
+					(reference "SW37")
 					(unit 1)
 				)
 			)
@@ -11914,7 +12712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a72cdfd-938d-4626-898b-ff1522057db9")
-		(property "Reference" "D29"
+		(property "Reference" "D17"
 			(at 262.89 252.73 0)
 			(effects
 				(font
@@ -12020,7 +12818,111 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D29")
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TH-A10C:SW_Push_45deg")
+		(at 358.14 332.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a7ee492-151c-4072-a9ed-f992ac7d87b3")
+		(property "Reference" "SW50"
+			(at 358.14 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C4"
+			(at 358.14 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TH-A1OC:tact_switch_4.5x4.5_PTS647"
+			(at 358.14 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 358.14 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 357.886 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 358.14 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part no." "PTS647SM50SMTR2LFS"
+			(at 358.14 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part no." "C2689518"
+			(at 358.14 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/C2689518.html?s_z=n_4.5mm%20push%20button%20SMT"
+			(at 358.14 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74786dd4-d1a0-490d-9e2d-61cd092677f2")
+		)
+		(pin "2"
+			(uuid "9cf27200-2fdf-46b5-bc3d-682a146b77de")
+		)
+		(instances
+			(project "keyboard"
+				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
+					(reference "SW50")
 					(unit 1)
 				)
 			)
@@ -12036,7 +12938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bc4764b-4a6c-452d-8c8f-2e6be3ccd784")
-		(property "Reference" "D23"
+		(property "Reference" "D11"
 			(at 415.29 227.33 0)
 			(effects
 				(font
@@ -12142,7 +13044,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D23")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -12158,7 +13060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c87a96b-eb07-4270-9358-6f15ffd715a5")
-		(property "Reference" "D24"
+		(property "Reference" "D12"
 			(at 440.69 227.33 0)
 			(effects
 				(font
@@ -12264,7 +13166,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D24")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -12280,7 +13182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d78d6eb-4b95-44a8-a73c-13d1eabf2362")
-		(property "Reference" "SW25"
+		(property "Reference" "SW13"
 			(at 154.94 248.92 0)
 			(effects
 				(font
@@ -12368,7 +13270,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW25")
+					(reference "SW13")
 					(unit 1)
 				)
 			)
@@ -12451,7 +13353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f94ac5f-ecb5-4a3a-9aef-4018590e2ad4")
-		(property "Reference" "SW46"
+		(property "Reference" "SW34"
 			(at 383.54 274.32 0)
 			(effects
 				(font
@@ -12539,7 +13441,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW46")
+					(reference "SW34")
 					(unit 1)
 				)
 			)
@@ -12555,7 +13457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fa4fb0d-ddf4-46e7-a0f8-049daa57daaa")
-		(property "Reference" "D34"
+		(property "Reference" "D22"
 			(at 389.89 252.73 0)
 			(effects
 				(font
@@ -12661,7 +13563,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D34")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -12677,7 +13579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80c6761c-892b-4f0b-80db-9508d61474e7")
-		(property "Reference" "D15"
+		(property "Reference" "D3"
 			(at 212.09 227.33 0)
 			(effects
 				(font
@@ -12783,7 +13685,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D15")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -12799,7 +13701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88f67b05-4253-449f-9e65-dced717b7f37")
-		(property "Reference" "D38"
+		(property "Reference" "D26"
 			(at 186.69 278.13 0)
 			(effects
 				(font
@@ -12905,7 +13807,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D38")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -12921,7 +13823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c43893c-0cec-4277-9bf7-ef0869caaf3a")
-		(property "Reference" "D48"
+		(property "Reference" "D36"
 			(at 440.69 278.13 0)
 			(effects
 				(font
@@ -13027,7 +13929,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D48")
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -13043,7 +13945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e1787cc-907e-4abb-987f-9d435711dc54")
-		(property "Reference" "SW35"
+		(property "Reference" "SW23"
 			(at 408.94 248.92 0)
 			(effects
 				(font
@@ -13131,7 +14033,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW35")
+					(reference "SW23")
 					(unit 1)
 				)
 			)
@@ -13507,7 +14409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9032e6af-5d01-4603-9538-fef1f49b9b62")
-		(property "Reference" "SW38"
+		(property "Reference" "SW26"
 			(at 180.34 274.32 0)
 			(effects
 				(font
@@ -13595,7 +14497,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW38")
+					(reference "SW26")
 					(unit 1)
 				)
 			)
@@ -13823,7 +14725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95d0121d-14e5-4222-a238-00e99063e12a")
-		(property "Reference" "D47"
+		(property "Reference" "D35"
 			(at 415.29 278.13 0)
 			(effects
 				(font
@@ -13929,7 +14831,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D47")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -13945,7 +14847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "967d4f44-3210-4ee0-9695-ef6a2d456690")
-		(property "Reference" "SW17"
+		(property "Reference" "SW5"
 			(at 256.54 223.52 0)
 			(effects
 				(font
@@ -14033,7 +14935,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW17")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -14049,7 +14951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ca01310-6013-4dfe-b474-ad80bf471176")
-		(property "Reference" "D32"
+		(property "Reference" "D20"
 			(at 339.09 252.73 0)
 			(effects
 				(font
@@ -14155,7 +15057,129 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D32")
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 364.49 335.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a11c00fa-b3e7-4191-b390-531426791e16")
+		(property "Reference" "D50"
+			(at 364.49 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 364.49 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 364.49 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 364.49 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 364.49 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 364.49 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 364.49 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YONGYUTAI"
+			(at 364.49 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part no." "CD4148WTP"
+			(at 364.49 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part no." "C30584800"
+			(at 364.49 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/C30584800.html"
+			(at 364.49 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de00f8a4-3638-44da-af8a-6646824b4c36")
+		)
+		(pin "2"
+			(uuid "7adfbd83-3622-4373-a6d7-9402ec46b296")
+		)
+		(instances
+			(project "keyboard"
+				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
+					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -14171,7 +15195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a45d28e6-3385-4e33-a967-e0fbd58116ff")
-		(property "Reference" "SW52"
+		(property "Reference" "SW40"
 			(at 231.14 299.72 0)
 			(effects
 				(font
@@ -14259,7 +15283,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW52")
+					(reference "SW40")
 					(unit 1)
 				)
 			)
@@ -14390,7 +15414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab9e4ccb-49c7-414d-bee1-1b218c9b1037")
-		(property "Reference" "SW32"
+		(property "Reference" "SW20"
 			(at 332.74 248.92 0)
 			(effects
 				(font
@@ -14478,7 +15502,129 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW32")
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 339.09 335.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae3d4ead-d578-4561-9964-f05c242d4755")
+		(property "Reference" "D49"
+			(at 339.09 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 339.09 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 339.09 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 339.09 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 339.09 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 339.09 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 339.09 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YONGYUTAI"
+			(at 339.09 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part no." "CD4148WTP"
+			(at 339.09 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part no." "C30584800"
+			(at 339.09 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/C30584800.html"
+			(at 339.09 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26c4c6e4-592d-4c56-93a6-c0c143faa01c")
+		)
+		(pin "2"
+			(uuid "1feedbea-5b6b-4ac3-80ef-f3bc400e68e3")
+		)
+		(instances
+			(project "keyboard"
+				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
+					(reference "D49")
 					(unit 1)
 				)
 			)
@@ -14494,7 +15640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afe6563e-9e3f-4666-8e33-1684ea511bb6")
-		(property "Reference" "SW19"
+		(property "Reference" "SW7"
 			(at 307.34 223.52 0)
 			(effects
 				(font
@@ -14582,7 +15728,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW19")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -14598,7 +15744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b036b892-3f0a-4a49-b7a9-64cf145399fa")
-		(property "Reference" "SW22"
+		(property "Reference" "SW10"
 			(at 383.54 223.52 0)
 			(effects
 				(font
@@ -14686,7 +15832,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW22")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -14694,7 +15840,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 377.19 335.28 180)
+		(at 389.89 335.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14702,8 +15848,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0d86807-e8d5-44a3-9c35-b065b74540b0")
-		(property "Reference" "D62"
-			(at 377.19 328.93 0)
+		(property "Reference" "D51"
+			(at 389.89 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14711,7 +15857,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 377.19 331.47 0)
+			(at 389.89 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14719,7 +15865,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 377.19 335.28 0)
+			(at 389.89 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14728,7 +15874,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 377.19 335.28 0)
+			(at 389.89 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14737,7 +15883,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 377.19 335.28 0)
+			(at 389.89 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14746,7 +15892,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 377.19 335.28 0)
+			(at 389.89 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14755,7 +15901,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 377.19 335.28 0)
+			(at 389.89 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14764,7 +15910,7 @@
 			)
 		)
 		(property "Manufacturer" "YONGYUTAI"
-			(at 377.19 335.28 0)
+			(at 389.89 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14773,7 +15919,7 @@
 			)
 		)
 		(property "Mfr. Part no." "CD4148WTP"
-			(at 377.19 335.28 0)
+			(at 389.89 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14782,7 +15928,7 @@
 			)
 		)
 		(property "LCSC Part no." "C30584800"
-			(at 377.19 335.28 0)
+			(at 389.89 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14791,7 +15937,7 @@
 			)
 		)
 		(property "Distributor Link" "https://www.lcsc.com/product-detail/C30584800.html"
-			(at 377.19 335.28 0)
+			(at 389.89 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14808,7 +15954,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D62")
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -14891,7 +16037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b331be74-1231-40b8-9770-958237e540ee")
-		(property "Reference" "SW43"
+		(property "Reference" "SW31"
 			(at 307.34 274.32 0)
 			(effects
 				(font
@@ -14979,7 +16125,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW43")
+					(reference "SW31")
 					(unit 1)
 				)
 			)
@@ -14995,7 +16141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b358d236-6e89-4ec9-a779-ab35fcc00348")
-		(property "Reference" "D18"
+		(property "Reference" "D6"
 			(at 288.29 227.33 0)
 			(effects
 				(font
@@ -15101,7 +16247,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D18")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -15117,7 +16263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7468fd5-1918-47d3-b644-8b8c26a0f88c")
-		(property "Reference" "SW47"
+		(property "Reference" "SW35"
 			(at 408.94 274.32 0)
 			(effects
 				(font
@@ -15205,7 +16351,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW47")
+					(reference "SW35")
 					(unit 1)
 				)
 			)
@@ -15213,7 +16359,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 224.79 335.28 180)
+		(at 313.69 335.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15221,8 +16367,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8e4e3a3-0183-4983-b1ba-8b282ce7cc2c")
-		(property "Reference" "D59"
-			(at 224.79 328.93 0)
+		(property "Reference" "D48"
+			(at 313.69 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15230,7 +16376,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 224.79 331.47 0)
+			(at 313.69 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15238,7 +16384,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 224.79 335.28 0)
+			(at 313.69 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15247,7 +16393,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 335.28 0)
+			(at 313.69 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15256,7 +16402,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 224.79 335.28 0)
+			(at 313.69 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15265,7 +16411,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 224.79 335.28 0)
+			(at 313.69 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15274,7 +16420,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 224.79 335.28 0)
+			(at 313.69 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15283,7 +16429,7 @@
 			)
 		)
 		(property "Manufacturer" "YONGYUTAI"
-			(at 224.79 335.28 0)
+			(at 313.69 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15292,7 +16438,7 @@
 			)
 		)
 		(property "Mfr. Part no." "CD4148WTP"
-			(at 224.79 335.28 0)
+			(at 313.69 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15301,7 +16447,7 @@
 			)
 		)
 		(property "LCSC Part no." "C30584800"
-			(at 224.79 335.28 0)
+			(at 313.69 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15310,7 +16456,7 @@
 			)
 		)
 		(property "Distributor Link" "https://www.lcsc.com/product-detail/C30584800.html"
-			(at 224.79 335.28 0)
+			(at 313.69 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15327,7 +16473,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D59")
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -15343,7 +16489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b925a347-6033-4bdd-a860-52899de2ea0e")
-		(property "Reference" "SW42"
+		(property "Reference" "SW30"
 			(at 281.94 274.32 0)
 			(effects
 				(font
@@ -15431,7 +16577,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW42")
+					(reference "SW30")
 					(unit 1)
 				)
 			)
@@ -15447,7 +16593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9264e20-4821-450c-add5-d0e22d6139c7")
-		(property "Reference" "SW16"
+		(property "Reference" "SW4"
 			(at 231.14 223.52 0)
 			(effects
 				(font
@@ -15535,7 +16681,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW16")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -15551,7 +16697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9462e4b-c075-49f5-bb2c-4a67c63d4c3b")
-		(property "Reference" "D2"
+		(property "Reference" "D42"
 			(at 339.09 303.53 0)
 			(effects
 				(font
@@ -15657,7 +16803,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D2")
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -15673,7 +16819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbda58be-6327-4cba-b394-e0d854aa014e")
-		(property "Reference" "SW55"
+		(property "Reference" "SW44"
 			(at 383.54 299.72 0)
 			(effects
 				(font
@@ -15761,7 +16907,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW55")
+					(reference "SW44")
 					(unit 1)
 				)
 			)
@@ -15777,7 +16923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbeb8a44-8e09-492a-9c3f-b6708df76427")
-		(property "Reference" "D49"
+		(property "Reference" "D37"
 			(at 161.29 303.53 0)
 			(effects
 				(font
@@ -15883,7 +17029,111 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D49")
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TH-A10C:SW_Push_45deg")
+		(at 332.74 332.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcafd89b-c53f-4b81-99ab-cef30c3ec008")
+		(property "Reference" "SW49"
+			(at 332.74 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C3"
+			(at 332.74 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TH-A1OC:tact_switch_4.5x4.5_PTS647"
+			(at 332.74 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 332.74 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 332.486 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 332.74 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part no." "PTS647SM50SMTR2LFS"
+			(at 332.74 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part no." "C2689518"
+			(at 332.74 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/C2689518.html?s_z=n_4.5mm%20push%20button%20SMT"
+			(at 332.74 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03f88a35-e743-4b3c-9eb5-6ef00020f7c6")
+		)
+		(pin "2"
+			(uuid "0ec49916-8df6-47eb-8702-47aaa690bbe0")
+		)
+		(instances
+			(project "keyboard"
+				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
+					(reference "SW49")
 					(unit 1)
 				)
 			)
@@ -15965,7 +17215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be6e46b8-ca2c-4969-b73b-9a182dd74a1d")
-		(property "Reference" "SW29"
+		(property "Reference" "SW17"
 			(at 256.54 248.92 0)
 			(effects
 				(font
@@ -16053,7 +17303,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW29")
+					(reference "SW17")
 					(unit 1)
 				)
 			)
@@ -16069,7 +17319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfe3cd9a-5f26-4bbc-8b42-7809ce342627")
-		(property "Reference" "D27"
+		(property "Reference" "D15"
 			(at 212.09 252.73 0)
 			(effects
 				(font
@@ -16175,7 +17425,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D27")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -16403,7 +17653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c58ebbff-1135-49cc-8dfc-558e0029b2dd")
-		(property "Reference" "D14"
+		(property "Reference" "D2"
 			(at 186.69 227.33 0)
 			(effects
 				(font
@@ -16510,7 +17760,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D14")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -16594,7 +17844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9fc5ea5-c705-4f9b-a326-904e49c98b24")
-		(property "Reference" "D46"
+		(property "Reference" "D34"
 			(at 389.89 278.13 0)
 			(effects
 				(font
@@ -16700,7 +17950,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D46")
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -16716,7 +17966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce3993fb-07aa-438f-afee-d8c157dd98df")
-		(property "Reference" "D50"
+		(property "Reference" "D38"
 			(at 186.69 303.53 0)
 			(effects
 				(font
@@ -16822,7 +18072,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D50")
+					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -16838,7 +18088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce74ef2a-ae72-452f-9e39-c2c60aba17f3")
-		(property "Reference" "SW2"
+		(property "Reference" "SW42"
 			(at 332.74 299.72 0)
 			(effects
 				(font
@@ -16926,7 +18176,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW2")
+					(reference "SW42")
 					(unit 1)
 				)
 			)
@@ -16942,7 +18192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cea682e0-70ee-4ba0-8565-74fd0eda77b1")
-		(property "Reference" "SW54"
+		(property "Reference" "SW43"
 			(at 358.14 299.72 0)
 			(effects
 				(font
@@ -17030,7 +18280,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW54")
+					(reference "SW43")
 					(unit 1)
 				)
 			)
@@ -17046,7 +18296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3528b34-f42c-41e1-8986-6d6190c3374b")
-		(property "Reference" "D40"
+		(property "Reference" "D28"
 			(at 237.49 278.13 0)
 			(effects
 				(font
@@ -17152,7 +18402,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D40")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -17168,7 +18418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d434e92c-d815-43b1-b2f7-08b253046aa4")
-		(property "Reference" "D42"
+		(property "Reference" "D30"
 			(at 288.29 278.13 0)
 			(effects
 				(font
@@ -17274,7 +18524,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D42")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -17290,7 +18540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4426b91-ae6b-490f-8794-67f31ef238a1")
-		(property "Reference" "SW20"
+		(property "Reference" "SW8"
 			(at 332.74 223.52 0)
 			(effects
 				(font
@@ -17378,7 +18628,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW20")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -17394,7 +18644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5c11483-a61d-4309-a709-b4f2facc5996")
-		(property "Reference" "D22"
+		(property "Reference" "D10"
 			(at 389.89 227.33 0)
 			(effects
 				(font
@@ -17500,7 +18750,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D22")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -17806,7 +19056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d92bf353-7634-484c-a7cf-9daecf895a69")
-		(property "Reference" "SW23"
+		(property "Reference" "SW11"
 			(at 408.94 223.52 0)
 			(effects
 				(font
@@ -17894,7 +19144,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW23")
+					(reference "SW11")
 					(unit 1)
 				)
 			)
@@ -17910,7 +19160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9c3bb43-583c-4e00-ba1e-9eed656ae638")
-		(property "Reference" "SW33"
+		(property "Reference" "SW21"
 			(at 358.14 248.92 0)
 			(effects
 				(font
@@ -17998,7 +19248,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW33")
+					(reference "SW21")
 					(unit 1)
 				)
 			)
@@ -18014,7 +19264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db47dcbb-c18e-4cf6-b0e2-763ce0c22d7e")
-		(property "Reference" "D17"
+		(property "Reference" "D5"
 			(at 262.89 227.33 0)
 			(effects
 				(font
@@ -18120,7 +19370,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D17")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -18136,7 +19386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbea129b-795f-4fde-8c58-f7845ccc97f3")
-		(property "Reference" "SW24"
+		(property "Reference" "SW12"
 			(at 434.34 223.52 0)
 			(effects
 				(font
@@ -18224,7 +19474,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW24")
+					(reference "SW12")
 					(unit 1)
 				)
 			)
@@ -18525,7 +19775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddfe97dc-b871-41d2-a7b4-1376d802d3ca")
-		(property "Reference" "D43"
+		(property "Reference" "D31"
 			(at 313.69 278.13 0)
 			(effects
 				(font
@@ -18631,7 +19881,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D43")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -18715,7 +19965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e28ca989-c5e0-4e30-a820-63a82acd7f2c")
-		(property "Reference" "D28"
+		(property "Reference" "D16"
 			(at 237.49 252.73 0)
 			(effects
 				(font
@@ -18821,7 +20071,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D28")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -18837,7 +20087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e38737d7-be72-4e11-ab9a-eb552d26a185")
-		(property "Reference" "D31"
+		(property "Reference" "D19"
 			(at 313.69 252.73 0)
 			(effects
 				(font
@@ -18943,7 +20193,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D31")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -19027,7 +20277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e706ea59-1512-413e-94f2-88442017732d")
-		(property "Reference" "D13"
+		(property "Reference" "D1"
 			(at 161.29 227.33 0)
 			(effects
 				(font
@@ -19133,7 +20383,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D13")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -19216,7 +20466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea421916-4f27-436d-91b2-e820b04d246f")
-		(property "Reference" "SW56"
+		(property "Reference" "SW45"
 			(at 408.94 299.72 0)
 			(effects
 				(font
@@ -19224,7 +20474,7 @@
 				)
 			)
 		)
-		(property "Value" "MENU"
+		(property "Value" "C8"
 			(at 408.94 302.26 0)
 			(effects
 				(font
@@ -19304,7 +20554,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW56")
+					(reference "SW45")
 					(unit 1)
 				)
 			)
@@ -19320,7 +20570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "effeb9cb-55ad-49da-a2ae-45ac516c8cb8")
-		(property "Reference" "SW48"
+		(property "Reference" "SW36"
 			(at 434.34 274.32 0)
 			(effects
 				(font
@@ -19408,7 +20658,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW48")
+					(reference "SW36")
 					(unit 1)
 				)
 			)
@@ -19558,7 +20808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8144917-a9b5-4175-b8c8-990b5c56ba21")
-		(property "Reference" "SW18"
+		(property "Reference" "SW6"
 			(at 281.94 223.52 0)
 			(effects
 				(font
@@ -19646,7 +20896,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "SW18")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -19662,7 +20912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa8c252e-d6aa-4bfb-b560-778626647e79")
-		(property "Reference" "D35"
+		(property "Reference" "D23"
 			(at 415.29 252.73 0)
 			(effects
 				(font
@@ -19768,7 +21018,7 @@
 		(instances
 			(project "keyboard"
 				(path "/c19feaf6-aecc-4469-9f12-5cd065a0782d"
-					(reference "D35")
+					(reference "D23")
 					(unit 1)
 				)
 			)
