@@ -1,11 +1,12 @@
 $fn = $preview ? 10 : 100;
-HOLLOW = true;
 
 include <NopSCADlib/core.scad>
 
 include <modules/screen.scad>
 include <modules/keyboard.scad>
 include <modules/body.scad>
+
+CORE_HOLLOW = false;
 
 //incr = -20;
 incr = 0;
@@ -36,16 +37,18 @@ union() {
             Screen(BODY_W);
     }
 
-    _Inserts();
+    union() {
+        _Inserts();
 
-    translate([BODY_T+CORE_M, BODY_T+CORE_M, BODY_T+CORE_M]) difference() {
-        translate([-BODY_T-CORE_M, -BODY_T-CORE_M, -BODY_T-CORE_M])
-            FrameworkGrid() Framework(cutout=false); 
+        *translate([BODY_T+CORE_M, BODY_T+CORE_M, BODY_T+CORE_M]) difference() {
+            translate([-BODY_T-CORE_M, -BODY_T-CORE_M, -BODY_T-CORE_M])
+                FrameworkGrid() Framework(cutout=false); 
+        }
+
+        *translate([(BODY_W-65)/2, FP_D+BODY_T+2.5, BODY_T+CORE_T+CORE_O])
+            Lipo();
+
+        translate([30, 6, 85])
+            CM5();
     }
-
-    translate([(BODY_W-65)/2, FP_D+BODY_T+KB_D, 50])
-        Lipo();
-
-    translate([30, 6, 100])
-        CM5();
 }

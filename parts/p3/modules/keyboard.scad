@@ -13,7 +13,7 @@ module _kb_stl() {
 module Keyboard(space=0, cutout=false) {
     align = space == 0 ? 0 : (space - KB_W) / 2;
 
-    translate([align, 3.2, 0]) {
+    translate([align, 1.6, 0]) {
         if (cutout) cube([KB_W, KB_D, KB_H]);
         else _kb_stl();
     }

@@ -5,6 +5,8 @@ include <NopSCADlib/vitamins/rockers.scad>
 
 include <framework.scad>
 
+CORE_HOLLOW = true;
+
 FP_D = 2;
 FP_W = 2;
 
@@ -25,7 +27,7 @@ CORE_M = 0;
 CORE_W = BODY_I_W - 2*CORE_M;
 CORE_D = BODY_I_D - 2*CORE_M;
 CORE_H = BODY_I_H - 2*CORE_M;
-CORE_R = 1.75;
+CORE_R = BODY_R-CORE_T-CORE_M;
 CORE_O = BODY_T + CORE_M;
 
 module _Inserts(cutout=false) {
@@ -82,8 +84,14 @@ module Body() {
                 }
             }
             
-            translate([BODY_T, -e, BODY_T])
-                intersection() {
+            translate([BODY_T, -e, BODY_T]) {
+                rounded_cube_xz(
+                    [BODY_W-2*BODY_T, BODY_T*2, BODY_H-2*BODY_T],
+                    BODY_R-BODY_T
+                );
+            }
+
+            translate([BODY_T, -e, BODY_T]) intersection() {
                 rounded_cube_xz(
                     [BODY_W-2*BODY_T, BODY_D-BODY_T+e, BODY_H-2*BODY_T],
                     BODY_R-BODY_T
@@ -96,7 +104,7 @@ module Body() {
                     [BODY_W-2*BODY_T, BODY_D-BODY_T+e, BODY_H-2*BODY_T],
                     BODY_R-BODY_T
                 );
-                }
+            }
 
             translate([-e, BODY_T-BODY_L, -e]) mirror([0, 1, 0])
                 cube([BODY_W+2*e, BODY_D+2*e, BODY_H+2*e]);
@@ -104,9 +112,9 @@ module Body() {
             translate([
                 (BODY_W-(BODY_W*cutout))/2,
                 BODY_D-BODY_T-e,
-                BODY_T+FP_D+KB_H+FP_W+14
+                BODY_T+FP_D+KB_H+FP_W+17
             ]) {
-                cube([BODY_W*cutout, 5, 42]);
+                cube([BODY_W*cutout, 5, 46]);
             }
 
             translate([0, BODY_T+FP_D, 0]) {
@@ -119,12 +127,12 @@ module Body() {
                 }
             }
 
-            translate([-e, -BODY_H/2, KB_H/2]) rotate([-45, 0, 0]) {
+            translate([-e, -BODY_H/3, KB_H+30]) rotate([-60, 0, 0]) {
                 translate([0, 0, 0])
-                    cube([BODY_T*2, 30, BODY_H]);
+                    cube([BODY_T*2, 40, BODY_H]);
 
                 translate([BODY_W-BODY_T*2+2*e, 0, 0])
-                    cube([BODY_T*2, 30, BODY_H]);
+                    cube([BODY_T*2, 40, BODY_H]);
             }
 
             FrameworkGrid() Framework(cutout=true); 
@@ -137,15 +145,7 @@ module Body() {
 module Core() {
     render() difference() {
         union() {
-            difference() {
-                translate([BODY_T+CORE_T+FW_M-1, BODY_D-BODY_T-2, 1]) mirror([0, 1, 0]) {
-                    cube([BODY_W - 2*(BODY_T+CORE_T+FW_M)+2, fw_exp[2]+1, fw_exp[1]+1]);
-                }
-                FrameworkGrid() { Framework(cutout=true); }
-                cube([BODY_W, BODY_D, CORE_M+BODY_T]);
-                translate([(BODY_W-10)/2, BODY_D/2, 0])
-                    cube([10, fw_exp[2]+1, BODY_T+CORE_M+CORE_T]);
-            }
+            FrameworkGrid(bay=true) Framework(cutout=true);
 
             translate([BODY_T+CORE_M, BODY_T+CORE_M, BODY_T+CORE_M]) difference() {
                 translate([CORE_R, CORE_R, CORE_R]) {
@@ -159,13 +159,13 @@ module Core() {
                     }
                 }
 
-                translate([CORE_T, -e, CORE_T])
+                if (CORE_HOLLOW) translate([CORE_T, -e, CORE_T])
                     rounded_cube_xz(
                         [CORE_W-2*CORE_T, CORE_D-CORE_T+e, CORE_H-2*CORE_T],
                         CORE_R-CORE_T
                     );
 
-                translate([-e, FP_D+CORE_M, -e]) mirror([0, 1, 0])
+                translate([-e, FP_D+CORE_M+0.081+e, -e]) mirror([0, 1, 0])
                     cube([CORE_W+2*e, CORE_D+2*e, CORE_H+2*e]);
 
                 translate([0, FP_D-CORE_M, 0]) {
@@ -186,7 +186,6 @@ module Core() {
         _Inserts(true);
     } 
 }
-
 module _ScrewPost(cutout=false) {
     z = 8;
     d = cutout ? CORE_D*2 : FP_D+20;
@@ -223,7 +222,7 @@ module Frontplate() {
             translate([FP_W, -1, FP_W]) cube([CORE_W-2*FP_W, FP_D+2, CORE_H-2*FP_W]);
         }
 
-        translate([0, 0, KB_H]) cube([CORE_W, FP_D, FP_W*3+0.5]);
+        translate([0, 0, KB_H+2.2]) cube([CORE_W, FP_D, 3.8]);
     }
 
     translate([0, BODY_T+FP_D, 0]) {
